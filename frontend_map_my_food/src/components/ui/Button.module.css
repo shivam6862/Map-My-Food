@@ -1,0 +1,28 @@
+.button {
+  font: inherit;
+  padding: 0.4rem 1.5rem;
+  border: 1px solid rgb(22, 65, 65);
+  color: white;
+  background-color: rgba(2, 12, 27, 0.7);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  border-radius: 15px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: #c9dbff;
+  color: black;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+  animation: shake 1s ease-in-out infinite;
+}
+
+.button:disabled {
+  background-color: #8b94a5;
+  color: black;
+}
