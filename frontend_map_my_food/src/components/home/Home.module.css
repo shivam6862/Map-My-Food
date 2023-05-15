@@ -1,0 +1,16 @@
+.box {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+}

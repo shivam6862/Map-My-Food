@@ -1,0 +1,187 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  padding: 0rem 0rem;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3rem;
+  height: 540px;
+  width: 94%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.part1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.part1_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.part1_img img {
+  width: 70px;
+  height: 70px;
+}
+.part1_img h2 {
+  font-size: 2rem;
+  color: #fc8019;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.login {
+  border: none;
+  background-color: white;
+  font-size: 1rem;
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  padding: 0 2rem;
+  color: #000;
+  letter-spacing: 0;
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  width: auto;
+}
+.signup {
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  padding: 0 2rem;
+  color: #000;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: #000;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+}
+
+.part2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.overflowPart {
+  overflow-y: hidden;
+}
+.part2 h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+  animation-name: my-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes my-animation {
+  0% {
+    transform: translateY(101%);
+  }
+  25% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.part2 p {
+  padding: 0;
+  font-size: 24px;
+  font-weight: 300;
+  width: 600px;
+  margin-top: 0;
+  line-height: 40px;
+  letter-spacing: -0.3px;
+  color: #686b78;
+}
+
+.part3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.part3 input {
+  border: 2px solid #ddd;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  outline: none;
+  width: 80%;
+  padding: 1.2rem;
+  padding-left: 0.75rem;
+}
+.part3 input:focus {
+  border: 1.2px solid #fc8019;
+  caret-color: #fc8019;
+}
+.part3 button {
+  padding: 1.3rem 0.8rem;
+  border: none;
+  color: white;
+  background-color: #fc8019;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  font-weight: 700;
+  letter-spacing: 0.53px;
+  width: 20%;
+}
+
+.part4 h2 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #a9abb2;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+}
+.part4 p {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #93959f;
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+}
+.part4 p span {
+  color: #686b78;
+}
+
+.right {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("/swiggey/Lunch1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,43 @@
+.box {
+  border-bottom: 2px solid #4d4d4d;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  color: gray;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.itemslist {
+  min-width: 300px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+._2JILy,
+.b-Hy9 {
+  color: inherit;
+  font-size: 17px;
+  margin-top: 15px;
+}
+._2JILy {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+}
