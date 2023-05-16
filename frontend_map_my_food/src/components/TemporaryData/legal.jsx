@@ -5,8 +5,8 @@ const legel = [
   "Cookie Policy",
   "Offer Terms",
   "Phishing & Fraud",
-  "Corporate – Swiggy Money Codes Terms and Conditions",
-  "Corporate - Swiggy Discount Voucher Terms and Conditions",
+  "Corporate – Map my food Money Codes Terms and Conditions",
+  "Corporate - Map my food Discount Voucher Terms and Conditions",
 ];
 
 export default legel;

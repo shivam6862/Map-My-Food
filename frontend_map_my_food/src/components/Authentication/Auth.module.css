@@ -1,0 +1,139 @@
+.Auth_container {
+  position: relative;
+}
+.auth_box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  min-height: 100vh;
+  z-index: 100;
+}
+
+.line1,
+.line2 {
+  width: 20px;
+  height: 2px;
+  background: black;
+  margin: 4px 2px;
+}
+.line1 {
+  transform: rotate(-405deg) translate(-4px, 4px);
+}
+.line2 {
+  transform: rotate(405deg) translate(-1.1px, -1.1px);
+}
+
+.container {
+  max-width: 490px;
+  padding: 1rem 2rem;
+  animation-name: my-animation;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+@keyframes my-animation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 380px;
+  width: 100%;
+}
+.close {
+  padding-bottom: 1.2rem;
+  cursor: pointer;
+}
+.part1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.part1_left {
+}
+.part1_left h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.part1_left p {
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: #fc8019;
+}
+.part1_left p span {
+  color: black;
+  padding-right: 3px;
+}
+.underline {
+  padding: 0.25rem 0rem 1rem 0rem;
+  border-bottom: 2px solid black;
+  width: 25%;
+  margin-bottom: 2rem;
+}
+.part1_right img {
+  border-radius: 50%;
+  height: 100px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form input {
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 500;
+  outline: none;
+  width: 97%;
+  padding: 1.2rem;
+  padding-left: 0.75rem;
+}
+.referral {
+  margin-top: 1.75rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #5d8ed5;
+  cursor: pointer;
+}
+.continue {
+  margin-top: 1rem;
+  width: 60%;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  line-height: 50px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  height: 50px;
+  padding: 0 2rem;
+  color: #fc8019;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: #fc8019;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  text-transform: uppercase;
+}
+.privacy_policy {
+  font-size: 0.8rem;
+  color: #686b78;
+  margin-top: 6px;
+  font-weight: 500;
+}

@@ -16,7 +16,7 @@ const HomeMiddleTop = () => {
     {
       image: "/swiggey/trackMyFood/superFastDelivery.png",
       heading: "Lightning-Fast Delivery",
-      para: "Experience Swiggy's superfast delivery for food delivered fresh & on time",
+      para: "Experience Map my food's superfast delivery for food delivered fresh & on time",
     },
   ];
   return (

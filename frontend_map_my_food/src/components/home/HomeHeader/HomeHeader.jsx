@@ -3,21 +3,22 @@ import React, { useEffect } from "react";
 import classes from "./HomeHeader.module.css";
 import { useState } from "react";
 
+import AuthenticationContext from "../../store/authentication/Authentication-context";
+import { useContext } from "react";
+
 const HomeHeader = () => {
+  const AuthenticationCtx = useContext(AuthenticationContext);
+  const open = AuthenticationCtx.open;
+  const showHandler = (name) => {
+    AuthenticationCtx.onShow(name);
+  };
+
   const [name, setName] = useState("Movie marathon?");
   const [count, setCount] = useState(0);
-  const login = () => {
-    console.log("log in");
-  };
-
-  const signUP = () => {
-    console.log("sign UP");
-  };
 
   const findFood = () => {
-    console.log("find Food");
+    console.log("findFood");
   };
-
   useEffect(() => {
     setTimeout(() => {
       if (count % 4 == 0) setName("Hungry?");
@@ -39,7 +40,7 @@ const HomeHeader = () => {
           <div className={classes.buttons}>
             <button
               onClick={() => {
-                login();
+                showHandler("LogInOpen");
               }}
               className={classes.login}
             >
@@ -47,7 +48,7 @@ const HomeHeader = () => {
             </button>
             <button
               onClick={() => {
-                signUP();
+                showHandler("signupOpen");
               }}
               className={classes.signup}
             >

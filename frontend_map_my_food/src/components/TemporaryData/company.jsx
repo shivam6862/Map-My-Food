@@ -2,12 +2,12 @@ const company = [
   "About us",
   "Team",
   "Careers",
-  "Swiggy Blog",
+  "Map my food Blog",
   "Bug Bounty",
-  "Swiggy One",
-  "Swiggy Corporate",
-  "Swiggy Instamart",
-  "Swiggy Genie",
+  "Map my food One",
+  "Map my food Corporate",
+  "Map my food Instamart",
+  "Map my food Genie",
 ];
 
 export default company;
