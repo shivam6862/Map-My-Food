@@ -13,12 +13,9 @@
 
 .items {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
-}
-
-.itemslist {
-  min-width: 300px;
+  gap: 1rem;
 }
 
 ul {
@@ -40,4 +37,5 @@ ul {
 
 a {
   text-decoration: none;
+  word-break: break-all;
 }

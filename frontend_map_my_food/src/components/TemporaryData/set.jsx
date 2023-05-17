@@ -763,7 +763,7 @@ const Set = () => {
               </a>
             </li>
           </ul>
-          <ul className="_1w9D3">
+          <ul className="itemslist">
             <li className="_2JILy">
               <a className="_3TjLz b-Hy9" href="/city/dehradun">
                 dehradun
@@ -1520,7 +1520,7 @@ const Set = () => {
               </a>
             </li>
           </ul>
-          <ul className="_1w9D3">
+          <ul className="itemslist">
             <li className="_2JILy">
               <a className="_3TjLz b-Hy9" href="/city/khanna">
                 khanna
@@ -2277,7 +2277,7 @@ const Set = () => {
               </a>
             </li>
           </ul>
-          <ul className="_1w9D3">
+          <ul className="itemslist">
             <li className="_2JILy">
               <a className="_3TjLz b-Hy9" href="/city/purulia">
                 purulia
