@@ -126,8 +126,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
-.part3 input {
+.part3 .Input_searchLocations input {
   border: 2px solid #ddd;
   border-radius: 2px;
   box-sizing: border-box;
@@ -135,11 +136,11 @@
   font-size: 1.2rem;
   font-weight: 600;
   outline: none;
-  width: 80%;
+  width: 100%;
   padding: 1.2rem;
   padding-left: 0.75rem;
 }
-.part3 input:focus {
+.part3 .Input_searchLocations input:focus {
   border: 1.2px solid #fc8019;
   caret-color: #fc8019;
 }
@@ -198,4 +199,52 @@
   .right {
     min-width: 100%;
   }
+}
+.Input_searchLocations {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.searchLocations {
+  width: 117.5%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 3.8rem;
+  background-color: white;
+  z-index: 5;
+  padding: 1rem;
+  border: 1px solid black;
+}
+.searchLocationBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.searchLocationBox img {
+  width: 35px;
+  height: 35px;
+}
+.searchLocation {
+  width: 100%;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+  width: 100%;
+  padding: 1.2rem;
+  padding-left: 0.75rem;
+  border-bottom: 1px dashed #bebfc5;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #535665;
+}
+.searchLocation:hover {
+  color: #fc8019;
 }

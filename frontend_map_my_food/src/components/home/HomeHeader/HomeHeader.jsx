@@ -6,7 +6,23 @@ import { useState } from "react";
 import AuthenticationContext from "../../store/authentication/Authentication-context";
 import { useContext } from "react";
 
+import useIndianCitys from "../../IndianCity/useIndianCity";
+
 const HomeHeader = () => {
+  const [location, setLocation] = useState("");
+  const [showSearchLocation, setSearchLocation] = useState({
+    newIndianCity: [],
+  });
+  useEffect(() => {
+    const searchLocation =
+      location.charAt(0).toUpperCase() + location.slice(1).toLowerCase();
+    const IndianCity = useIndianCitys(searchLocation);
+    setSearchLocation(IndianCity);
+  }, [location]);
+  const setCustomerLocation = (customerLocation) => {
+    setLocation(customerLocation);
+  };
+
   const AuthenticationCtx = useContext(AuthenticationContext);
   const open = AuthenticationCtx.open;
   const showHandler = (name) => {
@@ -63,12 +79,36 @@ const HomeHeader = () => {
           <p>Order food from favourite restaurants near you.</p>
         </div>
         <div className={classes.part3}>
-          <input
-            type="text"
-            name=""
-            id=""
-            placeholder="Enter your delivery location"
-          />
+          <div className={classes.Input_searchLocations}>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter your delivery location"
+              value={location}
+              onChange={(e) => {
+                setLocation(e.target.value);
+              }}
+            />
+            {showSearchLocation.newIndianCity.length == 0 ? (
+              <></>
+            ) : (
+              <div className={classes.searchLocations}>
+                {showSearchLocation.newIndianCity.map((place, index) => (
+                  <div
+                    key={index}
+                    className={classes.searchLocationBox}
+                    onClick={() => {
+                      setCustomerLocation(place);
+                    }}
+                  >
+                    <img src="/swiggey/location.png" alt="" />
+                    <div className={classes.searchLocation}>{place}</div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
           <button
             onClick={() => {
               findFood();

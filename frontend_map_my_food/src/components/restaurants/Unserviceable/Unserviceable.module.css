@@ -1,0 +1,41 @@
+.box {
+  margin: auto;
+  max-width: 40vw;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.image {
+  height: 280px;
+}
+.image img {
+  height: 100%;
+}
+.heading {
+  text-align: center;
+  color: #282c3f;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 30px 0 10px;
+}
+.heading h1 {
+  margin: 0;
+  padding: 0;
+}
+.paragraph {
+  color: #93959f;
+  font-size: 1rem;
+}
+.paragraph p {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 800px) {
+  .box {
+    max-width: 80vw;
+  }
+}
