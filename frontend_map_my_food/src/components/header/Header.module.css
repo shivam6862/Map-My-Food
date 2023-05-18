@@ -73,6 +73,12 @@
   position: absolute;
   font-weight: bold;
 }
+.active span {
+  color: #fc8019;
+  font-size: 0.5rem;
+  position: absolute;
+  font-weight: bold;
+}
 .right_number {
   border: 2px solid #fc8019;
   padding: 2px 5px;
@@ -97,4 +103,12 @@
   .right_text {
     font-size: 1.1rem;
   }
+  .active {
+    font-size: 1.1rem;
+  }
+}
+
+.active {
+  color: #fc8019;
+  font-size: 1.2rem;
 }

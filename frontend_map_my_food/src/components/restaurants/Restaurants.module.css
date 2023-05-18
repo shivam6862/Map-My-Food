@@ -2,9 +2,3 @@
   display: flex;
   flex-direction: column;
 }
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  margin-bottom: 0.2rem;
-}

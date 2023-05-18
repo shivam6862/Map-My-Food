@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.lower_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0rem 4rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 2rem;
+}
+.box h1 {
+  font-size: 2rem;
+  color: #282c3f;
+  margin: 0;
+  padding: 0;
+}
+.datas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 1rem;
+  border: 1px solid #d4d5d9;
+  width: 380px;
+  height: 240px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.part1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.image {
+  width: 30px;
+  height: 30px;
+  border-top: 1px solid #686b78;
+  border-bottom: 1px solid #686b78;
+  border-left: 1px solid #686b78;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #fff2e8;
+  padding: 10px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 5px 5px 0px;
+}
+.company {
+  border: none 1px 1px 1px;
+  padding: 6px;
+  border-top: 1px solid #686b78;
+  border-right: 1px solid #686b78;
+  border-bottom: 1px solid #686b78;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #fff2e8;
+  padding: 16px 50px 16px 10px;
+}
+.company h1 {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+.part2 h1 {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  color: #3e4152;
+  font-size: 1.14rem;
+  font-weight: 500;
+}
+.part2 p {
+  padding: 0;
+  margin: 0;
+  color: #686b78;
+  font-size: 0.92rem;
+}
+.part3 {
+  color: #5d8ed5;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.part4 {
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  padding: 0 2rem;
+  color: #fc8019;
+  letter-spacing: 0;
+  border: 1px solid #fc8019;
+  line-height: 36px;
+  width: auto;
+  height: 36px;
+  padding: 0 15px;
+  outline: none;
+  min-width: 120px;
+  background: #fff;
+  cursor: pointer;
+}
+.part4:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 620px) {
+  .lower_container {
+    padding: 0;
+  }
+}
+.code_number {
+  display: none;
+}

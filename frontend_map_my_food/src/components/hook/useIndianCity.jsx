@@ -1,4 +1,4 @@
-import IndiaCity from "./IndiaCity.json";
+import IndiaCity from "../TemporaryData/IndiaCity.json";
 
 const useIndianCitys = (searchWord) => {
   class TrieNode {

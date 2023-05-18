@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classes from "./RecipesLoading.module.css";
-import RecipesData from "../RecipesData.json";
+import RecipesData from "../../../TemporaryData/RecipesData.json";
 
 const RecipesLoading = () => {
   const [datas, setData] = useState(RecipesData);

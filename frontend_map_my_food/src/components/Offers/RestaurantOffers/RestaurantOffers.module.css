@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+.lower_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0rem 4rem;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 2rem;
+}
+.box h1 {
+  font-size: 1.6rem;
+  color: #282c3f;
+  margin: 0;
+  padding: 0;
+}
+.box p {
+  font-size: 1rem;
+  color: #93959f;
+  margin: 0;
+  padding: 0;
+}

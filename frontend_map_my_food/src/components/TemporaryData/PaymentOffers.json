@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "company": "SBICFEST",
+    "couponLogo": "/swiggey/coupon/1.png",
+    "heading": "Get 15% discount using SBI Credit Cards",
+    "para": "Maximum discount up to ₹100 on orders above ₹500",
+    "code": "783467",
+    "term": {
+      "1": "Applicable once per user during the offer period",
+      "2": "Valid on all SBI Credit Cards except Corporate, Paytm & Cashback SBI Card",
+      "3": "Other T&Cs may apply",
+      "4": "Offer valid till May 21, 2023 11:59 PM"
+    }
+  },
+  {
+    "id": 2,
+    "company": "AMEXMATCHDAY",
+    "couponLogo": "/swiggey/coupon/2.png",
+    "heading": "Get flat ₹125 discount using American Express Cards",
+    "para": "Flat ₹125 discount on orders above ₹399",
+    "code": "456782",
+    "term": {
+      "1": "Valid only on Thursday & Friday",
+      "2": "Applicable once per user per week",
+      "3": "Valid only on American Express Consumer and Network Cards",
+      "4": "Not applicable on American Express Corporate Cards",
+      "5": "Other T&Cs may apply",
+      "6": "Offer valid till May 26, 2023 11:59 PM"
+    }
+  },
+  {
+    "id": 3,
+    "company": "KOTAK125",
+    "couponLogo": "/swiggey/coupon/3.png",
+    "heading": "Get 20% discount using Kotak Bank Debit Cards",
+    "para": "Maximum discount up to ₹125 on orders above ₹500",
+    "code": "475785",
+    "term": {
+      "1": "Valid only on Thursday",
+      "2": "Applicable once per user per month",
+      "3": "Valid only on Kotak Bank Debit Cards",
+      "4": "Other T&Cs may apply",
+      "5": "Offer valid till May 26, 2023 11:59 PM"
+    }
+  },
+  {
+    "id": 4,
+    "company": "KOTAK125",
+    "couponLogo": "/swiggey/coupon/3.png",
+    "heading": "Get flat ₹125 discount using American Express Cards",
+    "para": "Flat ₹125 discount on orders above ₹399",
+    "code": "456782",
+    "term": {
+      "1": "Valid only on Thursday & Friday",
+      "2": "Applicable once per user per week",
+      "3": "Valid only on American Express Consumer and Network Cards",
+      "4": "Not applicable on American Express Corporate Cards",
+      "5": "Other T&Cs may apply",
+      "6": "Offer valid till May 26, 2023 11:59 PM"
+    }
+  },
+  {
+    "id": 5,
+    "company": "SBICFEST",
+    "couponLogo": "/swiggey/coupon/1.png",
+    "heading": "Get 15% discount using SBI Credit Cards",
+    "para": "Maximum discount up to ₹100 on orders above ₹500",
+    "code": "783467",
+    "term": {
+      "1": "Applicable once per user during the offer period",
+      "2": "Valid on all SBI Credit Cards except Corporate, Paytm & Cashback SBI Card",
+      "3": "Other T&Cs may apply",
+      "4": "Offer valid till May 21, 2023 11:59 PM"
+    }
+  },
+  {
+    "id": 6,
+    "company": "AMEXMATCHDAY",
+    "couponLogo": "/swiggey/coupon/2.png",
+    "heading": "Get 20% discount using Kotak Bank Debit Cards",
+    "para": "Maximum discount up to ₹125 on orders above ₹500",
+    "code": "475785",
+    "term": {
+      "1": "Valid only on Thursday",
+      "2": "Applicable once per user per month",
+      "3": "Valid only on Kotak Bank Debit Cards",
+      "4": "Other T&Cs may apply",
+      "5": "Offer valid till May 26, 2023 11:59 PM"
+    }
+  }
+]

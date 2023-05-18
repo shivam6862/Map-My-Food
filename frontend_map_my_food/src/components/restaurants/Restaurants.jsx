@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Header from "../header/Header";
 import AnimationBox from "./AnimationBox/AnimationBox";
 import AvailableRestaurants from "./AvailableRestaurants/AvailableRestaurants";
 import Loading from "./Loading/Loading";
@@ -26,9 +25,6 @@ const Restaurants = () => {
   const [unserveiceable, setUnServeiceable] = useState(hour > 22 || hour <= 9);
   return (
     <div className={classes.box}>
-      <div className={classes.header}>
-        <Header />
-      </div>
       {isLoading && <Loading />}
       {unserveiceable && !isLoading && <Unserviceable />}
       {isLoadingFood && <AnimationBox />}
