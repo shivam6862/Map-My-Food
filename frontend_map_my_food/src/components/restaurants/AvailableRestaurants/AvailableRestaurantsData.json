@@ -1,0 +1,106 @@
+[
+  {
+    "id": "1",
+    "image": "/swiggey/AvailableRestaurants/1.webp",
+    "about": {
+      "heading": "The Heritage",
+      "para": "Chinese, North Indian, Continental"
+    },
+    "last": {
+      "star": "4.1",
+      "time": "24 MINS",
+      "cost": "$ 10 FOR TWO"
+    }
+  },
+  {
+    "id": "2",
+    "image": "/swiggey/AvailableRestaurants/2.webp",
+    "about": {
+      "heading": "Moon Hotal",
+      "para": "Indian, Chinese, Biryani"
+    },
+    "last": {
+      "star": "4",
+      "time": "18 MINS",
+      "cost": "$ 25 FOR TWO"
+    }
+  },
+  {
+    "id": "3",
+    "image": "/swiggey/AvailableRestaurants/3.jpg",
+    "about": {
+      "heading": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+      "para": "Ice Cream, Desserts"
+    },
+    "last": {
+      "star": "3.9",
+      "time": "19 MINS",
+      "cost": "$ 20 FOR TWO"
+    }
+  },
+  {
+    "id": "4",
+    "image": "/swiggey/AvailableRestaurants/4.webp",
+    "about": {
+      "heading": "INDIAN BIRYANI",
+      "para": "Biryani, North Indian"
+    },
+    "last": {
+      "star": "3.4",
+      "time": "19 MINS",
+      "cost": "$ 15 FOR TWO"
+    }
+  },
+  {
+    "id": "5",
+    "image": "/swiggey/AvailableRestaurants/5.webp",
+    "about": {
+      "heading": "Hyderabad Biryani Hotel",
+      "para": "Biryani, North Indian"
+    },
+    "last": {
+      "star": "3.6",
+      "time": "19 MINS",
+      "cost": "$ 15 FOR TWO"
+    }
+  },
+  {
+    "id": "6",
+    "image": "/swiggey/AvailableRestaurants/6.jpg",
+    "about": {
+      "heading": "FOOD BOWL",
+      "para": "Chinese, Fast Food, Italian, North Indian, Street Food"
+    },
+    "last": {
+      "star": "3",
+      "time": "19 MINS",
+      "cost": "$ 25 FOR TWO"
+    }
+  },
+  {
+    "id": "7",
+    "image": "/swiggey/AvailableRestaurants/7.webp",
+    "about": {
+      "heading": "Momomia Love In Every Bite",
+      "para": "Chinese, Fast Food, Beverages, Pastas"
+    },
+    "last": {
+      "star": "3.9",
+      "time": "19 MINS",
+      "cost": "$ 20 FOR TWO"
+    }
+  },
+  {
+    "id": "8",
+    "image": "/swiggey/AvailableRestaurants/8.webp",
+    "about": {
+      "heading": "ROYAL MAJESTIC",
+      "para": "Chinese, North Indian"
+    },
+    "last": {
+      "star": "3.3",
+      "time": "19 MINS",
+      "cost": "$ 20 FOR TWO"
+    }
+  }
+]

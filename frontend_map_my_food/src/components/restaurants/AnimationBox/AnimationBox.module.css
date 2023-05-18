@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  height: 100%;
+  padding: 2rem 1rem;
+  margin: 0rem 3rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 7rem 1rem 1rem;
+  height: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.left_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+}
+.left_circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.left_underline {
+  width: 150px;
+  height: 15px;
+  border-radius: 6px;
+}
+.riget {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 3rem 2rem;
+  border-radius: 10px;
+}
+.right_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem 1rem 4rem 1rem;
+  border-radius: 10px;
+}
+.right_box_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right_box_top_dark {
+  height: 90px;
+  width: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+.right_box_top_light {
+  height: 130px;
+  width: 300px;
+  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+.right_box_bottom_line1 {
+  width: 180px;
+  height: 15px;
+  border-radius: 6px;
+}
+.right_box_bottom_line2 {
+  width: 130px;
+  height: 15px;
+  border-radius: 6px;
+}
+
+.animated_bg {
+  background-image: linear-gradient(
+    to right,
+    #f6f7f8 0%,
+    #edeef1 10%,
+    #f6f7f8 20%,
+    #f6f7f8 100%
+  );
+  background-size: 200% 100%;
+  animation: bgPos 1s linear infinite;
+}
+.animated_bg_dark {
+  background-image: linear-gradient(
+    to right,
+    #c0c0c0 0%,
+    #adadad 10%,
+    #a8a8a8 20%,
+    #b7b7b7 100%
+  );
+  background-size: 200% 100%;
+  animation: bgPos 1s linear infinite;
+}
+
+@keyframes bgPos {
+  0% {
+    background-position: 50% 0;
+  }
+
+  100% {
+    background-position: -150% 0;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .container {
+    flex-direction: column-reverse;
+    padding: 1rem 1rem;
+    margin: 0rem 1rem;
+    align-items: center;
+  }
+}

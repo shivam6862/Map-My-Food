@@ -46,28 +46,16 @@ const HomeFooter = () => {
           <div className={classes.part2}>© 2023 Map my food</div>
           <div className={classes.part3}>
             <div>
-              <img
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-facebook_tfqsuc"
-                alt=""
-              />
+              <img src="/swiggey/Logo/Footer/facebook.png" alt="" />
             </div>
             <div>
-              <img
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-pinterest_kmz2wd"
-                alt=""
-              />
+              <img src="/swiggey/Logo/Footer/pinterest.png" alt="" />
             </div>
             <div>
-              <img
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-instagram_b7nubh"
-                alt=""
-              />
+              <img src="/swiggey/Logo/Footer/instagram.png" alt="" />
             </div>
             <div>
-              <img
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-twitter_gtq8dv"
-                alt=""
-              />
+              <img src="/swiggey/Logo/Footer/twitter.png" alt="" />
             </div>
           </div>
         </div>
