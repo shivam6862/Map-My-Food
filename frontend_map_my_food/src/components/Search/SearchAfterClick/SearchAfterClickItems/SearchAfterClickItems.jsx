@@ -7,10 +7,14 @@ import { useState, useEffect } from "react";
 
 const SearchAfterClickItems = ({ search }) => {
   const [data, setData] = useState(searchAfterClickItemsData);
-  const [searchItemAfterClickData, setSearchItemAfterClickData] = useState({});
+  const [searchItemAfterClickData, setSearchItemAfterClickData] = useState([]);
   useEffect(() => {
-    console.log(search);
-    const newSearchItemData = {};
+    if (search.length == 0) return;
+    const newSearchItemData = data.filter((obj) =>
+      Object.keys(obj).some((key) =>
+        key.toLowerCase().includes(search.toLowerCase())
+      )
+    );
     setSearchItemAfterClickData(newSearchItemData);
   }, [search]);
   return (

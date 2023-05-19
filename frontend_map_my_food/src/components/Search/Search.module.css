@@ -3,6 +3,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 20%;
   gap: 1rem;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+  gap: 1rem;
+  padding: 2rem 0rem 0rem 0rem;
+  min-height: 90vh;
 }

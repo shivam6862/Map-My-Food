@@ -6,7 +6,7 @@
   width: -webkit-fill-available;
 }
 .search {
-  width: -webkit-fill-available;
+  width: 100%;
   position: relative;
 }
 .search input {

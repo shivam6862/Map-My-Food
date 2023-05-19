@@ -5,10 +5,14 @@ import searchItemsData from "../../TemporaryData/Search/Small.json";
 
 const SearchItems = ({ search }) => {
   const [data, setData] = useState(searchItemsData);
-  const [searchItemData, setSearchItemData] = useState({});
+  const [searchItemData, setSearchItemData] = useState([]);
   useEffect(() => {
-    console.log(search);
-    const newSearchItemData = {};
+    if (search.length == 0) return;
+    const newSearchItemData = data.filter((obj) =>
+      Object.keys(obj).some((key) =>
+        key.toLowerCase().includes(search.toLowerCase())
+      )
+    );
     setSearchItemData(newSearchItemData);
   }, [search]);
   return (
