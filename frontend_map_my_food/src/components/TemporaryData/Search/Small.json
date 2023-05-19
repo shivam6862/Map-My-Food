@@ -1,0 +1,36 @@
+[
+  {
+    "Apple": [
+      { "image": "/swiggey/Search/Small/1.webp", "name": "Green Apple Mojito" },
+      { "image": "/swiggey/Search/Small/2.jpg", "name": "Green Apple" },
+      { "image": "/swiggey/Search/Small/3.jpg", "name": "Apple Pie" },
+      { "image": "/swiggey/Search/Small/4,jpg", "name": "Green Apple Shake" },
+      {
+        "image": "/swiggey/Search/Small/5.png",
+        "name": "Green Apple Tangy Waffle"
+      },
+      {
+        "image": "/swiggey/Search/Small/6.png",
+        "name": "See all result for 'apple'"
+      }
+    ]
+  },
+  {
+    "Chicken": [
+      { "image": "/swiggey/Search/Big/1a.jpg", "name": "Chicken Biryani" },
+      { "image": "/swiggey/Search/Big/2a.jpg", "name": "Chicken Chilli" }
+    ]
+  },
+  {
+    "Paneer": [
+      { "image": "/swiggey/Search/Big/3a.jpg", "name": "Paneer Masala" },
+      { "image": "/swiggey/Search/Big/3b.jpg", "name": "Paneer Kadhai" }
+    ]
+  },
+  {
+    "Manchurian": [
+      { "image": "/swiggey/Search/Big/2a.webp", "name": "Veg Manchurian" },
+      { "image": "/swiggey/Search/Big/2b.webp", "name": "Paneer Manchurian" }
+    ]
+  }
+]

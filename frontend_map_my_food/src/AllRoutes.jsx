@@ -8,6 +8,7 @@ import FAQ from "./components/Support/FAQ/FAQ";
 import Legal from "./components/Support/Legal/Legal";
 import Partner from "./components/Support/Partner/Partner";
 import Cart from "./components/Cart/Cart";
+import Search from "./components/Search/Search";
 
 const routes = [
   { path: "/", Component: Home },
@@ -19,6 +20,7 @@ const routes = [
   { path: "/support/issues/legal", Component: Legal },
   { path: "/support/issues/partner-onboarding", Component: Partner },
   { path: "/checkout", Component: Cart },
+  { path: "/search", Component: Search },
 ];
 
 export const AllRoutes = () => (

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fill-available;
+}
+.search {
+  width: -webkit-fill-available;
+  position: relative;
+}
+.search input {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #3d4152;
+  outline: none;
+  width: 100%;
+  padding: 0.9rem;
+  background: #ffffff;
+}
+.search input:focus {
+  border: 1.2px solid #fc8019;
+  caret-color: #fc8019;
+}
+.image {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}

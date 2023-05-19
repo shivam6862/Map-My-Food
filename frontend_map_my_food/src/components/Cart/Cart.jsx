@@ -6,19 +6,21 @@ import PlaceOrder from "./PlaceOrder/PlaceOrder";
 import Process from "./Process/Process";
 import Retry from "./Retry/Retry";
 import HomeFooter from "../home/HomeFooter/HomeFooter";
+import PlaceOrderData from "../TemporaryData/Cart/PlaceOder.json";
 
 const Cart = () => {
+  const OrderPlacedLength = Object.keys(PlaceOrderData).length !== 0;
   return (
     <div className={classes.container}>
-      <EmptyCartHome />
+      {!OrderPlacedLength && <EmptyCartHome />}
       <div className={classes.middle}>
         <div className={classes.left}>
-          <Retry />
+          {!OrderPlacedLength && <Retry />}
           <Process />
         </div>
         <div className={classes.right}>
-          <CartEmpty />
-          <PlaceOrder />
+          {!OrderPlacedLength && <CartEmpty />}
+          {OrderPlacedLength && <PlaceOrder />}
         </div>
       </div>
       <HomeFooter />

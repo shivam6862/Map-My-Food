@@ -3,15 +3,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  padding: 3rem 0rem 0rem 0rem;
+  width: 100%;
 }
 .middle {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 2rem;
+  background: #e9ecee;
+  width: -webkit-fill-available;
+  padding-top: 2rem;
+  padding-left: 11%;
+  padding-right: 5%;
+  padding-bottom: 8rem;
 }
 .left {
   display: flex;
@@ -19,6 +24,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
+  flex: 0.7;
 }
 .right {
   display: flex;
@@ -26,4 +32,22 @@
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
+  flex: 0.3;
+}
+@media screen and (max-width: 1040px) {
+  .left {
+    flex: 2;
+  }
+  .right {
+    flex: 2;
+  }
+  .middle {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 880px) {
+  .middle {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }

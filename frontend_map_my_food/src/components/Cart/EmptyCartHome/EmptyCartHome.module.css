@@ -1,0 +1,56 @@
+.box {
+  margin: auto;
+  max-width: 40vw;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.image {
+  height: 280px;
+}
+.image img {
+  height: 100%;
+}
+.heading {
+  text-align: center;
+  color: #282c3f;
+  font-weight: 600;
+  margin: 30px 0 10px;
+}
+.heading h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+.paragraph {
+  color: #93959f;
+  padding-bottom: 1rem;
+}
+.paragraph p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+.button button {
+  padding: 11px 20px;
+  text-transform: uppercase;
+  background-color: #fc8019;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  font-size: 0.93rem;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
+@media screen and (max-width: 800px) {
+  .box {
+    max-width: 80vw;
+  }
+}

@@ -1,0 +1,43 @@
+.box {
+  margin: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 50vh;
+}
+.image {
+  height: 200px;
+  padding-bottom: 1rem;
+}
+.image img {
+  height: 100%;
+}
+.heading {
+  text-align: center;
+  color: #7e808c;
+  font-weight: 600;
+  margin: 30px 0 10px;
+}
+.heading h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+.paragraph {
+  color: #93959f;
+  padding-bottom: 1rem;
+  width: 15vw;
+}
+.paragraph p {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+@media screen and (max-width: 1040px) {
+  .paragraph {
+    width: 70%;
+  }
+}

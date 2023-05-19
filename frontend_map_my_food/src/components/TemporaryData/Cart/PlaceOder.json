@@ -1,0 +1,29 @@
+{
+  "hotal": "Hyderabad Biryani Hotel",
+  "place": "Dumka",
+  "image": "/swiggey/AvailableRestaurants/5.webp",
+  "items": [
+    {
+      "id": 1,
+      "name": "Chicken Biryani",
+      "cost": "70",
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "name": "Chicken Chilli",
+      "cost": "60",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "Chicken Pakoda",
+      "cost": "15",
+      "quantity": 3
+    }
+  ],
+  "total": 245,
+  "deliveryCost": 39,
+  "GST": 12,
+  "PAY": 296
+}
