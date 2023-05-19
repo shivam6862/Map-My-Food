@@ -1,1 +1,54 @@
-[{}]
+[
+  {
+    "Question": "I want to partner my restaurant with Map My Food",
+    "answer": ["Partner with us"],
+    "email": true
+  },
+  {
+    "Question": "What are the mandatory documents needed to list my restaurant on Map My Food?",
+    "answer": [
+      "-  Copies of the below documents are mandatory",
+      "-  FSSAI Licence OR FSSAI Acknowledgement",
+      "-  Pan Card",
+      "-  GSTIN Certificate",
+      "-  Cancelled Cheque OR bank Passbook",
+      "-  Menu"
+    ],
+    "email": false
+  },
+  {
+    "Question": "After I submit all documents, how long will it take for my restaurant to go live on Map My Food?",
+    "answer": [
+      "After all mandatory documents have been received and verified it takes upto 7-10 working days for the onboarding to be completed and make your restaurant live on the platform."
+    ],
+    "email": false
+  },
+  {
+    "Question": "What is this one time Onboarding fees? Do I have to pay for it while registering?",
+    "answer": [
+      "This is a one-time fee charged towards the system & admin costs incurred during the onboarding process. It is deducted from the weekly payouts after you start receiving orders from Map My Food."
+    ],
+    "email": false
+  },
+  {
+    "Question": "Who should I contact if I need help & support in getting onboarded?",
+    "answer": [
+      "You can connect with Partner Support on 080-67466777/68179777 or write to partnersuport@Map My Food.in"
+    ],
+    "email": true
+  },
+  {
+    "Question": "How much commission will I be charged by Map My Food?",
+    "answer": [
+      "The commission charges vary for different cities. You will be able to see the commission applicable for you once the preliminary onboarding details have been filled."
+    ],
+    "email": false
+  },
+  {
+    "Question": "I don’t have an FSSAI licence for my restaurant. Can it still be onboarded?",
+    "answer": [
+      "FSSAI licence is a mandatory requirement according to the government’s policies. However, if you are yet to receive the licence at the time of onboarding, you can proceed with the acknowledgement number which you will have received from FSSAI for your registration."
+    ],
+    "email": false
+  }
+]

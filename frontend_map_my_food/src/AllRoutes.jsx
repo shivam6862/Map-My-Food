@@ -7,6 +7,7 @@ import RestaurantOffers from "./components/Offers/RestaurantOffers/RestaurantOff
 import FAQ from "./components/Support/FAQ/FAQ";
 import Legal from "./components/Support/Legal/Legal";
 import Partner from "./components/Support/Partner/Partner";
+import Cart from "./components/Cart/Cart";
 
 const routes = [
   { path: "/", Component: Home },
@@ -17,6 +18,7 @@ const routes = [
   { path: "/support/issues/faq", Component: FAQ },
   { path: "/support/issues/legal", Component: Legal },
   { path: "/support/issues/partner-onboarding", Component: Partner },
+  { path: "/checkout", Component: Cart },
 ];
 
 export const AllRoutes = () => (

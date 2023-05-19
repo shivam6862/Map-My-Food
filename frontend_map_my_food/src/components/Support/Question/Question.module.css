@@ -4,3 +4,105 @@
   justify-content: center;
   align-items: flex-start;
 }
+.each_quextion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-bottom: 1px solid #3d4152;
+  width: 100%;
+  padding-bottom: 1.4rem;
+  position: relative;
+  padding-right: 3.2rem;
+}
+.downarrow {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+.arrow_down {
+  border: solid #3d4152;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(45deg);
+}
+.arrow_up {
+  border: solid #fc8019;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(-135deg);
+}
+.heading {
+  padding: 1rem 0rem 0rem 0rem;
+}
+.heading h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  padding: 22px 0 26px;
+  cursor: pointer;
+  color: #3d4152;
+  width: 100%;
+  text-align: left;
+  font-weight: 400;
+}
+.heading h1 span {
+  visibility: hidden;
+}
+.each_quextion:hover .heading h1 {
+  color: #fc8019;
+}
+.each_answer {
+  color: #686b78;
+  font-size: 0.85rem;
+  padding-bottom: 1rem;
+  line-height: 1.4;
+  margin-top: -4px;
+  white-space: pre-wrap;
+}
+.each_answer p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.25rem;
+  font-size: 0.85rem;
+}
+.email_exisit {
+}
+.bottom {
+}
+.bottom button {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-right: 1.25rem;
+  line-height: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid #fc8019;
+  padding: 0 1rem;
+  color: #fc8019;
+  margin-top: 0.4rem;
+}
+.bottom h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 0.6rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  color: #686b78;
+}
+
+.readmore {
+  cursor: pointer;
+}
+.readmore a {
+  font-size: 0.8rem;
+  color: #fc8019;
+  font-weight: 600;
+  margin-right: 1.25rem;
+  letter-spacing: -0.3px;
+}

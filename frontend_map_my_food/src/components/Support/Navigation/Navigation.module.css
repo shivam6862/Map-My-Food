@@ -1,12 +1,11 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
   padding: 1.5rem;
   background-color: #edf1f7;
-  width: 250px;
-  height: 60vh;
+  min-width: 280px;
+  min-height: 100vh;
 }
 .items {
   display: flex;
@@ -17,17 +16,25 @@
   gap: 1rem;
   width: 100%;
   font-weight: bold;
+  position: sticky;
+  top: 5rem;
 }
 .item {
   padding: 2rem 5rem 2rem 1rem;
   font-size: 1rem;
   color: #535665;
-  width: 100%;
+  width: 70%;
 }
 .active {
   padding: 2rem 5rem 2rem 1rem;
   font-size: 1rem;
   color: #282c3f;
   background-color: #fff;
-  width: 100%;
+  width: 70%;
+}
+@media screen and (max-width: 990px) {
+  .container {
+    min-width: 100%;
+    min-height: auto;
+  }
 }
