@@ -9,6 +9,7 @@ import Legal from "./components/Support/Legal/Legal";
 import Partner from "./components/Support/Partner/Partner";
 import Cart from "./components/Cart/Cart";
 import Search from "./components/Search/Search";
+import SearchRestaurants from "./components/Search/SearchRestaurants/SearchRestaurants";
 
 const routes = [
   { path: "/", Component: Home },
@@ -21,6 +22,7 @@ const routes = [
   { path: "/support/issues/partner-onboarding", Component: Partner },
   { path: "/checkout", Component: Cart },
   { path: "/search", Component: Search },
+  { path: "/restaurants/ifc", Component: SearchRestaurants },
 ];
 
 export const AllRoutes = () => (

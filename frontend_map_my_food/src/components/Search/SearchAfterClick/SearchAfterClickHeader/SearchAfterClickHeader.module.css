@@ -8,6 +8,8 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  border-bottom: 1px dashed #282c3f73;
+  padding-bottom: 1rem;
 }
 .bottom {
   display: flex;

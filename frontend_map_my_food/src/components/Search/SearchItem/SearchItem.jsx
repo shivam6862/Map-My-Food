@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./SearchItem.module.css";
 
-const SearchItem = ({ searchItemData }) => {
+const SearchItem = ({ searchItemData, search }) => {
   return (
     <div className={classes.container}>
       <div className={classes.items_box}>
@@ -16,7 +16,10 @@ const SearchItem = ({ searchItemData }) => {
                   <li key={index} className={classes.item_data}>
                     <img src={item.image} alt={item.name} />
                     <div className={classes.name}>
-                      <span>{item.name}</span>
+                      <span>
+                        {item.name} {search ? "'" : ""} {search}
+                        {search ? "'" : ""}
+                      </span>
                       <span>Dish</span>
                     </div>
                   </li>

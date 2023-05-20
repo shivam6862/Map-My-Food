@@ -8,7 +8,9 @@
         "name": "Chicken Biryani",
         "price": 70,
         "para": "A classic dish made by layering rice over slow cooked chicken gavy and juicy pieces to keep you satisfied!",
-        "image": "/swiggey/Search/Big/1a.jpg"
+        "image": "/swiggey/Search/Big/1a.jpg",
+        "Dtime": "23 MINS",
+        "link": "/Restaurants/ifc"
       },
       {
         "hotal": "By GREEN RESTO",
@@ -17,7 +19,9 @@
         "name": "Chicken Chilli",
         "price": 60,
         "para": "Enjoy this spicy dish of chicken cooked in soy sauce with capsicum, chilli and pepper is a treat to your tastebuds!",
-        "image": "/swiggey/Search/Big/1b.jpg"
+        "image": "/swiggey/Search/Big/1b.jpg",
+        "Dtime": "26 MINS",
+        "link": "/Restaurants/ifc"
       }
     ]
   },
@@ -30,7 +34,9 @@
         "name": "Veg Manchurian",
         "price": 180,
         "para": "It is an exotic dish made of mixed vegetable steamed formed into dumplings deep fried and cooked in a tangy sauce",
-        "image": "/swiggey/Search/Big/2a.webp"
+        "image": "/swiggey/Search/Big/2a.webp",
+        "Dtime": "30 MINS",
+        "link": "/Restaurants/ifc"
       },
       {
         "hotal": "By GREEN HOTEL",
@@ -39,7 +45,9 @@
         "name": "Paneer Manchurian",
         "price": 259,
         "para": "It is an exotic dish made of mixed vegetable steamed formed into dumplings deep fried and cooked in a tangy sauce",
-        "image": "/swiggey/Search/Big/2b.webp"
+        "image": "/swiggey/Search/Big/2b.webp",
+        "Dtime": "29 MINS",
+        "link": "/Restaurants/ifc"
       }
     ]
   },
@@ -52,7 +60,9 @@
         "name": "Paneer 65",
         "price": 320,
         "para": "Chunks of paneer marinated in spicy Hyderabadi masala, fried till crispy",
-        "image": "/swiggey/Search/Big/3a.jpg"
+        "image": "/swiggey/Search/Big/3a.jpg",
+        "Dtime": "20 MINS",
+        "link": "/Restaurants/ifc"
       },
       {
         "hotal": "By HOTEL SAGAR",
@@ -61,7 +71,9 @@
         "name": "Paneer Kadhai",
         "price": 280,
         "para": "A mild sweet taste creamy curry made with onion, tomatoes, cashews, cream and butter",
-        "image": "/swiggey/Search/Big/3b.jpg"
+        "image": "/swiggey/Search/Big/3b.jpg",
+        "Dtime": "27 MINS",
+        "link": "/Restaurants/ifc"
       }
     ]
   }

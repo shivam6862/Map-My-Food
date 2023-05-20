@@ -9,10 +9,10 @@ const SearchAfterClickItems = ({ search }) => {
   const [data, setData] = useState(searchAfterClickItemsData);
   const [searchItemAfterClickData, setSearchItemAfterClickData] = useState([]);
   useEffect(() => {
-    if (search.length == 0) return;
+    if (search.trim().length == 0) return;
     const newSearchItemData = data.filter((obj) =>
       Object.keys(obj).some((key) =>
-        key.toLowerCase().includes(search.toLowerCase())
+        key.trim().toLowerCase().includes(search.trim().toLowerCase())
       )
     );
     setSearchItemAfterClickData(newSearchItemData);
