@@ -24,13 +24,13 @@ ul {
   list-style-type: none;
 }
 
-._2JILy,
-.b-Hy9 {
+.item,
+.item_b {
   color: inherit;
   font-size: 17px;
   margin-top: 15px;
 }
-._2JILy {
+.item {
   list-style: none;
   text-transform: capitalize;
 }

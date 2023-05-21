@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 import classes from "./HomeHeader.module.css";
 import { useState } from "react";
 
@@ -8,7 +7,10 @@ import { useContext } from "react";
 
 import useIndianCitys from "../../hook/useIndianCity";
 
+import { useNotification } from "../../hook/useNotification";
+
 const HomeHeader = () => {
+  const { NotificationHandler } = useNotification();
   const [location, setLocation] = useState("");
   const [showSearchLocation, setSearchLocation] = useState({
     newIndianCity: [],
@@ -26,6 +28,7 @@ const HomeHeader = () => {
   const AuthenticationCtx = useContext(AuthenticationContext);
   const open = AuthenticationCtx.open;
   const showHandler = (name) => {
+    NotificationHandler(name, "Success");
     AuthenticationCtx.onShow(name);
   };
 

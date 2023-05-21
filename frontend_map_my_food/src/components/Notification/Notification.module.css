@@ -1,0 +1,46 @@
+.notification {
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #999;
+  color: #000;
+  opacity: 0.9;
+  transition: 0.3s ease;
+  padding: 20px 0px 0px 0px;
+}
+.buttomright {
+  animation: toast-in-right 0.7s;
+}
+button {
+  float: right;
+  background: none;
+  border: none;
+  color: #fff;
+  opacity: 0.8;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.title {
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 0;
+  padding-left: 1rem;
+  margin-bottom: 6px;
+  width: 300px;
+  height: 18px;
+}
+.lowerboder {
+  padding: 6px 0px;
+  background: #ffffff;
+  cursor: pointer;
+  display: block;
+  width: auto;
+}
+@keyframes toast-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
