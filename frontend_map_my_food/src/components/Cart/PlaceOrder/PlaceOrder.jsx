@@ -57,7 +57,7 @@ const PlaceOrder = () => {
                     -
                   </div>
                   <div className={classes.item_quantity_number}>
-                    {item.items.quantity}
+                    {item.quantity}
                   </div>
                   <div
                     className={classes.item_quantity_more}

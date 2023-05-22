@@ -9,12 +9,17 @@ import useIndianCitys from "../../hook/useIndianCity";
 
 import { useNotification } from "../../hook/useNotification";
 
+import { useLocationLocalStorage } from "../../hook/LocationLocalStorage";
+import LocationContext from "../../store/location/Location-context";
+
 const HomeHeader = () => {
   const { NotificationHandler } = useNotification();
+  const locationContextCtx = useContext(LocationContext);
   const [location, setLocation] = useState("");
   const [showSearchLocation, setSearchLocation] = useState({
     newIndianCity: [],
   });
+  const { updateLocation } = useLocationLocalStorage();
   useEffect(() => {
     const searchLocation =
       location.charAt(0).toUpperCase() + location.slice(1).toLowerCase();
@@ -22,7 +27,9 @@ const HomeHeader = () => {
     setSearchLocation(IndianCity);
   }, [location]);
   const setCustomerLocation = (customerLocation) => {
-    setLocation(customerLocation);
+    updateLocation(customerLocation);
+    setLocation("");
+    locationContextCtx.onLocalStorageLocation(customerLocation);
   };
 
   const AuthenticationCtx = useContext(AuthenticationContext);
@@ -36,7 +43,7 @@ const HomeHeader = () => {
   const [count, setCount] = useState(0);
 
   const findFood = () => {
-    console.log("findFood");
+    console.log("Find Food");
   };
   useEffect(() => {
     setTimeout(() => {

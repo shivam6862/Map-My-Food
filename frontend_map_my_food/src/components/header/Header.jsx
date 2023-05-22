@@ -10,11 +10,14 @@ import LocationContext from "../store/location/Location-context";
 
 import AuthenticationContext from "../store/authentication/Authentication-context";
 
+import { useLocationLocalStorage } from "../hook/LocationLocalStorage";
+
 const Header = () => {
   const cartContextCtx = useContext(CartContext);
   const locationCtx = useContext(LocationContext);
   const authenticationContextCtx = useContext(AuthenticationContext);
-  const [place, setPlace] = useState("Dumka, Jharkhand, India");
+  const { fetchLocation } = useLocationLocalStorage();
+  const place = fetchLocation();
   const [number, setNumber] = useState(cartContextCtx.addItems.length);
   useEffect(() => {
     setNumber(cartContextCtx.addItems.length);
@@ -36,11 +39,14 @@ const Header = () => {
           }}
         >
           <span>Other </span>
-          {place}
+          {place[0]}
         </div>
-        <Link to={"/Restaurants"}>
-          <i className={classes.left_image_arrow}></i>
-        </Link>
+        <i
+          className={classes.left_image_arrow}
+          onClick={() => {
+            locationCtx.onShow();
+          }}
+        ></i>
       </div>
       <div className={classes.right}>
         <Link to={"/search"} className={classes.right_part}>
@@ -89,7 +95,9 @@ const Header = () => {
             <Sign />
           </div>
           <div
-            className={`${isActive("/") ? classes.active : classes.right_text}`}
+            className={`${
+              isActive("/sign") ? classes.active : classes.right_text
+            }`}
           >
             Sign In
           </div>

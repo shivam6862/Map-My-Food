@@ -3,9 +3,12 @@ import classes from "./Location.module.css";
 import useIndianCitys from "../hook/useIndianCity";
 import LocationContext from "../store/location/Location-context";
 
+import { useLocationLocalStorage } from "../hook/LocationLocalStorage";
 const Location = () => {
   const locationCtx = useContext(LocationContext);
   const open = locationCtx.open;
+  const { fetchLocation, updateLocation } = useLocationLocalStorage();
+  const pastSearchLocation = fetchLocation();
   const [location, setLocation] = useState("");
   const [showSearchLocation, setSearchLocation] = useState({
     newIndianCity: [],
@@ -17,7 +20,8 @@ const Location = () => {
     setSearchLocation(IndianCity);
   }, [location]);
   const setCustomerLocation = (customerLocation) => {
-    setLocation(customerLocation);
+    updateLocation(customerLocation);
+    setLocation("");
   };
 
   return (
@@ -70,6 +74,14 @@ const Location = () => {
                 ))}
               </div>
             )}
+          </div>
+          <div className={classes.AllSearchLocationBox}>
+            {pastSearchLocation.map((location, index) => (
+              <div key={index} className={classes.searchLocationBox}>
+                <img src="/swiggey/location.png" alt="" />
+                <div className={classes.searchLocation}>{location}</div>
+              </div>
+            ))}
           </div>
         </div>
       )}

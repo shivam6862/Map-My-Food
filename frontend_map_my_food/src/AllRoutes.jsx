@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/home/Home";
-import Restaurants from "./components/restaurants/Restaurants";
+import HomePage from "./components/HomePage/HomePage";
 import PaymentOffers from "./components/Offers/PaymentOffers/PaymentOffers";
 import RestaurantOffers from "./components/Offers/RestaurantOffers/RestaurantOffers";
 import FAQ from "./components/Support/FAQ/FAQ";
@@ -12,8 +11,7 @@ import Search from "./components/Search/Search";
 import SearchRestaurants from "./components/Search/SearchRestaurants/SearchRestaurants";
 
 const routes = [
-  { path: "/", Component: Home },
-  { path: "/restaurants", Component: Restaurants },
+  { path: "/", Component: HomePage },
   { path: "/offers/payment", Component: PaymentOffers },
   { path: "/offers/restaurant", Component: RestaurantOffers },
   { path: "/supports", Component: Partner },

@@ -6,7 +6,7 @@ const Questions = ({ question }) => {
   return (
     <div className={classes.container}>
       {question.map((data, index) => (
-        <Question data={data} index={index} />
+        <Question data={data} index={index} key={index} />
       ))}
     </div>
   );

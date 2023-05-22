@@ -137,3 +137,9 @@
   margin-top: 6px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 1040px) {
+  .box {
+    min-width: -webkit-fill-available;
+  }
+}

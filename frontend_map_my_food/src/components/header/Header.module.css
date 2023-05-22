@@ -56,6 +56,7 @@
   display: inline-block;
   padding: 3px;
   transform: rotate(45deg);
+  cursor: pointer;
 }
 .right_image {
   width: 15px;
@@ -96,7 +97,7 @@
   color: #ff0f00;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
 }
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1040px) {
   .container {
     justify-content: center;
   }

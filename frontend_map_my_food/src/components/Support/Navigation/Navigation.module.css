@@ -37,4 +37,7 @@
     min-width: 100%;
     min-height: auto;
   }
+  .active {
+    width: -webkit-fill-available;
+  }
 }
