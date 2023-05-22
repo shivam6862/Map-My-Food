@@ -1,9 +1,3 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
 .each_quextion {
   display: flex;
   flex-direction: column;
@@ -86,6 +80,7 @@
   padding: 0 1rem;
   color: #fc8019;
   margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
 }
 .bottom h3 {
   margin: 0;

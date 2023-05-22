@@ -1,8 +1,19 @@
 import React, { useState } from "react";
 import classes from "./PlaceOrder.module.css";
 import PlaceOrderData from "../../TemporaryData/Cart/PlaceOder.json";
+import CartContext from "../../store/cart/Cart-context";
+import { useContext } from "react";
 
 const PlaceOrder = () => {
+  const cartContextCtx = useContext(CartContext);
+  const cartItems = cartContextCtx.addItems;
+  const marginTop = 4 + cartItems.length * 3.5 + "rem";
+  const IncreseItem = (itemId) => {
+    cartContextCtx.onAddItems(itemId);
+  };
+  const DecreaseItem = (itemId) => {
+    cartContextCtx.onRemoveItem(itemId);
+  };
   const [order, setOrder] = useState(PlaceOrderData);
   const [isChecked, setIsChecked] = useState(false);
   const handleCheckboxChange = () => {
@@ -22,25 +33,42 @@ const PlaceOrder = () => {
           </div>
         </div>
         <div className={classes.top_part2}>
-          <div className={classes.top_part2_payment_slip}>
-            {order.items.map((item, index) => (
-              <div className={classes.item} key={item.id}>
+          <div
+            className={classes.top_part2_payment_slip}
+            style={{ marginTop: marginTop }}
+          >
+            {cartItems.map((item, index) => (
+              <div className={classes.item} key={item.itemId}>
                 <div className={classes.item_logo}>
-                  <img src="/swiggey/Logo/logo_2022.png" alt="" />
+                  <img src={item.items.image} alt="" />
                 </div>
                 <div className={classes.item_name}>
                   <div className={classes.left_image_arrow}></div>
-                  <h1>{item.name}</h1>
+                  <h1>{item.items.name}</h1>
                   <p>Customize</p>
                 </div>
                 <div className={classes.item_quantity}>
-                  <div className={classes.item_quantity_less}>-</div>
-                  <div className={classes.item_quantity_number}>
-                    {item.quantity}
+                  <div
+                    className={classes.item_quantity_less}
+                    onClick={() => {
+                      DecreaseItem(item.itemId);
+                    }}
+                  >
+                    -
                   </div>
-                  <div className={classes.item_quantity_more}>+</div>
+                  <div className={classes.item_quantity_number}>
+                    {item.items.quantity}
+                  </div>
+                  <div
+                    className={classes.item_quantity_more}
+                    onClick={() => {
+                      IncreseItem(item.itemId);
+                    }}
+                  >
+                    +
+                  </div>
                 </div>
-                <div className={classes.item_cost}>{item.cost}</div>
+                <div className={classes.item_cost}>{item.items.price}</div>
               </div>
             ))}
           </div>
@@ -76,7 +104,7 @@ const PlaceOrder = () => {
                 Item Total
               </div>
               <div className={classes.top_part2_bill_details_h2_b}>
-                {order.total}
+                {cartContextCtx.totalAmount}
               </div>
             </div>
             <div className={classes.top_part2_bill_details_h3}>
@@ -84,7 +112,7 @@ const PlaceOrder = () => {
                 Delivery partner fee
               </div>
               <div className={classes.top_part2_bill_details_h3_b}>
-                {order.deliveryCost}
+                {cartContextCtx.deliveryCost}
               </div>
             </div>
             <div className={classes.top_part2_bill_details_h4}>
@@ -92,14 +120,18 @@ const PlaceOrder = () => {
                 GST and Restaurant Charges
               </div>
               <div className={classes.top_part2_bill_details_h4_b}>
-                {order.GST}
+                {cartContextCtx.GST}
               </div>
             </div>
           </div>
         </div>
         <div className={classes.top_part3}>
           <div className={classes.top_part3_a}>TO PAY</div>
-          <div className={classes.top_part3_b}>{order.PAY}</div>
+          <div className={classes.top_part3_b}>
+            {cartContextCtx.GST +
+              cartContextCtx.deliveryCost +
+              cartContextCtx.totalAmount}
+          </div>
         </div>
       </div>
       <div className={classes.bottom}>

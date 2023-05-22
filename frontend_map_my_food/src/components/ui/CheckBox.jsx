@@ -7,7 +7,6 @@ const CheckBox = ({ setisChecked, isChecked }) => {
     if (isChecked) setisChecked(false);
     else setisChecked(true);
   };
-  console.log(isChecked);
   return (
     <div className={classes.container}>
       Veg Only

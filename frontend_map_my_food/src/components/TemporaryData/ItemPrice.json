@@ -1,0 +1,62 @@
+{
+  "76543": {
+    "hotal": "By Hyderabad Biryani Hotel",
+    "name": "Chicken Biryani",
+    "price": 70,
+    "image": "/swiggey/Search/Big/1a.jpg"
+  },
+  "988761": {
+    "hotal": "By GREEN RESTO",
+    "name": "Chicken Chilli",
+    "price": 60,
+    "image": "/swiggey/Search/Big/1b.jpg"
+  },
+  "342507": {
+    "hotal": "By HOTEL SAGAR",
+    "name": "Veg Manchurian",
+    "price": 180,
+    "image": "/swiggey/Search/Big/2a.webp"
+  },
+  "542580": {
+    "hotal": "By GREEN HOTEL",
+    "name": "Paneer Manchurian",
+    "price": 259,
+    "image": "/swiggey/Search/Big/2b.webp"
+  },
+  "408214": {
+    "hotal": "By GREEN RESTO",
+    "name": "Paneer 65",
+    "price": 320,
+    "image": "/swiggey/Search/Big/3a.jpg"
+  },
+  "110259": {
+    "hotal": "By HOTEL SAGAR",
+    "name": "Paneer Kadhai",
+    "price": 280,
+    "image": "/swiggey/Search/Big/3b.jpg"
+  },
+  "701413": {
+    "hotal": "By HOTEL SAGAR",
+    "name": "Green Apple Mojito",
+    "price": 58,
+    "image": "/swiggey/Search/Small/1.webp"
+  },
+  "914267": {
+    "hotal": "By GREEN HOTEL",
+    "name": "Green Apple",
+    "price": 47,
+    "image": "/swiggey/Search/Small/2.jpg"
+  },
+  "476639": {
+    "hotal": "By GREEN RESTO",
+    "name": "Apple Pie",
+    "price": 61,
+    "image": "/swiggey/Search/Small/3.jpg"
+  },
+  "824759": {
+    "hotal": "By Hyderabad Biryani Hotel",
+    "name": "Green Apple Shake",
+    "price": 49,
+    "image": "/swiggey/Search/Small/4.jpg"
+  }
+}

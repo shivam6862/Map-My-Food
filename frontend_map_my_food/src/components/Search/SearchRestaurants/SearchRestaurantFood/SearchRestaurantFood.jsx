@@ -1,8 +1,17 @@
 import React, { useState } from "react";
 import classes from "./SearchRestaurantFood.module.css";
 import SvgArrow from "../../SvgArrow/SvgArrow";
+import CartContext from "../../../store/cart/Cart-context";
+import { useContext } from "react";
 
 const SearchRestaurantFood = ({ items, veg }) => {
+  const cartContextCtx = useContext(CartContext);
+  const IncreseItem = (itemId) => {
+    cartContextCtx.onAddItems(itemId);
+  };
+  const DecreaseItem = (itemId) => {
+    cartContextCtx.onRemoveItem(itemId);
+  };
   return (
     <div className={classes.container}>
       {items.map((each_item, index_j) => {
@@ -36,7 +45,45 @@ const SearchRestaurantFood = ({ items, veg }) => {
               </div>
               <div className={classes.item_part3_right}>
                 <img src={each_item.image} alt="" />
-                <div className={classes.addButton}>ADD</div>
+                {cartContextCtx.addItems.length !== 0 &&
+                cartContextCtx.addItems.some(
+                  (item) => item.itemId === each_item.itemId
+                ) ? (
+                  <div className={classes.item_quantity}>
+                    <div
+                      className={classes.item_quantity_less}
+                      onClick={() => {
+                        DecreaseItem(each_item.itemId);
+                      }}
+                    >
+                      -
+                    </div>
+                    <div className={classes.item_quantity_number}>
+                      {
+                        cartContextCtx.addItems.find(
+                          (item) => item.itemId === each_item.itemId
+                        ).quantity
+                      }
+                    </div>
+                    <div
+                      className={classes.item_quantity_more}
+                      onClick={() => {
+                        IncreseItem(each_item.itemId);
+                      }}
+                    >
+                      +
+                    </div>
+                  </div>
+                ) : (
+                  <div
+                    className={classes.addButton}
+                    onClick={() => {
+                      IncreseItem(each_item.itemId);
+                    }}
+                  >
+                    ADD
+                  </div>
+                )}
               </div>
             </div>
           </div>

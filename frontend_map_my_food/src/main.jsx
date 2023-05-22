@@ -5,13 +5,19 @@ import App from "./App.jsx";
 import "./index.css";
 import { AuthenticationContextProvider } from "./components/store/authentication/Authentication-context.jsx";
 import { NotificationContextProvider } from "./components/store/Notification/Notification-context.jsx";
+import { CartContextProvider } from "./components/store/cart/Cart-context.jsx";
+import { LocationContextProvider } from "./components/store/location/Location-context.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <NotificationContextProvider>
-      <AuthenticationContextProvider>
-        <App />
-      </AuthenticationContextProvider>
+      <LocationContextProvider>
+        <CartContextProvider>
+          <AuthenticationContextProvider>
+            <App />
+          </AuthenticationContextProvider>
+        </CartContextProvider>
+      </LocationContextProvider>
     </NotificationContextProvider>
   </BrowserRouter>
 );

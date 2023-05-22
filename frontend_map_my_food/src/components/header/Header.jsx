@@ -1,14 +1,24 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import classes from "./Header.module.css";
 import { Link, useLocation } from "react-router-dom";
 import Search from "./svg/Search";
 import Offers from "./svg/Offers";
 import Help from "./svg/Help";
 import Sign from "./svg/Sign";
+import CartContext from "../store/cart/Cart-context";
+import LocationContext from "../store/location/Location-context";
+
+import AuthenticationContext from "../store/authentication/Authentication-context";
 
 const Header = () => {
+  const cartContextCtx = useContext(CartContext);
+  const locationCtx = useContext(LocationContext);
+  const authenticationContextCtx = useContext(AuthenticationContext);
   const [place, setPlace] = useState("Dumka, Jharkhand, India");
-  const [number, setNumber] = useState(0);
+  const [number, setNumber] = useState(cartContextCtx.addItems.length);
+  useEffect(() => {
+    setNumber(cartContextCtx.addItems.length);
+  }, [cartContextCtx.addItems.length]);
   const location = useLocation();
   const isActive = (pathname) => {
     return location.pathname.substring(0, 7) === pathname.substring(0, 7);
@@ -19,11 +29,18 @@ const Header = () => {
         <Link to={"/"} className={classes.left_image}>
           <img src="/swiggey/Logo/logo_2022.png" alt="logo" />
         </Link>
-        <Link to={"/Restaurants"} className={classes.left_place}>
+        <div
+          className={classes.left_place}
+          onClick={() => {
+            locationCtx.onShow();
+          }}
+        >
           <span>Other </span>
           {place}
+        </div>
+        <Link to={"/Restaurants"}>
+          <i className={classes.left_image_arrow}></i>
         </Link>
-        <i className={classes.left_image_arrow}></i>
       </div>
       <div className={classes.right}>
         <Link to={"/search"} className={classes.right_part}>
@@ -62,7 +79,12 @@ const Header = () => {
             Help
           </div>
         </Link>
-        <Link to={"/"} className={classes.right_part}>
+        <div
+          className={classes.right_part}
+          onClick={() => {
+            authenticationContextCtx.onShow("LogInOpen");
+          }}
+        >
           <div className={classes.right_image}>
             <Sign />
           </div>
@@ -71,9 +93,15 @@ const Header = () => {
           >
             Sign In
           </div>
-        </Link>
+        </div>
         <Link to={"/checkout"} className={classes.right_part}>
-          <div className={classes.right_number}>{number}</div>
+          <div
+            className={`${
+              number == 0 ? classes.right_number : classes.right_number_green
+            }`}
+          >
+            {number}
+          </div>
           <div
             className={`${
               isActive("/checkout") ? classes.active : classes.right_text

@@ -10,7 +10,8 @@
         "para": "A classic dish made by layering rice over slow cooked chicken gavy and juicy pieces to keep you satisfied!",
         "image": "/swiggey/Search/Big/1a.jpg",
         "Dtime": "23 MINS",
-        "link": "/Restaurants/ifc"
+        "link": "/Restaurants/ifc",
+        "itemId": 76543
       },
       {
         "hotal": "By GREEN RESTO",
@@ -21,7 +22,8 @@
         "para": "Enjoy this spicy dish of chicken cooked in soy sauce with capsicum, chilli and pepper is a treat to your tastebuds!",
         "image": "/swiggey/Search/Big/1b.jpg",
         "Dtime": "26 MINS",
-        "link": "/Restaurants/ifc"
+        "link": "/Restaurants/ifc",
+        "itemId": 988761
       }
     ]
   },
@@ -36,7 +38,8 @@
         "para": "It is an exotic dish made of mixed vegetable steamed formed into dumplings deep fried and cooked in a tangy sauce",
         "image": "/swiggey/Search/Big/2a.webp",
         "Dtime": "30 MINS",
-        "link": "/Restaurants/ifc"
+        "link": "/Restaurants/ifc",
+        "itemId": 342507
       },
       {
         "hotal": "By GREEN HOTEL",
@@ -47,7 +50,8 @@
         "para": "It is an exotic dish made of mixed vegetable steamed formed into dumplings deep fried and cooked in a tangy sauce",
         "image": "/swiggey/Search/Big/2b.webp",
         "Dtime": "29 MINS",
-        "link": "/Restaurants/ifc"
+        "link": "/Restaurants/ifc",
+        "itemId": 542580
       }
     ]
   },
@@ -62,7 +66,8 @@
         "para": "Chunks of paneer marinated in spicy Hyderabadi masala, fried till crispy",
         "image": "/swiggey/Search/Big/3a.jpg",
         "Dtime": "20 MINS",
-        "link": "/Restaurants/ifc"
+        "link": "/Restaurants/ifc",
+        "itemId": 408214
       },
       {
         "hotal": "By HOTEL SAGAR",
@@ -73,7 +78,8 @@
         "para": "A mild sweet taste creamy curry made with onion, tomatoes, cashews, cream and butter",
         "image": "/swiggey/Search/Big/3b.jpg",
         "Dtime": "27 MINS",
-        "link": "/Restaurants/ifc"
+        "link": "/Restaurants/ifc",
+        "itemId": 110259
       }
     ]
   }

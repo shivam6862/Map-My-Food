@@ -39,6 +39,7 @@
   overflow: hidden;
   white-space: nowrap;
   font-size: 0.9rem;
+  cursor: pointer;
 }
 .left_place span {
   min-width: 30px;
@@ -62,6 +63,7 @@
 }
 .right_text {
   color: #000000;
+  cursor: pointer;
   font-size: 1.2rem;
 }
 .right_part :hover {
@@ -83,6 +85,16 @@
   border: 2px solid #fc8019;
   padding: 2px 5px;
   border-radius: 5px 5px 2px 2px;
+}
+.right_number_green {
+  border: 2px solid #60b246;
+  padding: 2px 5px;
+  color: #60b246;
+  border-radius: 5px 5px 2px 2px;
+}
+.right_number_green:hover {
+  color: #ff0f00;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
 }
 @media screen and (max-width: 990px) {
   .container {

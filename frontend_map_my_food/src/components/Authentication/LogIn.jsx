@@ -42,7 +42,11 @@ const LogIn = () => {
         <div className={classes.part1}>
           <div className={classes.part1_left}>
             <h1>Login</h1>
-            <p>
+            <p
+              onClick={() => {
+                AuthenticationCtx.onShow("signupOpen");
+              }}
+            >
               <span>or</span> create an account
             </p>
             <div className={classes.underline}> </div>

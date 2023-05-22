@@ -45,7 +45,11 @@ const Verify = () => {
         <div className={classes.part1}>
           <div className={classes.part1_left}>
             <h1>Sign up</h1>
-            <p>
+            <p
+              onClick={() => {
+                AuthenticationCtx.onShow("LogInOpen");
+              }}
+            >
               <span>or</span> login to your account
             </p>
             <div className={classes.underline}> </div>

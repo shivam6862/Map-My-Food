@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import classes from "../Partner.module.css";
 import Header from "../Header/Header";
 import Navigation from "../Navigation/Navigation";
-import Question from "../Question/Question";
+import Questions from "../Questions/Questions";
 import PartnerQuestion from "../../TemporaryData/Support/Partner.json";
 import HomeFooter from "../../home/HomeFooter/HomeFooter";
 import Loading from "../Loading/Loading";
@@ -24,7 +24,7 @@ const Partner = () => {
           <div className={classes.box}>
             <div className={classes.heading}>Partner Onboarding</div>
             <div className={classes.loading}>{isLoading && <Loading />}</div>
-            {!isLoading && <Question question={question} />}
+            {!isLoading && <Questions question={question} />}
           </div>
         </div>
       </div>

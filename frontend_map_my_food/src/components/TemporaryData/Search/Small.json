@@ -1,10 +1,26 @@
 [
   {
     "Apple": [
-      { "image": "/swiggey/Search/Small/1.webp", "name": "Green Apple Mojito" },
-      { "image": "/swiggey/Search/Small/2.jpg", "name": "Green Apple" },
-      { "image": "/swiggey/Search/Small/3.jpg", "name": "Apple Pie" },
-      { "image": "/swiggey/Search/Small/4.jpg", "name": "Green Apple Shake" },
+      {
+        "image": "/swiggey/Search/Small/1.webp",
+        "name": "Green Apple Mojito",
+        "itemId": 701413
+      },
+      {
+        "image": "/swiggey/Search/Small/2.jpg",
+        "name": "Green Apple",
+        "itemId": 914267
+      },
+      {
+        "image": "/swiggey/Search/Small/3.jpg",
+        "name": "Apple Pie",
+        "itemId": 476639
+      },
+      {
+        "image": "/swiggey/Search/Small/4.jpg",
+        "name": "Green Apple Shake",
+        "itemId": 824759
+      },
       {
         "image": "/swiggey/Search/Small/5.png",
         "name": "Green Apple Tangy Waffle"

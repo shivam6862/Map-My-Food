@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import classes from "./Process.module.css";
 import Sign from "../../header/svg/Sign";
+import AuthenticationContext from "../../store/authentication/Authentication-context";
 
 const Process = () => {
+  const authenticationContextCtx = useContext(AuthenticationContext);
   return (
     <div className={classes.cotainer}>
       <div className={classes.boxes}>
@@ -20,11 +22,21 @@ const Process = () => {
               </p>
             </div>
             <div className={classes.buttons}>
-              <button className={classes.button_a}>
+              <button
+                className={classes.button_a}
+                onClick={() => {
+                  authenticationContextCtx.onShow("LogInOpen");
+                }}
+              >
                 <div className={classes.button_text1a}>Have an account?</div>
                 <div className={classes.button_text2a}>LOG IN</div>
               </button>
-              <button className={classes.button_b}>
+              <button
+                className={classes.button_b}
+                onClick={() => {
+                  authenticationContextCtx.onShow("signupOpen");
+                }}
+              >
                 <div className={classes.button_text1b}>New to Map My Food?</div>
                 <div className={classes.button_text2b}>SIGN UP</div>
               </button>

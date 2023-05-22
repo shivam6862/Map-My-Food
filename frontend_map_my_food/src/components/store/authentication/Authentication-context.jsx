@@ -40,8 +40,27 @@ export const AuthenticationContextProvider = (props) => {
 
   const showHandler = (name) => {
     if (name == "VerifyOpen") {
-      setOpen({ ...open, [name]: true, ["signupOpen"]: false });
-    } else setOpen({ ...open, [name]: true });
+      setOpen({
+        error: "",
+        ["LogInOpen"]: false,
+        [name]: true,
+        ["signupOpen"]: false,
+      });
+    } else if (name == "signupOpen") {
+      setOpen({
+        error: "",
+        ["VerifyOpen"]: false,
+        [name]: true,
+        ["LogInOpen"]: false,
+      });
+    } else if (name == "LogInOpen") {
+      setOpen({
+        error: "",
+        ["VerifyOpen"]: false,
+        [name]: true,
+        ["signupOpen"]: false,
+      });
+    }
   };
 
   const hideHandler = (name) => {

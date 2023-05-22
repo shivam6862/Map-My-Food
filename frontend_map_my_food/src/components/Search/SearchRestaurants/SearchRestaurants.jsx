@@ -5,6 +5,7 @@ import SearchRestaurantsData from "../../TemporaryData/Search/SearchRestaurants.
 import SearchRestaurantFood from "./SearchRestaurantFood/SearchRestaurantFood";
 import HomeFooter from "../../home/HomeFooter/HomeFooter";
 import CheckBox from "../../ui/CheckBox";
+import CartNotification from "../../CartNotification/CartNotification";
 
 const SearchRestaurants = () => {
   const [data, setData] = useState(SearchRestaurantsData);
@@ -19,6 +20,7 @@ const SearchRestaurants = () => {
         {isChecked && <SearchRestaurantFood items={data.veg} veg={true} />}
         {!isChecked && <SearchRestaurantFood items={data.nonveg} veg={false} />}
       </div>
+      <CartNotification />
       <HomeFooter />
     </div>
   );

@@ -41,7 +41,8 @@
       "price": 180,
       "para": "It is an exotic dish made of mixed vegetable steamed formed into dumplings deep fried and cooked in a tangy sauce",
       "image": "/swiggey/Search/Big/2a.webp",
-      "Dtime": "30 MINS"
+      "Dtime": "30 MINS",
+      "itemId": 342507
     },
     {
       "hotal": "By GREEN HOTEL",
@@ -51,7 +52,8 @@
       "price": 259,
       "para": "It is an exotic dish made of mixed vegetable steamed formed into dumplings deep fried and cooked in a tangy sauce",
       "image": "/swiggey/Search/Big/2b.webp",
-      "Dtime": "29 MINS"
+      "Dtime": "29 MINS",
+      "itemId": 542580
     },
     {
       "hotal": "By GREEN RESTO",
@@ -61,7 +63,8 @@
       "price": 320,
       "para": "Chunks of paneer marinated in spicy Hyderabadi masala, fried till crispy",
       "image": "/swiggey/Search/Big/3a.jpg",
-      "Dtime": "20 MINS"
+      "Dtime": "20 MINS",
+      "itemId": 408214
     },
     {
       "hotal": "By HOTEL SAGAR",
@@ -71,7 +74,8 @@
       "price": 280,
       "para": "A mild sweet taste creamy curry made with onion, tomatoes, cashews, cream and butter",
       "image": "/swiggey/Search/Big/3b.jpg",
-      "Dtime": "27 MINS"
+      "Dtime": "27 MINS",
+      "itemId": 110259
     }
   ],
   "nonveg": [
@@ -83,7 +87,8 @@
       "price": 70,
       "para": "A classic dish made by layering rice over slow cooked chicken gavy and juicy pieces to keep you satisfied!",
       "image": "/swiggey/Search/Big/1a.jpg",
-      "Dtime": "23 MINS"
+      "Dtime": "23 MINS",
+      "itemId": 76543
     },
     {
       "hotal": "By GREEN RESTO",
@@ -93,7 +98,8 @@
       "price": 60,
       "para": "Enjoy this spicy dish of chicken cooked in soy sauce with capsicum, chilli and pepper is a treat to your tastebuds!",
       "image": "/swiggey/Search/Big/1b.jpg",
-      "Dtime": "26 MINS"
+      "Dtime": "26 MINS",
+      "itemId": 988761
     }
   ]
 }

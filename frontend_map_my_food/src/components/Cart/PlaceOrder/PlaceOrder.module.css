@@ -59,7 +59,6 @@
   max-height: 300px;
 }
 .top_part2_payment_slip {
-  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,8 +74,8 @@
   width: -webkit-fill-available;
 }
 .item_logo {
-  width: 12.5px;
-  height: 12.5px;
+  width: 18.5px;
+  height: 18.5px;
   padding-right: 0.4rem;
 }
 .item_logo img {
@@ -85,6 +84,7 @@
 }
 .item_name {
   position: relative;
+  max-width: 80px;
 }
 .item_name h1 {
   margin: 0;
