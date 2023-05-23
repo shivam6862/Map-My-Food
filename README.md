@@ -3,17 +3,15 @@
 <h2 align="center">Map my food</h2>
 
   <p align="center">
-   complete solutions enabling users to 
+   Map My Food is a comprehensive food order application built using React. With its responsive design and global state management, it offers a seamless and user-friendly experience for customers to explore and order food from various restaurants.
     <br />
     <br />
-    <!-- to edit -->
-    <a href="https://github.com/shivam6862//issues">Report Bug</a>
+    <a href="https://github.com/shivam6862/Map-My-Food/issues">Report Bug</a>
     ·
-    <a href="https://github.com/shivam6862//issues">Request Feature</a>
+    <a href="https://github.com/shivam6862/Map-My-Food/issues">Request Feature</a>
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -30,11 +28,9 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-
 ## About The Project
 
-Map my Food is an innovative web application that simplifies the process of
+Map My Food is a food order app built using React, featuring a responsive design and global state management. This innovative application aims to simplify the process of discovering and ordering food from various restaurants. With its user-friendly interface and intuitive features, Map My Food revolutionizes the way users interact with food delivery services. From exploring nearby restaurants to customizing orders and secure payments, this app provides a seamless and convenient experience for users to satisfy their cravings and enjoy delicious meals.
 
 Team - `shivam6862`
 
@@ -49,8 +45,6 @@ Team - `shivam6862`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## Getting Started
 
 So as to run our project locally, you need to follow the steps below.
@@ -59,34 +53,17 @@ So as to run our project locally, you need to follow the steps below.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/shivam6862/
+   git clone https://github.com/shivam6862/Map-My-Food.git
    ```
-2. Install NPM packages on both backend and frontend folders
+2. Install NPM packages on frontend_map_my_food folders
    ```sh
    npm install
    ```
-3. Enter your API in `.env` of frontend directory
-   ```sh
-   VITE_REACT_BACKEND_URL=http://localhost:8080
-   VITE_REACT_SOCKET_URL=http://127.0.0.1:8080
-   ```
-4. Enter your MONGODB DATABASE URL and put it in `.env` file in backend directory
-   ```sh
-   MONGODB_URL= "your mongodb url"
-   ```
-5. Make the database in your mongodb server named as `test-app` and make the following collection
-   ```sh
-   users
-   ```
-6. Run the project in frontend using
+3. Run the project in frontend_map_my_food using
    ```sh
    npm run dev
    ```
-7. Run the project in backend using
-   ```sh
-   npm start
-   ```
-8. You can now view the project at `http://localhost:3000`
+4. You can now view the project at `http://127.0.0.1:5173/`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,9 +71,18 @@ So as to run our project locally, you need to follow the steps below.
 
 ## Description
 
-Map My Food is a <br/>
+Map My Food is an innovative food order app that aims to simplify the process of discovering and ordering food. The app is built on React, a popular JavaScript library for building user interfaces, ensuring a smooth and interactive experience for users across different devices.
+<br/>
 
-<a href="https://github.com/shivam6862/"><img src="https://github.com/shivam6862//blob/master/Frontend/public/.png" style="border-radius:12px"></a>
+With Map My Food, users can explore a wide range of restaurants and cuisines in their area. The app utilizes a map-based interface, allowing users to visually locate nearby restaurants and browse their menus. The responsive design ensures that the app adapts effortlessly to different screen sizes, making it convenient to use on mobile phones, tablets, and desktops.<br/>
+
+One of the standout features of Map My Food is its global state management, which enables efficient data handling and synchronization across different components. This ensures that users can seamlessly navigate through the app, add items to their cart, and place orders without any interruptions.<br/>
+
+The app incorporates intuitive search and filtering options, allowing users to easily find their preferred cuisine or restaurant. Users can customize their orders by specifying any special instructions or dietary preferences. Additionally, Map My Food supports payment options, ensuring a safe and hassle-free checkout process.<br/>
+
+Whether users are craving a quick bite or planning a special meal, Map My Food provides a convenient and efficient platform for exploring and ordering delicious food. With its user-friendly interface, responsive design, and global state management, this app revolutionizes the way people interact with food delivery services.<br/>
+
+<a href="https://github.com/shivam6862/Map-My-Food"><img src="https://github.com/shivam6862/Map-My-Food/blob/master/Frontend/public/image.png" style="border-radius:12px"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,3 +131,22 @@ Use this space to list resources you find helpful and would like to give credit 
 [nodejs-url]: https://nodejs.org/en
 [mongodb-url]: https://www.mongodb.com/
 [visualstudiocode-url]: https://code.visualstudio.com/
+
+<!--
+3. Enter your API in `.env` of frontend directory
+   ```sh
+   VITE_REACT_BACKEND_URL=http://localhost:8080
+   VITE_REACT_SOCKET_URL=http://127.0.0.1:8080
+   ```
+4. Enter your MONGODB DATABASE URL and put it in `.env` file in backend directory
+   ```sh
+   MONGODB_URL= "your mongodb url"
+   ```
+5. Make the database in your mongodb server named as `test-app` and make the following collection
+   ```sh
+   users
+   ```
+7. Run the project in backend using
+   ```sh
+   npm start
+   ``` -->
