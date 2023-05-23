@@ -82,7 +82,7 @@ The app incorporates intuitive search and filtering options, allowing users to e
 
 Whether users are craving a quick bite or planning a special meal, Map My Food provides a convenient and efficient platform for exploring and ordering delicious food. With its user-friendly interface, responsive design, and global state management, this app revolutionizes the way people interact with food delivery services.<br/>
 
-<a href="https://github.com/shivam6862/Map-My-Food"><img src="https://github.com/shivam6862/Map-My-Food/blob/master/Frontend/public/image.png" style="border-radius:12px"></a>
+<a href="https://github.com/shivam6862/Map-My-Food"><img src="https://github.com/shivam6862/Map-My-Food/blob/master/frontend_map_my_food/public/image.png" style="border-radius:12px"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
