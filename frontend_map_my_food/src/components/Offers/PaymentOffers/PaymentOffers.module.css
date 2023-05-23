@@ -132,3 +132,10 @@
 .code_number {
   display: none;
 }
+@media screen and (max-width: 620px) {
+  .data {
+    padding: 0.5rem;
+    width: -webkit-fill-available;
+    margin: 0rem 0.4rem;
+  }
+}

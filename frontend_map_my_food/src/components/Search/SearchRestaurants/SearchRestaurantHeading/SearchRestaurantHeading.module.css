@@ -177,3 +177,9 @@
   font-size: 0.76rem;
   color: #93959f;
 }
+
+@media screen and (max-width: 520px) {
+  .part4_offer {
+    width: -webkit-fill-available;
+  }
+}

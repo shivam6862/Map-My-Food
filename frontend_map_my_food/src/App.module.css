@@ -10,3 +10,11 @@
   margin-bottom: 0.2rem;
   background-color: white;
 }
+@media screen and (max-width: 540px) {
+  .AllRoutes {
+    padding-top: 3rem;
+  }
+  .allRoute {
+    padding-top: 1.5rem;
+  }
+}

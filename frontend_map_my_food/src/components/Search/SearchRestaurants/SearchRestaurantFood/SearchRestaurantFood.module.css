@@ -194,3 +194,8 @@
   color: #60b246;
   cursor: pointer;
 }
+@media screen and (max-width: 520px) {
+  .container {
+    padding: 0rem;
+  }
+}

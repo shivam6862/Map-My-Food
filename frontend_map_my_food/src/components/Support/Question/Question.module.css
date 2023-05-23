@@ -101,3 +101,12 @@
   margin-right: 1.25rem;
   letter-spacing: -0.3px;
 }
+
+@media screen and (max-width: 620px) {
+  .heading h1 {
+    padding: 0;
+  }
+  .each_quextion {
+    padding-right: 1.2rem;
+  }
+}

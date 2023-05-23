@@ -128,3 +128,18 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .left {
+    padding: 1rem;
+  }
+  .riget {
+    padding: 1rem;
+  }
+  .right_box_top_dark {
+    width: 200px;
+  }
+  .right_box_top_light {
+    width: 200px;
+  }
+}

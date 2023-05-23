@@ -110,3 +110,27 @@
     width: 52%;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .container {
+    padding: 2rem;
+    padding-left: 5rem;
+    gap: 3rem;
+  }
+  .note h3 {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    padding: 1rem;
+    padding-left: 3rem;
+    gap: 2rem;
+  }
+  .each_item {
+    width: 150px;
+  }
+  .note h3 {
+    width: 150px;
+  }
+}

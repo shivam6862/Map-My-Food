@@ -44,3 +44,13 @@
   left: 60%;
   transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 520px) {
+  .boxes {
+    width: -webkit-fill-available;
+    padding: 0rem;
+  }
+  .inner_box {
+    padding: 0rem;
+  }
+}

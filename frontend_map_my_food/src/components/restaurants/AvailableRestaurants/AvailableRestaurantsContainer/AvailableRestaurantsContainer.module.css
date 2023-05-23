@@ -90,3 +90,16 @@
     justify-content: center;
   }
 }
+@media screen and (max-width: 320px) {
+  .bottom_box_image {
+    width: 90%;
+  }
+  .bottom_box {
+    padding: 0rem;
+    padding-left: 0.5rem;
+    align-items: center;
+  }
+  .bottom_box_last {
+    width: 80%;
+  }
+}

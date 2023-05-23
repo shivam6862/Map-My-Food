@@ -54,3 +54,9 @@
     max-width: 80vw;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .image {
+    height: 120px;
+  }
+}

@@ -14,10 +14,10 @@ const Restaurants = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 4000);
+    }, 2000);
     setTimeout(() => {
       setIsLoadingFood(false);
-    }, 6000);
+    }, 3500);
   }, []);
   const now = new Date();
   const options = { timeZone: "Asia/Kolkata", hour12: false };

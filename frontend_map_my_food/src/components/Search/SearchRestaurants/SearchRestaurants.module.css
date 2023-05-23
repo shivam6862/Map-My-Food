@@ -18,3 +18,9 @@
   font-weight: 600;
   letter-spacing: 0.5px;
 }
+
+@media screen and (max-width: 620px) {
+  .box {
+    width: 90%;
+  }
+}

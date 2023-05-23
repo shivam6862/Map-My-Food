@@ -46,3 +46,12 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 320px) {
+  .heading {
+    font-size: 1rem;
+  }
+  .box {
+    height: 200px;
+  }
+}

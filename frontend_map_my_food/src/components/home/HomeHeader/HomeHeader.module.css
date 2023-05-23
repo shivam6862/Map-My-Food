@@ -248,3 +248,23 @@
 .searchLocation:hover {
   color: #fc8019;
 }
+@media screen and (max-width: 620px) {
+  .box {
+    height: auto;
+  }
+  .part1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .right {
+    min-height: 200px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .part2 h2 {
+    font-size: 1.5rem;
+  }
+  .part1_img h2 {
+    font-size: 1.5rem;
+  }
+}

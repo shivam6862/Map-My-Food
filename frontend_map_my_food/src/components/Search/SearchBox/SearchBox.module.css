@@ -31,3 +31,13 @@
   right: 0;
   transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 320px) {
+  .search input {
+    padding: 0.3rem 0rem;
+    padding-left: 0.5rem;
+    width: 93%;
+    text-overflow: ellipsis;
+    padding-right: 1rem;
+  }
+}

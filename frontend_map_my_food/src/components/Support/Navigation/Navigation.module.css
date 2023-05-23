@@ -41,3 +41,18 @@
     width: -webkit-fill-available;
   }
 }
+
+@media screen and (max-width: 620px) {
+  .item {
+    padding: 1rem;
+  }
+  .active {
+    padding: 1rem;
+  }
+  .items {
+    padding: 0.5rem 0rem;
+  }
+  .container {
+    padding: 1.5rem 0rem;
+  }
+}

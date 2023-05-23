@@ -95,5 +95,19 @@
   .Link_to_pages {
     gap: 1rem;
     padding-left: 1rem;
+    font-size: 1rem;
+    flex-wrap: wrap;
+  }
+  .active {
+    padding: 0.5rem;
+  }
+  .link_item {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .right img {
+    height: 50%;
   }
 }

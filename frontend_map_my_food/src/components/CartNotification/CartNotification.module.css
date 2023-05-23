@@ -63,3 +63,14 @@
 .box {
   animation: cart-in-up 0.11s ease-in-out;
 }
+
+@media screen and (max-width: 520px) {
+  .container {
+    bottom: 3rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .box {
+    width: -webkit-fill-available;
+  }
+}

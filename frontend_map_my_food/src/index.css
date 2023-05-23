@@ -4,3 +4,11 @@ body {
   font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
   letter-spacing: 0;
 }
+@media screen and (max-width: 540px) {
+  body {
+    overflow-x: hidden;
+  }
+  html {
+    overflow-x: hidden;
+  }
+}

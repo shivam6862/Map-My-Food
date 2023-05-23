@@ -33,6 +33,14 @@ const Header = () => {
           <img src="/swiggey/Logo/logo_2022.png" alt="logo" />
         </Link>
         <div
+          className={classes.left_phone_other}
+          onClick={() => {
+            locationCtx.onShow();
+          }}
+        >
+          Other
+        </div>
+        <div
           className={classes.left_place}
           onClick={() => {
             locationCtx.onShow();
@@ -61,14 +69,17 @@ const Header = () => {
             Search
           </div>
         </Link>
-        <Link to={"/offers/restaurant"} className={classes.right_part}>
+        <Link
+          to={"/offers/restaurant"}
+          className={`${classes.right_part} ${classes.offers}`}
+        >
           <div className={classes.right_image}>
             <Offers />
           </div>
           <div
             className={`${
               isActive("/offers") ? classes.active : classes.right_text
-            }`}
+            } ${classes.offers_text}`}
           >
             Offers <span>NEW</span>
           </div>

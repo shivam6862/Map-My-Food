@@ -30,3 +30,14 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 620px) {
+  .lower_container {
+    padding: 0rem 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lower_container {
+    padding: 0rem 0rem;
+  }
+}

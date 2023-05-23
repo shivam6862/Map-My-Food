@@ -39,3 +39,18 @@
     max-width: 80vw;
   }
 }
+
+@media screen and (max-width: 620px) {
+  .heading {
+    font-size: 0.7rem;
+  }
+  .container {
+    min-height: auto;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .image {
+    height: 180px;
+  }
+}

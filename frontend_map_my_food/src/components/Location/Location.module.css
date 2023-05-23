@@ -125,3 +125,26 @@
   overflow-y: scroll;
   width: 100%;
 }
+@media screen and (max-width: 620px) {
+  .container {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 50%;
+  }
+  .location {
+    padding: 1rem;
+  }
+  .Input_searchLocations input {
+    font-size: 0.75rem;
+    padding: 0.52rem;
+    padding-left: 0.5rem;
+    text-overflow: ellipsis;
+  }
+  .searchLocation {
+    padding: 0.3rem;
+    font-size: 0.75rem;
+  }
+}

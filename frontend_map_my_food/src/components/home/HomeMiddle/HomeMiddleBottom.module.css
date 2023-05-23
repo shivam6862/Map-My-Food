@@ -84,3 +84,8 @@
     gap: 1rem;
   }
 }
+@media screen and (max-width: 620px) {
+  .part1 h1 {
+    font-size: 1.8rem;
+  }
+}

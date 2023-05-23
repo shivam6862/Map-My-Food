@@ -26,7 +26,9 @@ function App() {
           <Header />
         </div>
       )}
-      <AllRoutes />
+      <div className={`${isLocation ? classes.AllRoutes : classes.allRoute}`}>
+        <AllRoutes />
+      </div>
       <Auth />
     </div>
   );

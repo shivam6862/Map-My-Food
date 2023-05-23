@@ -19,6 +19,7 @@
   border-bottom: 2px solid gray;
   width: 90%;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .part {
@@ -104,5 +105,16 @@
     flex-direction: column;
     gap: 0.5rem;
     padding: 0rem 0rem 1rem 0rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .part {
+    font-size: 0.8rem;
+    gap: 0.5rem;
+  }
+  .part h1 {
+    font-size: 1rem;
+    margin-right: 0.2rem;
   }
 }

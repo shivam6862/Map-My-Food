@@ -15,3 +15,9 @@
   padding: 2rem 0rem 3rem 0rem;
   min-height: 90vh;
 }
+
+@media screen and (max-width: 620px) {
+  .box {
+    width: 90%;
+  }
+}
