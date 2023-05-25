@@ -1,50 +1,37 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import classes from "./HomeHeader.module.css";
-import { useState } from "react";
-
 import AuthenticationContext from "../../store/authentication/Authentication-context";
-import { useContext } from "react";
-
-import useIndianCitys from "../../hook/useIndianCity";
-
-import { useNotification } from "../../hook/useNotification";
-
-import { useLocationLocalStorage } from "../../hook/LocationLocalStorage";
 import LocationContext from "../../store/location/Location-context";
+import useIndianCitys from "../../hook/useIndianCity";
+import { useNotification } from "../../hook/useNotification";
+import { useLocationLocalStorage } from "../../hook/LocationLocalStorage";
 
 const HomeHeader = () => {
-  const { NotificationHandler } = useNotification();
-  const locationContextCtx = useContext(LocationContext);
+  const [name, setName] = useState("Movie marathon?");
+  const [count, setCount] = useState(0);
   const [location, setLocation] = useState("");
   const [showSearchLocation, setSearchLocation] = useState({
     newIndianCity: [],
   });
+  const locationContextCtx = useContext(LocationContext);
+  const AuthenticationCtx = useContext(AuthenticationContext);
+  const { NotificationHandler } = useNotification();
   const { updateLocation } = useLocationLocalStorage();
+  const setCustomerLocation = (customerLocation) => {
+    updateLocation(customerLocation);
+    setLocation("");
+    locationContextCtx.onLocalStorageLocation(customerLocation);
+  };
+  const showHandler = (name) => {
+    NotificationHandler(name, "Success");
+    AuthenticationCtx.onShow(name);
+  };
   useEffect(() => {
     const searchLocation =
       location.charAt(0).toUpperCase() + location.slice(1).toLowerCase();
     const IndianCity = useIndianCitys(searchLocation);
     setSearchLocation(IndianCity);
   }, [location]);
-  const setCustomerLocation = (customerLocation) => {
-    updateLocation(customerLocation);
-    setLocation("");
-    locationContextCtx.onLocalStorageLocation(customerLocation);
-  };
-
-  const AuthenticationCtx = useContext(AuthenticationContext);
-  const open = AuthenticationCtx.open;
-  const showHandler = (name) => {
-    NotificationHandler(name, "Success");
-    AuthenticationCtx.onShow(name);
-  };
-
-  const [name, setName] = useState("Movie marathon?");
-  const [count, setCount] = useState(0);
-
-  const findFood = () => {
-    console.log("Find Food");
-  };
   useEffect(() => {
     setTimeout(() => {
       if (count % 4 == 0) setName("Hungry?");
@@ -121,7 +108,7 @@ const HomeHeader = () => {
           </div>
           <button
             onClick={() => {
-              findFood();
+              console.log("Find Food");
             }}
           >
             FIND FOOD

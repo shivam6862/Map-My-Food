@@ -4,7 +4,6 @@ import AvailableRestaurants from "./AvailableRestaurants/AvailableRestaurants";
 import Loading from "./Loading/Loading";
 import Recipes from "./Recipes/Recipes";
 import classes from "./Restaurants.module.css";
-import HomeFooter from "../home/HomeFooter/HomeFooter";
 import Unserviceable from "./Unserviceable/Unserviceable";
 import RecipesLoading from "./Recipes/RecipesLoading/RecipesLoading";
 
@@ -31,7 +30,6 @@ const Restaurants = () => {
       {isLoadingFood && <RecipesLoading />}
       {!isLoadingFood && <AvailableRestaurants />}
       {!isLoadingFood && <Recipes />}
-      <HomeFooter />
     </div>
   );
 };

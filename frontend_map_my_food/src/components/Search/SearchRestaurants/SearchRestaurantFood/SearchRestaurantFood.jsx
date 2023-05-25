@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import classes from "./SearchRestaurantFood.module.css";
-import SvgArrow from "../../SvgArrow/SvgArrow";
+import SvgArrow from "../../../ui/Svg/SvgArrow";
 import CartContext from "../../../store/cart/Cart-context";
-import { useContext } from "react";
 
 const SearchRestaurantFood = ({ items, veg }) => {
   const cartContextCtx = useContext(CartContext);

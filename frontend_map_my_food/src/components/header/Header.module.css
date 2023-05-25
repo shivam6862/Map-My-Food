@@ -114,7 +114,7 @@
     justify-content: center;
   }
   .right_part {
-    gap: 0, 5rem;
+    gap: 0.5rem;
   }
   .right_text {
     font-size: 1.1rem;
@@ -169,7 +169,7 @@
   }
   .right {
     position: fixed;
-    top: 92.8vh;
+    bottom: 0rem;
     left: 0rem;
     right: 0rem;
     box-shadow: 0 6px 6px -3px #bebebe;

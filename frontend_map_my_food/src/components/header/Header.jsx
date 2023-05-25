@@ -1,15 +1,13 @@
 import React, { useContext, useEffect, useState } from "react";
-import classes from "./Header.module.css";
 import { Link, useLocation } from "react-router-dom";
-import Search from "./svg/Search";
-import Offers from "./svg/Offers";
-import Help from "./svg/Help";
-import Sign from "./svg/Sign";
+import classes from "./Header.module.css";
+import Svgsearch from "../ui/Svg/Svgsearch";
+import Svgoffers from "../ui/Svg/Svgoffers";
+import Svghelp from "../ui/Svg/Svghelp";
+import Svgsign from "../ui/Svg/Svgsign";
 import CartContext from "../store/cart/Cart-context";
 import LocationContext from "../store/location/Location-context";
-
 import AuthenticationContext from "../store/authentication/Authentication-context";
-
 import { useLocationLocalStorage } from "../hook/LocationLocalStorage";
 
 const Header = () => {
@@ -59,7 +57,7 @@ const Header = () => {
       <div className={classes.right}>
         <Link to={"/search"} className={classes.right_part}>
           <div className={classes.right_image}>
-            <Search />
+            <Svgsearch />
           </div>
           <div
             className={`${
@@ -74,7 +72,7 @@ const Header = () => {
           className={`${classes.right_part} ${classes.offers}`}
         >
           <div className={classes.right_image}>
-            <Offers />
+            <Svgoffers />
           </div>
           <div
             className={`${
@@ -86,7 +84,7 @@ const Header = () => {
         </Link>
         <Link to={"/supports"} className={classes.right_part}>
           <div className={classes.right_image}>
-            <Help />
+            <Svghelp />
           </div>
           <div
             className={`${
@@ -103,7 +101,7 @@ const Header = () => {
           }}
         >
           <div className={classes.right_image}>
-            <Sign />
+            <Svgsign />
           </div>
           <div
             className={`${

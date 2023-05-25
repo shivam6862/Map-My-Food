@@ -10,20 +10,6 @@
   z-index: 100;
 }
 
-.line1,
-.line2 {
-  width: 20px;
-  height: 2px;
-  background: black;
-  margin: 4px 2px;
-}
-.line1 {
-  transform: rotate(-405deg) translate(-4px, 4px);
-}
-.line2 {
-  transform: rotate(405deg) translate(-1.1px, -1.1px);
-}
-
 .container {
   max-width: 490px;
   padding: 1rem 2rem;
@@ -48,7 +34,6 @@
   width: 100%;
 }
 .close {
-  padding-bottom: 1.2rem;
   cursor: pointer;
 }
 .part1 {

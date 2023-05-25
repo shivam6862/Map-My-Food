@@ -1,13 +1,10 @@
 import React from "react";
-import classes from "./HomeFooter.module.css";
-
-import company from "../../TemporaryData/company";
-import contact from "../../TemporaryData/contact";
-import legel from "../../TemporaryData/legal";
-
-import Set from "../../TemporaryData/set";
-
-const HomeFooter = () => {
+import classes from "./Footer.module.css";
+import company from "../TemporaryData/company.json";
+import contact from "../TemporaryData/contact.json";
+import legel from "../TemporaryData/legal.json";
+import DeliverTo from "./DeliverTo/DeliverTo";
+const Footer = () => {
   return (
     <div className={classes.box}>
       <div className={classes.top}>
@@ -36,7 +33,7 @@ const HomeFooter = () => {
       </div>
       <div className={classes.bottom}>
         <div className={classes.bottom_top}>
-          <Set />
+          <DeliverTo />
         </div>
         <div className={classes.bottom_last}>
           <div className={classes.part1_img}>
@@ -64,4 +61,4 @@ const HomeFooter = () => {
   );
 };
 
-export default HomeFooter;
+export default Footer;

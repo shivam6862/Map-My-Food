@@ -1,10 +1,7 @@
 import React from "react";
-
 import HomeHeader from "./HomeHeader/HomeHeader";
 import HomeMiddleTop from "./HomeMiddle/HomeMiddleTop";
 import HomeMiddleBottom from "./HomeMiddle/HomeMiddleBottom";
-import HomeFooter from "./HomeFooter/HomeFooter";
-
 import classes from "./Home.module.css";
 
 const Home = () => {
@@ -16,7 +13,6 @@ const Home = () => {
           <HomeMiddleTop />
           <HomeMiddleBottom />
         </div>
-        <HomeFooter />
       </div>
     </div>
   );

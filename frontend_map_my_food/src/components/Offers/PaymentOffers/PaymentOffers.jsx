@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import OfferHeader from "../OfferHeader/OfferHeader";
 import classes from "./PaymentOffers.module.css";
-import HomeFooter from "../../home/HomeFooter/HomeFooter";
+import OfferHeader from "../OfferHeader/OfferHeader";
 import PaymentOffersData from "../../TemporaryData/PaymentOffers.json";
 import PaymentOffersMore from "./PaymentOffersMore/PaymentOffersMore";
 
@@ -65,7 +64,6 @@ const PaymentOffers = () => {
           ))}
         </div>
       </div>
-      <HomeFooter />
     </div>
   );
 };

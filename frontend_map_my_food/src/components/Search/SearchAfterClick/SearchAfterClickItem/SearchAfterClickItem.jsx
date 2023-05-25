@@ -1,9 +1,8 @@
-import React from "react";
-import classes from "./SearchAfterClickItem.module.css";
-import SvgArrow from "../../SvgArrow/SvgArrow";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import classes from "./SearchAfterClickItem.module.css";
+import SvgArrow from "../../../ui/Svg/SvgArrow";
 import CartContext from "../../../store/cart/Cart-context";
-import { useContext } from "react";
 
 const SearchAfterClickItem = ({ searchItemAfterClickData }) => {
   const cartContextCtx = useContext(CartContext);

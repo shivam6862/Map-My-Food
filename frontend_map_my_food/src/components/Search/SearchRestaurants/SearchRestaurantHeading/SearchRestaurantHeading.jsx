@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import classes from "./SearchRestaurantHeading.module.css";
-import Search from "../../../header/svg/Search";
+import Svgsearch from "../../../ui/Svg/Svgsearch";
+import SvgDuration from "../../../ui/Svg/SvgDuration";
+import SvgPrice from "../../../ui/Svg/SvgPrice";
 import SearchRestaurantHeadingData from "../../../TemporaryData/Search/SearchRestaurants.json";
-import SvgDuration from "../../SvgArrow/SvgDuration";
-import SvgPrice from "../../SvgArrow/SvgPrice";
 
 const SearchRestaurantHeading = () => {
   const [data, setData] = useState(SearchRestaurantHeadingData);
@@ -12,7 +12,7 @@ const SearchRestaurantHeading = () => {
       <div className={classes.part1}>
         <div className={classes.address}>{data.address}</div>
         <div className={classes.search_logo}>
-          <Search />
+          <Svgsearch />
         </div>
       </div>
       <div className={classes.part2}>

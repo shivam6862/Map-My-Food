@@ -132,22 +132,21 @@
   color: #60b246;
   border-radius: 5px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 1.5rem;
 }
 .addButton:hover {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
 }
-
 @media screen and (max-width: 750px) {
   .addButton {
-    padding: 0.3rem 0.7rem;
+    padding: 0.3rem 1rem;
   }
 }
 @media screen and (max-width: 520px) {
   .addButton {
-    padding: 0.1rem 0.3rem;
+    padding: 0.3rem 0.8rem;
   }
 }
-
 .item_quantity {
   display: flex;
   flex-direction: row;

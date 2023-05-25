@@ -1,4 +1,4 @@
-const Help = () => {
+const Svghelp = () => {
   return (
     <span>
       <svg viewBox="6 -1 12 25" height="19" width="19" fill="#686b78">
@@ -8,4 +8,4 @@ const Help = () => {
   );
 };
 
-export default Help;
+export default Svghelp;

@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./SearchBox.module.css";
-import Search from "../../header/svg/Search";
+import Svgsearch from "../../ui/Svg/Svgsearch";
 
 const SearchBox = ({ setSearch }) => {
   return (
@@ -16,7 +16,7 @@ const SearchBox = ({ setSearch }) => {
           }}
         />
         <div className={classes.image}>
-          <Search />
+          <Svgsearch />
         </div>
       </div>
     </div>

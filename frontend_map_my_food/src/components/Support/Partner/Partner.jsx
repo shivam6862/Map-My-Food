@@ -4,7 +4,6 @@ import Header from "../Header/Header";
 import Navigation from "../Navigation/Navigation";
 import Questions from "../Questions/Questions";
 import PartnerQuestion from "../../TemporaryData/Support/Partner.json";
-import HomeFooter from "../../home/HomeFooter/HomeFooter";
 import Loading from "../Loading/Loading";
 
 const Partner = () => {
@@ -13,7 +12,7 @@ const Partner = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 1000);
   }, []);
   return (
     <div className={classes.container}>
@@ -28,7 +27,6 @@ const Partner = () => {
           </div>
         </div>
       </div>
-      <HomeFooter />
     </div>
   );
 };

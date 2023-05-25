@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import classes from "./PlaceOrder.module.css";
-import PlaceOrderData from "../../TemporaryData/Cart/PlaceOder.json";
 import CartContext from "../../store/cart/Cart-context";
-import { useContext } from "react";
 
 const PlaceOrder = () => {
   const cartContextCtx = useContext(CartContext);
@@ -14,7 +12,6 @@ const PlaceOrder = () => {
   const DecreaseItem = (itemId) => {
     cartContextCtx.onRemoveItem(itemId);
   };
-  const [order, setOrder] = useState(PlaceOrderData);
   const [isChecked, setIsChecked] = useState(false);
   const handleCheckboxChange = () => {
     if (isChecked) setIsChecked(false);
@@ -25,11 +22,11 @@ const PlaceOrder = () => {
       <div className={classes.top}>
         <div className={classes.top_part1}>
           <div className={classes.top_part1_left}>
-            <img src={order.image} alt="" />
+            <img src={cartContextCtx.image} alt="" />
           </div>
           <div className={classes.top_part1_right}>
-            <h1>{order.hotal}</h1>
-            <p>{order.place}</p>
+            <h1>{cartContextCtx.hotal}</h1>
+            <p>{cartContextCtx.place}</p>
           </div>
         </div>
         <div className={classes.top_part2}>

@@ -3,7 +3,6 @@ import classes from "./Search.module.css";
 import SearchBox from "./SearchBox/SearchBox";
 import SearchItems from "./SearchItems/SearchItems";
 import SearchAfterClickItems from "./SearchAfterClick/SearchAfterClickItems/SearchAfterClickItems";
-import HomeFooter from "../home/HomeFooter/HomeFooter";
 
 const Search = () => {
   const [search, setSearch] = useState("");
@@ -26,7 +25,6 @@ const Search = () => {
         {!clickSearch && <SearchItems search={search} />}
         {clickSearch && <SearchAfterClickItems search={search} />}
       </div>
-      <HomeFooter />
     </div>
   );
 };

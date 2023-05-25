@@ -1,7 +1,7 @@
-import "./set.css";
-import Places from "./place.json";
+import "./DeliverTo.css";
+import Places from "../../TemporaryData/place.json";
 
-const Set = () => {
+const DeliverTo = () => {
   return (
     <div>
       <div id="city-links" className="box">
@@ -24,4 +24,4 @@ const Set = () => {
   );
 };
 
-export default Set;
+export default DeliverTo;

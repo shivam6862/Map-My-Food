@@ -21,19 +21,6 @@
   padding-bottom: 1.2rem;
   cursor: pointer;
 }
-.line1,
-.line2 {
-  width: 20px;
-  height: 2px;
-  background: black;
-  margin: 4px 2px;
-}
-.line1 {
-  transform: rotate(-405deg) translate(-4px, 4px);
-}
-.line2 {
-  transform: rotate(405deg) translate(-1.5px, -1.5px);
-}
 .location {
   display: flex;
   flex-direction: column;

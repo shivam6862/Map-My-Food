@@ -1,14 +1,11 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import classes from "./Notification.module.css";
 import NotificationContext from "../store/Notification/Notification-context";
-import { useContext } from "react";
 
 const Notification = (props) => {
   const notifictionCtx = useContext(NotificationContext);
   const [width, setWidth] = useState(0);
   const [intervalId, setIntervalId] = useState(null);
-
   const deleteNotification = (id) => {
     notifictionCtx.onDelete(id);
   };

@@ -1,8 +1,7 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState, useContext } from "react";
 import classes from "./Auth.module.css";
+import Svgcross from "../ui/Svg/Svgcross";
 import AuthenticationContext from "../store/authentication/Authentication-context";
-import { useContext } from "react";
 
 const SignUP = () => {
   const AuthenticationCtx = useContext(AuthenticationContext);
@@ -46,8 +45,7 @@ const SignUP = () => {
             hideHandler();
           }}
         >
-          <div className={classes.line1}></div>
-          <div className={classes.line2}></div>
+          <Svgcross />
         </div>
         <div className={classes.part1}>
           <div className={classes.part1_left}>

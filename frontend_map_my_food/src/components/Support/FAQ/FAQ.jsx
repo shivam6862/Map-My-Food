@@ -5,7 +5,6 @@ import Header from "../Header/Header";
 import Navigation from "../Navigation/Navigation";
 import Questions from "../Questions/Questions";
 import FAQquestion from "../../TemporaryData/Support/FAQ.json";
-import HomeFooter from "../../home/HomeFooter/HomeFooter";
 import Loading from "../Loading/Loading";
 
 const FAQ = () => {
@@ -14,7 +13,7 @@ const FAQ = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 1000);
   }, []);
   return (
     <div className={classes.container}>
@@ -29,7 +28,6 @@ const FAQ = () => {
           </div>
         </div>
       </div>
-      <HomeFooter />
     </div>
   );
 };

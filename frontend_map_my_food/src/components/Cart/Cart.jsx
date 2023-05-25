@@ -1,19 +1,15 @@
 import React, { useContext } from "react";
 import classes from "./Cart.module.css";
-import CartEmpty from "./CartEmpty/CartEmpty";
 import EmptyCartHome from "./EmptyCartHome/EmptyCartHome";
-import PlaceOrder from "./PlaceOrder/PlaceOrder";
-import Process from "./Process/Process";
 import Retry from "./Retry/Retry";
-import HomeFooter from "../home/HomeFooter/HomeFooter";
-import PlaceOrderData from "../TemporaryData/Cart/PlaceOder.json";
+import Process from "./Process/Process";
+import CartEmpty from "./CartEmpty/CartEmpty";
+import PlaceOrder from "./PlaceOrder/PlaceOrder";
 import CartContext from "../store/cart/Cart-context";
 
 const Cart = () => {
   const cartContextCtx = useContext(CartContext);
-  // const OrderPlacedLength = Object.keys(PlaceOrderData).length !== 0;
   const OrderPlacedLength = cartContextCtx.addItems.length !== 0;
-
   return (
     <div className={classes.container}>
       {!OrderPlacedLength && <EmptyCartHome />}
@@ -27,7 +23,6 @@ const Cart = () => {
           {OrderPlacedLength && <PlaceOrder />}
         </div>
       </div>
-      <HomeFooter />
     </div>
   );
 };

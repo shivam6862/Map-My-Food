@@ -9,6 +9,9 @@ const CartContext = React.createContext({
   totalAmount: 0,
   deliveryCost: 0,
   GST: 0,
+  hotal: "",
+  place: "",
+  image: "",
 });
 
 export const CartContextProvider = (props) => {
@@ -16,8 +19,12 @@ export const CartContextProvider = (props) => {
   const [totalAmount, setTotalAmount] = useState(0);
   const [deliveryCost, setDeliveryCost] = useState(0);
   const [GST, setGST] = useState(0);
+  const [hotal, setHotal] = useState("");
+  const [place, setPlace] = useState("Dumka");
+  const [image, setImage] = useState("/swiggey/AvailableRestaurants/5.webp");
 
   const AddItemsHandler = (itemId) => {
+    setHotal(ItemPrice[itemId]["hotal"]);
     const newItemPrice = ItemPrice[itemId]["price"];
     const updatedTotalAmount = totalAmount + newItemPrice;
     const existingCartItemIndex = addItems.findIndex(
@@ -84,6 +91,9 @@ export const CartContextProvider = (props) => {
         onRemoveItem: onRemoveHandler,
         deliveryCost: deliveryCost,
         GST: GST,
+        hotal: hotal,
+        place: place,
+        image: image,
       }}
     >
       {props.children}

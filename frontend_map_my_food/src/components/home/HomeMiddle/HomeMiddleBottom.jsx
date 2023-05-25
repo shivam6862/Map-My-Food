@@ -1,6 +1,6 @@
 import React from "react";
-
 import classes from "./HomeMiddleBottom.module.css";
+
 const HomeMiddleBottom = () => {
   return (
     <div className={classes.box}>

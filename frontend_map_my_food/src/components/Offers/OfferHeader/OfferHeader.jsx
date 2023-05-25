@@ -1,6 +1,6 @@
 import React from "react";
-import classes from "./OfferHeader.module.css";
 import { Link, useLocation } from "react-router-dom";
+import classes from "./OfferHeader.module.css";
 
 const OfferHeader = () => {
   const location = useLocation();

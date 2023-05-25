@@ -1,13 +1,13 @@
-import { AllRoutes } from "./AllRoutes";
-import classes from "./App.module.css";
-import Auth from "./components/Authentication/Auth";
-import Header from "./components/header/Header";
-import Notifications from "./components/Notification/Notifications";
-import Location from "./components/Location/Location";
-
-import { useLocationLocalStorage } from "./components/hook/LocationLocalStorage";
 import { useState, useContext, useEffect } from "react";
+import classes from "./App.module.css";
+import Location from "./components/Location/Location";
+import Notifications from "./components/Notification/Notifications";
+import Header from "./components/header/Header";
+import { AllRoutes } from "./AllRoutes";
+import Auth from "./components/Authentication/Auth";
+import Footer from "./components/Footer/Footer";
 import LocationContext from "./components/store/location/Location-context";
+import { useLocationLocalStorage } from "./components/hook/LocationLocalStorage";
 
 function App() {
   const locationContextCtx = useContext(LocationContext);
@@ -30,6 +30,7 @@ function App() {
         <AllRoutes />
       </div>
       <Auth />
+      <Footer />
     </div>
   );
 }

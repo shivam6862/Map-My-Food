@@ -1,6 +1,6 @@
 import React from "react";
-
 import classes from "./HomeMiddleTop.module.css";
+
 const HomeMiddleTop = () => {
   const datas = [
     {

@@ -1,11 +1,10 @@
-import React from "react";
-import AuthenticationContext from "../store/authentication/Authentication-context";
-import { useContext } from "react";
+import React, { useContext } from "react";
+import Backdrop from "../ui/Backdrop";
 import SignUP from "./SignUp";
 import Verify from "./Verify";
 import LogIn from "./LogIn";
 import classes from "./Auth.module.css";
-import Backdrop from "../ui/Backdrop";
+import AuthenticationContext from "../store/authentication/Authentication-context";
 
 const Auth = () => {
   const AuthenticationCtx = useContext(AuthenticationContext);

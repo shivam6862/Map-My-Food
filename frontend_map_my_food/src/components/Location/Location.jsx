@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useContext } from "react";
 import classes from "./Location.module.css";
-import useIndianCitys from "../hook/useIndianCity";
+import Svgcross from "../ui/Svg/Svgcross";
 import LocationContext from "../store/location/Location-context";
-
+import useIndianCitys from "../hook/useIndianCity";
 import { useLocationLocalStorage } from "../hook/LocationLocalStorage";
+
 const Location = () => {
   const locationCtx = useContext(LocationContext);
   const open = locationCtx.open;
@@ -43,8 +44,7 @@ const Location = () => {
                 locationCtx.onHide();
               }}
             >
-              <div className={classes.line1}></div>
-              <div className={classes.line2}></div>
+              <Svgcross />
             </div>
             <input
               type="text"

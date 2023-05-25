@@ -1,9 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import Home from "../home/Home";
 import Restaurants from "../restaurants/Restaurants";
-
-import { useLocationLocalStorage } from "../hook/LocationLocalStorage";
 import LocationContext from "../store/location/Location-context";
+import { useLocationLocalStorage } from "../hook/LocationLocalStorage";
 
 const HomePage = () => {
   const { fetchLocation } = useLocationLocalStorage();

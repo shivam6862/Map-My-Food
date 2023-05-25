@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import OfferHeader from "../OfferHeader/OfferHeader";
 import classes from "./RestaurantOffers.module.css";
+import OfferHeader from "../OfferHeader/OfferHeader";
 import AvailableRestaurantsContainer from "../../restaurants/AvailableRestaurants/AvailableRestaurantsContainer/AvailableRestaurantsContainer";
 import AvailableRestaurantsData from "../../TemporaryData/AvailableRestaurantsData.json";
-import HomeFooter from "../../home/HomeFooter/HomeFooter";
 
 const RestaurantOffers = () => {
   const [datas, setDatas] = useState(AvailableRestaurantsData);
@@ -17,7 +16,6 @@ const RestaurantOffers = () => {
         </div>
         <AvailableRestaurantsContainer datas={datas} />
       </div>
-      <HomeFooter />
     </div>
   );
 };

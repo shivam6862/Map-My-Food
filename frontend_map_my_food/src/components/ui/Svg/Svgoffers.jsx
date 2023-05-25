@@ -1,4 +1,4 @@
-const Offers = () => {
+const Svgoffers = () => {
   return (
     <span>
       <svg viewBox="0 0 32 32" height="19" width="19" fill="#686b78">
@@ -8,4 +8,4 @@ const Offers = () => {
   );
 };
 
-export default Offers;
+export default Svgoffers;

@@ -5,7 +5,6 @@ import Header from "../Header/Header";
 import Navigation from "../Navigation/Navigation";
 import Questions from "../Questions/Questions";
 import LegalQuestion from "../../TemporaryData/Support/Legel.json";
-import HomeFooter from "../../home/HomeFooter/HomeFooter";
 import Loading from "../Loading/Loading";
 
 const Legal = () => {
@@ -14,7 +13,7 @@ const Legal = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 1000);
   }, []);
   return (
     <div className={classes.container}>
@@ -29,7 +28,6 @@ const Legal = () => {
           </div>
         </div>
       </div>
-      <HomeFooter />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
-import classes from "./EmptyCartHome.module.css";
 import { Link } from "react-router-dom";
+import classes from "./EmptyCartHome.module.css";
 
 const EmptyCartHome = () => {
   return (

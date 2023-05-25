@@ -1,11 +1,10 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import classes from "./CartNotification.module.css";
 import CartContext from "../store/cart/Cart-context";
-import { Link } from "react-router-dom";
 
 const CartNotification = () => {
   const cartContextCtx = useContext(CartContext);
-
   return (
     <div className={classes.container}>
       {cartContextCtx.addItems.length > 0 ? (

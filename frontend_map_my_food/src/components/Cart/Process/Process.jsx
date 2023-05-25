@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import classes from "./Process.module.css";
-import Sign from "../../header/svg/Sign";
+import Svgsign from "../../ui/Svg/Svgsign";
 import AuthenticationContext from "../../store/authentication/Authentication-context";
 
 const Process = () => {
@@ -11,7 +11,7 @@ const Process = () => {
         <div className={classes.left_border}></div>
         <div className={classes.box}>
           <div className={classes.location}>
-            <Sign />
+            <Svgsign />
           </div>
           <div className={classes.part1}>
             <div className={classes.heading}>

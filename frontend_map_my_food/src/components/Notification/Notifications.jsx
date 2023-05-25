@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import classes from "./Notifications.module.css";
 import Notification from "./Notification";
 import NotificationContext from "../store/Notification/Notification-context";
-import { useContext } from "react";
 
 const Notifications = () => {
   const notificationsCtx = useContext(NotificationContext);
