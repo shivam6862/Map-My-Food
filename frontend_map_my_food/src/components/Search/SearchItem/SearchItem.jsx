@@ -6,7 +6,7 @@ const SearchItem = ({ searchItemData, search }) => {
     <div className={classes.container}>
       <div className={classes.items_box}>
         {searchItemData.map((item, index) => {
-          const category = Object.keys(item)[0];
+          const category = Object.keys(item)[1];
           const items = item[category];
           return (
             <div key={index} className={classes.items}>

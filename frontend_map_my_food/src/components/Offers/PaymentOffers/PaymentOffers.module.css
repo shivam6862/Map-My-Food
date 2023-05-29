@@ -139,3 +139,7 @@
     margin: 0rem 0.4rem;
   }
 }
+.loadingSpinner {
+  margin: auto;
+  height: 25vh;
+}

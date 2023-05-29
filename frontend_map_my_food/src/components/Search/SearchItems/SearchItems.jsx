@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import classes from "./SearchItems.module.css";
 import SearchItem from "../SearchItem/SearchItem";
-import searchItemsData from "../../TemporaryData/Search/Small.json";
+import useSmallSearch from "../../hook/useSmallSearch";
+
 const searchItemDataTemp = [
   {
+    _id: "6474ed7eb89b4fb6785ca2e0",
     "": [
       {
         image: "/swiggey/Search/Small/6.png",
@@ -13,16 +15,16 @@ const searchItemDataTemp = [
   },
 ];
 const SearchItems = ({ search }) => {
-  const [data, setData] = useState(searchItemsData);
+  const { smallSearch } = useSmallSearch();
   const [searchItemData, setSearchItemData] = useState([]);
+
   useEffect(() => {
-    if (search.trim().length == 0) return;
-    const newSearchItemData = data.filter((obj) =>
-      Object.keys(obj).some((key) =>
-        key.trim().toLowerCase().includes(search.trim().toLowerCase())
-      )
-    );
-    setSearchItemData(newSearchItemData);
+    const fetchData = async () => {
+      if (search.trim().length == 0) return;
+      const result = await smallSearch(search);
+      setSearchItemData(result);
+    };
+    fetchData();
   }, [search]);
   return (
     <div className={classes.container}>

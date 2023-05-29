@@ -1,5 +1,6 @@
 [
   {
+    "_id": "6474ed7eb89b4fb2159ca2de",
     "Apple": [
       {
         "image": "/swiggey/Search/Small/1.webp",
@@ -28,18 +29,21 @@
     ]
   },
   {
+    "_id": "6474ed7eb89b4fb2159ca2df",
     "Chicken": [
       { "image": "/swiggey/Search/Big/1a.jpg", "name": "Chicken Biryani" },
       { "image": "/swiggey/Search/Big/1b.jpg", "name": "Chicken Chilli" }
     ]
   },
   {
+    "_id": "6474ed7eb89b4fb2159ca2e0",
     "Paneer": [
       { "image": "/swiggey/Search/Big/3a.jpg", "name": "Paneer Masala" },
       { "image": "/swiggey/Search/Big/3b.jpg", "name": "Paneer Kadhai" }
     ]
   },
   {
+    "_id": "6474ed7eb89b4fb2159ca2e1",
     "Manchurian": [
       { "image": "/swiggey/Search/Big/2a.webp", "name": "Veg Manchurian" },
       { "image": "/swiggey/Search/Big/2b.webp", "name": "Paneer Manchurian" }

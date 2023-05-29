@@ -42,7 +42,7 @@ const PaymentOffersMore = ({
           </div>
         </div>
 
-        <div className={classes.part4} onClick={() => setIsCopy(1)}>
+        <div className={classes.part4} onClick={() => setIsCopy(dataIndex)}>
           {isCopy == dataIndex ? "COPIED" : "COPY CODE"}
         </div>
       </div>

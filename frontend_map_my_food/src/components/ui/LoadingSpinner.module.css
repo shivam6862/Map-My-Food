@@ -17,7 +17,7 @@
   margin: 8px;
   border-radius: 50%;
   border: 6px solid rgb(0, 0, 0);
-  border-color: #000000 transparent #ffffff transparent;
+  border-color: #000000 transparent #000000 transparent;
   animation: spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
 }
 @keyframes spinner {

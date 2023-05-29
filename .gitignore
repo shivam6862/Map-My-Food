@@ -2,3 +2,5 @@ frontend_map_my_food/node_modules
 
 Backend/node_modules
 Backend/.env
+
+frontend_map_my_food/.env
