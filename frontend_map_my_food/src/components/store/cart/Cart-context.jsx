@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import ItemPrice from "../../TemporaryData/ItemPrice.json";
+import useItemPriceCart from "../../hook/useItemPriceCart";
 
 const CartContext = React.createContext({
   addItems: [],
@@ -12,9 +12,11 @@ const CartContext = React.createContext({
   hotal: "",
   place: "",
   image: "",
+  RestaurantId: "",
 });
 
 export const CartContextProvider = (props) => {
+  const { ItemPriceCartData } = useItemPriceCart();
   const [addItems, setAddItems] = useState([]);
   const [totalAmount, setTotalAmount] = useState(0);
   const [deliveryCost, setDeliveryCost] = useState(0);
@@ -22,10 +24,13 @@ export const CartContextProvider = (props) => {
   const [hotal, setHotal] = useState("");
   const [place, setPlace] = useState("Dumka");
   const [image, setImage] = useState("/swiggey/AvailableRestaurants/5.webp");
+  const [restaurantId, setRestaurantId] = useState("");
 
-  const AddItemsHandler = (itemId) => {
-    setHotal(ItemPrice[itemId]["hotal"]);
-    const newItemPrice = ItemPrice[itemId]["price"];
+  const AddItemsHandler = async (RestaurantId, itemId) => {
+    const dataItemPriceCart = await ItemPriceCartData(RestaurantId, itemId);
+    setRestaurantId(RestaurantId);
+    setHotal(dataItemPriceCart[itemId]["hotal"]);
+    const newItemPrice = +dataItemPriceCart[itemId]["price"];
     const updatedTotalAmount = totalAmount + newItemPrice;
     const existingCartItemIndex = addItems.findIndex(
       (item) => item.itemId === itemId
@@ -43,7 +48,7 @@ export const CartContextProvider = (props) => {
       updatedItems = {
         itemId: itemId,
         quantity: 1,
-        items: ItemPrice[itemId],
+        items: dataItemPriceCart[itemId],
         amount: newItemPrice,
       };
     }
@@ -57,8 +62,9 @@ export const CartContextProvider = (props) => {
     setGST(updatedTotalAmount * 0.02);
   };
 
-  const onRemoveHandler = (itemId) => {
-    const deleteItemPrice = ItemPrice[itemId]["price"];
+  const onRemoveHandler = async (RestaurantId, itemId) => {
+    const dataItemPriceCart = await ItemPriceCartData(RestaurantId, itemId);
+    const deleteItemPrice = +dataItemPriceCart[itemId]["price"];
     const updatedTotalAmount = totalAmount - deleteItemPrice;
     const existingCartItemIndex = addItems.findIndex(
       (item) => item.itemId === itemId
@@ -94,6 +100,7 @@ export const CartContextProvider = (props) => {
         hotal: hotal,
         place: place,
         image: image,
+        RestaurantId: restaurantId,
       }}
     >
       {props.children}

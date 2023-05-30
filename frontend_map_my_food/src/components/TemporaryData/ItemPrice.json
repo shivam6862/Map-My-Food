@@ -1,4 +1,40 @@
 {
+  "d7b3cef8-b917-455e-8164-88fa6d899250": {
+    "hotal": "IFC RESTAURANT",
+    "name": "Veg Manchurian",
+    "price": 180,
+    "image": "/swiggey/Search/Big/2a.webp"
+  },
+  "79e3127b-8714-484c-bd9c-d61fe348e3a3": {
+    "hotal": "IFC RESTAURANT",
+    "name": "Paneer Manchurian",
+    "price": 259,
+    "image": "/swiggey/Search/Big/2b.webp"
+  },
+  "093be05b-84cf-444f-a086-55c07c0e7d24": {
+    "hotal": "IFC RESTAURANT",
+    "name": "Paneer 65",
+    "price": 320,
+    "image": "/swiggey/Search/Big/3a.jpg"
+  },
+  "0ae83119-c5bd-4e3d-ade0-84a1db127c27": {
+    "hotal": "IFC RESTAURANT",
+    "name": "Paneer Kadhai",
+    "price": 280,
+    "image": "/swiggey/Search/Big/3b.jpg"
+  },
+  "372d48e2-bc78-4d85-ac61-bf8c3dffbb98": {
+    "hotal": "IFC RESTAURANT",
+    "name": "Chicken Biryani",
+    "price": 70,
+    "image": "/swiggey/Search/Big/1a.jpg"
+  },
+  "b126c734-9d4a-4517-8dd6-c746434b8023": {
+    "hotal": "IFC RESTAURANT",
+    "name": "Chicken Chilli",
+    "price": 60,
+    "image": "/swiggey/Search/Big/1b.jpg"
+  },
   "caafb3e4-c555-4700-a734-db0005f96e6e": {
     "hotal": "By Hyderabad Biryani Hotel",
     "name": "Chicken Biryani",

@@ -1,9 +1,9 @@
 import categorywisefoodData from "../TemporaryData/Search/Big.json";
 
 const useCategoryWiseFood = () => {
-  const CategoryWiseFoodData = async (id) => {
+  const CategoryWiseFoodData = async () => {
     const data = await fetch(
-      `${import.meta.env.VITE_REACT_BACKEND_URL}/categorywisefood/${id}`
+      `${import.meta.env.VITE_REACT_BACKEND_URL}/categorywisefood`
     )
       .then((response) => {
         return response.json();

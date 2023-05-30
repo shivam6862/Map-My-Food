@@ -11,7 +11,7 @@ module.exports = getRestaurantFood = async (id) => {
   const vegFood = response[0].food.filter((item) => item.veg === "true");
   const nonVegFood = response[0].food.filter((item) => item.veg === "false");
   const combinedData = {
-    RestaurantAddress: Restaurant,
+    ...Restaurant,
     veg: vegFood,
     nonveg: nonVegFood,
   };

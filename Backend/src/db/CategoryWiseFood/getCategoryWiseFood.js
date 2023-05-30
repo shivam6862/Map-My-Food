@@ -1,24 +1,41 @@
 const getDb = require("../db").getDb;
 const getRestaurant = require("../Restaurant/getRestaurant");
 
-module.exports = getCategoryWiseFood = async (id) => {
+module.exports = getCategoryWiseFood = async () => {
   const connection = await getDb();
   const response = await connection
     .collection("restaurantFood")
-    .find({ RestaurantId: id })
+    .find()
     .toArray();
-  const Restaurant = await getRestaurant(id);
-  const foodByCategory = response[0].food.reduce((categories, item) => {
-    const { category, ...rest } = item;
-    if (!categories[category]) {
-      categories[category] = [];
+  const categorizedFood = [];
+  for (const restaurant of response) {
+    const Restaurant = await getRestaurant(restaurant.RestaurantId);
+    for (const foodItem of restaurant.food) {
+      const category = foodItem.category;
+      const existingCategory = categorizedFood.find((item) =>
+        item.hasOwnProperty(category)
+      );
+      if (existingCategory) {
+        existingCategory[category].push({
+          ...foodItem,
+          Restaurant: Restaurant.Restaurant,
+          RestaurantId: Restaurant.RestaurantId,
+          opening_hours: Restaurant.opening_hours,
+        });
+      } else {
+        const newCategory = {
+          [category]: [
+            {
+              ...foodItem,
+              Restaurant: Restaurant.Restaurant,
+              RestaurantId: Restaurant.RestaurantId,
+              opening_hours: Restaurant.opening_hours,
+            },
+          ],
+        };
+        categorizedFood.push(newCategory);
+      }
     }
-    categories[category].push(rest);
-    return categories;
-  }, {});
-  const combinedData = {
-    RestaurantAddress: Restaurant,
-    foodByCategory: foodByCategory,
-  };
-  return combinedData;
+  }
+  return categorizedFood;
 };

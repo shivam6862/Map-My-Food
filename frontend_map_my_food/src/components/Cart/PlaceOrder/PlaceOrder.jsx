@@ -6,11 +6,11 @@ const PlaceOrder = () => {
   const cartContextCtx = useContext(CartContext);
   const cartItems = cartContextCtx.addItems;
   const marginTop = 4 + cartItems.length * 3.5 + "rem";
-  const IncreseItem = (itemId) => {
-    cartContextCtx.onAddItems(itemId);
+  const IncreseItem = (itemId, RestaurantId) => {
+    cartContextCtx.onAddItems(RestaurantId, itemId);
   };
-  const DecreaseItem = (itemId) => {
-    cartContextCtx.onRemoveItem(itemId);
+  const DecreaseItem = (itemId, RestaurantId) => {
+    cartContextCtx.onRemoveItem(RestaurantId, itemId);
   };
   const [isChecked, setIsChecked] = useState(false);
   const handleCheckboxChange = () => {
@@ -48,7 +48,7 @@ const PlaceOrder = () => {
                   <div
                     className={classes.item_quantity_less}
                     onClick={() => {
-                      DecreaseItem(item.itemId);
+                      DecreaseItem(item.itemId, cartContextCtx.RestaurantId);
                     }}
                   >
                     -
@@ -59,7 +59,7 @@ const PlaceOrder = () => {
                   <div
                     className={classes.item_quantity_more}
                     onClick={() => {
-                      IncreseItem(item.itemId);
+                      IncreseItem(item.itemId, cartContextCtx.RestaurantId);
                     }}
                   >
                     +
@@ -101,7 +101,7 @@ const PlaceOrder = () => {
                 Item Total
               </div>
               <div className={classes.top_part2_bill_details_h2_b}>
-                {cartContextCtx.totalAmount}
+                {cartContextCtx.totalAmount.toFixed(2)}
               </div>
             </div>
             <div className={classes.top_part2_bill_details_h3}>
@@ -109,7 +109,7 @@ const PlaceOrder = () => {
                 Delivery partner fee
               </div>
               <div className={classes.top_part2_bill_details_h3_b}>
-                {cartContextCtx.deliveryCost}
+                {cartContextCtx.deliveryCost.toFixed(2)}
               </div>
             </div>
             <div className={classes.top_part2_bill_details_h4}>
@@ -117,7 +117,7 @@ const PlaceOrder = () => {
                 GST and Restaurant Charges
               </div>
               <div className={classes.top_part2_bill_details_h4_b}>
-                {cartContextCtx.GST}
+                {cartContextCtx.GST.toFixed(2)}
               </div>
             </div>
           </div>

@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import classes from "./SearchRestaurantHeading.module.css";
 import Svgsearch from "../../../ui/Svg/Svgsearch";
 import SvgDuration from "../../../ui/Svg/SvgDuration";
 import SvgPrice from "../../../ui/Svg/SvgPrice";
-import SearchRestaurantHeadingData from "../../../TemporaryData/Search/SearchRestaurants.json";
 
-const SearchRestaurantHeading = () => {
-  const [data, setData] = useState(SearchRestaurantHeadingData);
+const SearchRestaurantHeading = ({ data }) => {
   return (
     <div className={classes.container}>
       <div className={classes.part1}>
@@ -18,7 +16,7 @@ const SearchRestaurantHeading = () => {
       <div className={classes.part2}>
         <div className={classes.part2_left}>
           <div className={classes.part2_left_top}>
-            <h1>{data.Restaurants}</h1>
+            <h1>{data.Restaurant}</h1>
             <h4>{data.Restaurants_dish}</h4>
             <p>
               {data.location} , {data.distance}

@@ -20,6 +20,7 @@ const routes = [
   { path: "/support/issues/partner-onboarding", Component: Partner },
   { path: "/checkout", Component: Cart },
   { path: "/search", Component: Search },
+  { path: "/search/:RestaurantId", Component: SearchRestaurants },
   { path: "/restaurants/ifc", Component: SearchRestaurants },
 ];
 

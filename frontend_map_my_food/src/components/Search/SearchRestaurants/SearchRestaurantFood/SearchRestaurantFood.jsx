@@ -3,13 +3,13 @@ import classes from "./SearchRestaurantFood.module.css";
 import SvgArrow from "../../../ui/Svg/SvgArrow";
 import CartContext from "../../../store/cart/Cart-context";
 
-const SearchRestaurantFood = ({ items, veg }) => {
+const SearchRestaurantFood = ({ items, veg, data }) => {
   const cartContextCtx = useContext(CartContext);
-  const IncreseItem = (itemId) => {
-    cartContextCtx.onAddItems(itemId);
+  const IncreseItem = (itemId, RestaurantId) => {
+    cartContextCtx.onAddItems(RestaurantId, itemId);
   };
-  const DecreaseItem = (itemId) => {
-    cartContextCtx.onRemoveItem(itemId);
+  const DecreaseItem = (itemId, RestaurantId) => {
+    cartContextCtx.onRemoveItem(RestaurantId, itemId);
   };
   return (
     <div className={classes.container}>
@@ -17,7 +17,7 @@ const SearchRestaurantFood = ({ items, veg }) => {
         return (
           <div className={classes.item} key={index_j}>
             <div className={classes.item_part1}>
-              <h1 className={classes.item_part1_hotal}>{each_item.hotal}</h1>
+              <h1 className={classes.item_part1_hotal}>{data.Restaurant}</h1>
               <div className={classes.item_part1_star}>
                 <img src="/swiggey/Search/logo/rating.jpg" alt="" />
                 {each_item.star}
@@ -40,7 +40,9 @@ const SearchRestaurantFood = ({ items, veg }) => {
                 <div className={classes.item_part3_price}>
                   {each_item.price}
                 </div>
-                <div className={classes.item_part3_para}>{each_item.para}</div>
+                <div className={classes.item_part3_para}>
+                  {each_item.description}
+                </div>
               </div>
               <div className={classes.item_part3_right}>
                 <img src={each_item.image} alt="" />
@@ -52,7 +54,7 @@ const SearchRestaurantFood = ({ items, veg }) => {
                     <div
                       className={classes.item_quantity_less}
                       onClick={() => {
-                        DecreaseItem(each_item.itemId);
+                        DecreaseItem(each_item.itemId, data.RestaurantId);
                       }}
                     >
                       -
@@ -67,7 +69,7 @@ const SearchRestaurantFood = ({ items, veg }) => {
                     <div
                       className={classes.item_quantity_more}
                       onClick={() => {
-                        IncreseItem(each_item.itemId);
+                        IncreseItem(each_item.itemId, data.RestaurantId);
                       }}
                     >
                       +
@@ -77,7 +79,7 @@ const SearchRestaurantFood = ({ items, veg }) => {
                   <div
                     className={classes.addButton}
                     onClick={() => {
-                      IncreseItem(each_item.itemId);
+                      IncreseItem(each_item.itemId, data.RestaurantId);
                     }}
                   >
                     ADD

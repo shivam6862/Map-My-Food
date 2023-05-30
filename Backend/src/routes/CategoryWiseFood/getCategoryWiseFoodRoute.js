@@ -1,11 +1,10 @@
 const getCategoryWiseFood = require("../../db/CategoryWiseFood/getCategoryWiseFood");
 
 module.exports = getCategoryWiseFoodRoute = {
-  path: "/categorywisefood/:id",
+  path: "/categorywisefood",
   method: "get",
   handler: async (req, res) => {
-    const id = req.params.id;
-    const response = await getCategoryWiseFood(id);
+    const response = await getCategoryWiseFood();
     res.status(200).json(response);
   },
 };

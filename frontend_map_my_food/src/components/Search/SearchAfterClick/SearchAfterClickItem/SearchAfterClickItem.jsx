@@ -6,11 +6,11 @@ import CartContext from "../../../store/cart/Cart-context";
 
 const SearchAfterClickItem = ({ searchItemAfterClickData }) => {
   const cartContextCtx = useContext(CartContext);
-  const IncreseItem = (itemId) => {
-    cartContextCtx.onAddItems(itemId);
+  const IncreseItem = (itemId, RestaurantId) => {
+    cartContextCtx.onAddItems(RestaurantId, itemId);
   };
-  const DecreaseItem = (itemId) => {
-    cartContextCtx.onRemoveItem(itemId);
+  const DecreaseItem = (itemId, RestaurantId) => {
+    cartContextCtx.onRemoveItem(RestaurantId, itemId);
   };
   return (
     <div className={classes.container}>
@@ -24,9 +24,12 @@ const SearchAfterClickItem = ({ searchItemAfterClickData }) => {
               {items.map((each_item, index_j) => {
                 return (
                   <div className={classes.item} key={index_j}>
-                    <Link to={each_item.link} className={classes.item_part1}>
+                    <Link
+                      to={each_item.RestaurantId}
+                      className={classes.item_part1}
+                    >
                       <h1 className={classes.item_part1_hotal}>
-                        {each_item.hotal}
+                        {each_item.Restaurant}
                       </h1>
                       <div className={classes.item_part1_star}>
                         <img src="/swiggey/Search/logo/rating.jpg" alt="" />
@@ -38,7 +41,9 @@ const SearchAfterClickItem = ({ searchItemAfterClickData }) => {
                         <SvgArrow />
                       </div>
                     </Link>
-                    <div className={classes.item_part2}>{each_item.time}</div>
+                    <div className={classes.item_part2}>
+                      Opens next at {each_item.opening_hours}, tomorrow
+                    </div>
                     <div className={classes.item_part3}>
                       <div className={classes.item_part3_left}>
                         <div className={classes.item_part3_name}>
@@ -49,7 +54,7 @@ const SearchAfterClickItem = ({ searchItemAfterClickData }) => {
                           {each_item.price}
                         </div>
                         <div className={classes.item_part3_para}>
-                          {each_item.para}
+                          {each_item.description}
                         </div>
                       </div>
                       <div className={classes.item_part3_right}>
@@ -62,7 +67,10 @@ const SearchAfterClickItem = ({ searchItemAfterClickData }) => {
                             <div
                               className={classes.item_quantity_less}
                               onClick={() => {
-                                DecreaseItem(each_item.itemId);
+                                DecreaseItem(
+                                  each_item.itemId,
+                                  each_item.RestaurantId
+                                );
                               }}
                             >
                               -
@@ -77,7 +85,10 @@ const SearchAfterClickItem = ({ searchItemAfterClickData }) => {
                             <div
                               className={classes.item_quantity_more}
                               onClick={() => {
-                                IncreseItem(each_item.itemId);
+                                IncreseItem(
+                                  each_item.itemId,
+                                  each_item.RestaurantId
+                                );
                               }}
                             >
                               +
@@ -87,7 +98,10 @@ const SearchAfterClickItem = ({ searchItemAfterClickData }) => {
                           <div
                             className={classes.addButton}
                             onClick={() => {
-                              IncreseItem(each_item.itemId);
+                              IncreseItem(
+                                each_item.itemId,
+                                each_item.RestaurantId
+                              );
                             }}
                           >
                             ADD

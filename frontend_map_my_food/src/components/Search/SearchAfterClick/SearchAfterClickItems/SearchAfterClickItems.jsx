@@ -2,10 +2,8 @@ import React, { useState, useEffect } from "react";
 import classes from "./SearchAfterClickItems.module.css";
 import SearchAfterClickHeader from "../SearchAfterClickHeader/SearchAfterClickHeader";
 import SearchAfterClickItem from "../SearchAfterClickItem/SearchAfterClickItem";
-import searchAfterClickItemsData from "../../../TemporaryData/Search/Big.json";
 
-const SearchAfterClickItems = ({ search }) => {
-  const [data, setData] = useState(searchAfterClickItemsData);
+const SearchAfterClickItems = ({ search, data }) => {
   const [searchItemAfterClickData, setSearchItemAfterClickData] = useState([]);
   useEffect(() => {
     if (search.trim().length == 0) return;

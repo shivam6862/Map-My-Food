@@ -1,11 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import classes from "./RestaurantOffers.module.css";
 import OfferHeader from "../OfferHeader/OfferHeader";
 import AvailableRestaurantsContainer from "../../restaurants/AvailableRestaurants/AvailableRestaurantsContainer/AvailableRestaurantsContainer";
-import AvailableRestaurantsData from "../../TemporaryData/AvailableRestaurantsData.json";
+import useAvailableRestaurants from "../../hook/useAvailableRestaurants";
+import LoadingSpinner from "../../ui/LoadingSpinner";
 
 const RestaurantOffers = () => {
-  const [datas, setDatas] = useState(AvailableRestaurantsData);
+  const [datas, setDatas] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const { AvailableRestaurantsData } = useAvailableRestaurants();
+  useEffect(() => {
+    const availableRestaurants = async () => {
+      const responseAvailableRestaurantsData = await AvailableRestaurantsData();
+      setDatas(responseAvailableRestaurantsData);
+      setIsLoading(false);
+    };
+    availableRestaurants();
+  }, []);
   return (
     <div className={classes.container}>
       <OfferHeader />
@@ -14,7 +25,12 @@ const RestaurantOffers = () => {
           <h1>All offers ({datas.length})</h1>
           <p>All offers and deals, from restaurants near you</p>
         </div>
-        <AvailableRestaurantsContainer datas={datas} />
+        {isLoading && (
+          <div className={classes.loading}>
+            <LoadingSpinner />
+          </div>
+        )}
+        {!isLoading && <AvailableRestaurantsContainer datas={datas} />}
       </div>
     </div>
   );
