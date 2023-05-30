@@ -3,8 +3,8 @@
     "OPENS NEXT AT 1 PM, TODAY": {
       "data_1": {
         "image": "/swiggey/Recipes/11.jpg",
-        "heading": "THE BIRIYANI POINT",
-        "para": "Biryani, Chinese, Snacks"
+        "restaurant": "THE BIRIYANI POINT",
+        "name": "Biryani, Chinese, Snacks"
       }
     }
   },
@@ -12,8 +12,8 @@
     "OPENS NEXT AT 10 AM, TODAY": {
       "data_1": {
         "image": "/swiggey/Recipes/21.jpg",
-        "heading": "U R Ground",
-        "para": "Chinese"
+        "restaurant": "U R Ground",
+        "name": "Chinese"
       }
     }
   },
@@ -21,18 +21,18 @@
     "OPENS NEXT AT 10 AM, TODAY": {
       "data_1": {
         "image": "/swiggey/Recipes/31.jpg",
-        "heading": "BABU SWEET CORNER",
-        "para": "Sweets, Beverages"
+        "restaurant": "BABU SWEET CORNER",
+        "name": "Sweets, Beverages"
       },
       "data_2": {
         "image": "/swiggey/Recipes/32.jpg",
-        "heading": "Dulal Hotel",
-        "para": "North Indian, Chinese, Biryani"
+        "restaurant": "Dulal Hotel",
+        "name": "North Indian, Chinese, Biryani"
       },
       "data_3": {
         "image": "/swiggey/Recipes/33.jpg",
-        "heading": "CREAMY CAKE",
-        "para": "Bakery"
+        "restaurant": "CREAMY CAKE",
+        "name": "Bakery"
       }
     }
   },
@@ -40,13 +40,13 @@
     "CURRENTLY UNAVAILABLE": {
       "data_1": {
         "image": "/swiggey/Recipes/41.jpg",
-        "heading": "HUNGERIAN",
-        "para": "Chinese, North Indian"
+        "restaurant": "HUNGERIAN",
+        "name": "Chinese, North Indian"
       },
       "data_2": {
         "image": "/swiggey/Recipes/42.jpg",
-        "heading": "Desi Handi",
-        "para": "Indian, Snacks, North Indian"
+        "restaurant": "Desi Handi",
+        "name": "Indian, Snacks, North Indian"
       }
     }
   }

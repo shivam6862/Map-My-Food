@@ -19,7 +19,7 @@ const AvailableRestaurantsContainer = ({ datas }) => {
               {data.about.heading}
             </div>
             <div className={classes.bottom_box_about_para}>
-              {data.about.para}
+              {data.about.name}
             </div>
           </div>
           <div className={classes.bottom_box_last}>

@@ -4,7 +4,7 @@
     "image": "/swiggey/AvailableRestaurants/1.webp",
     "about": {
       "heading": "The Heritage",
-      "para": "Chinese, North Indian, Continental"
+      "name": "Chinese, North Indian, Continental"
     },
     "last": {
       "star": "4.1",
@@ -17,7 +17,7 @@
     "image": "/swiggey/AvailableRestaurants/2.webp",
     "about": {
       "heading": "Moon Hotal",
-      "para": "Indian, Chinese, Biryani"
+      "name": "Indian, Chinese, Biryani"
     },
     "last": {
       "star": "4",
@@ -30,7 +30,7 @@
     "image": "/swiggey/AvailableRestaurants/3.jpg",
     "about": {
       "heading": "Kwality Walls Frozen Dessert and Ice Cream Shop",
-      "para": "Ice Cream, Desserts"
+      "name": "Ice Cream, Desserts"
     },
     "last": {
       "star": "3.9",
@@ -43,7 +43,7 @@
     "image": "/swiggey/AvailableRestaurants/4.webp",
     "about": {
       "heading": "INDIAN BIRYANI",
-      "para": "Biryani, North Indian"
+      "name": "Biryani, North Indian"
     },
     "last": {
       "star": "3.4",
@@ -56,7 +56,7 @@
     "image": "/swiggey/AvailableRestaurants/5.webp",
     "about": {
       "heading": "Hyderabad Biryani Hotel",
-      "para": "Biryani, North Indian"
+      "name": "Biryani, North Indian"
     },
     "last": {
       "star": "3.6",
@@ -69,7 +69,7 @@
     "image": "/swiggey/AvailableRestaurants/6.jpg",
     "about": {
       "heading": "FOOD BOWL",
-      "para": "Chinese, Fast Food, Italian, North Indian, Street Food"
+      "name": "Chinese, Fast Food, Italian, North Indian, Street Food"
     },
     "last": {
       "star": "3",
@@ -82,7 +82,7 @@
     "image": "/swiggey/AvailableRestaurants/7.webp",
     "about": {
       "heading": "Momomia Love In Every Bite",
-      "para": "Chinese, Fast Food, Beverages, Pastas"
+      "name": "Chinese, Fast Food, Beverages, Pastas"
     },
     "last": {
       "star": "3.9",
@@ -95,7 +95,7 @@
     "image": "/swiggey/AvailableRestaurants/8.webp",
     "about": {
       "heading": "ROYAL MAJESTIC",
-      "para": "Chinese, North Indian"
+      "name": "Chinese, North Indian"
     },
     "last": {
       "star": "3.3",

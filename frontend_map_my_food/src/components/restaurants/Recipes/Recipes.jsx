@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import classes from "./Recipes.module.css";
-import RecipesData from "../../TemporaryData/RecipesData.json";
 
-const Recipes = () => {
-  const [datas, setData] = useState(RecipesData);
+const Recipes = ({ datas }) => {
   return (
     <div className={classes.container}>
       {datas.map((item, index) => {
@@ -22,8 +20,8 @@ const Recipes = () => {
                             <img src={dataItem.image} alt="Item" />
                           </div>
                           <div className={classes.note}>
-                            <h3>{dataItem.heading.substring(0, 12)}...</h3>
-                            <p>{dataItem.para}</p>
+                            <h3>{dataItem.restaurant.substring(0, 12)}...</h3>
+                            <p>{dataItem.name}</p>
                           </div>
                         </div>
                       );

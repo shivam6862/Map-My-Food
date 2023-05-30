@@ -2,10 +2,30 @@ const getUserRoute = require("../routes/user/getUserRoute");
 const insertUserRoute = require("../routes/user/insertUserRoute");
 const getPaymentOffersRoute = require("../routes/PaymentOffers/getPaymentOffersRoute");
 const getSearchRoute = require("../routes/search/getSearchRoute");
+const getRestaurantRoute = require("../routes/Restaurant/getRestaurantRoute");
+const insertRestaurantRoute = require("../routes/Restaurant/insertRestaurantRoute");
+const insertRestaurantOffersRoute = require("../routes/RestaurantOffers/insertRestaurantOffersRoute");
+const getRestaurantOffersRoute = require("../routes/RestaurantOffers/getRestaurantOffersRoute");
+const insertRestaurantFoodRoute = require("../routes/RestaurantFood/insertRestaurantFoodRoute");
+const getRestaurantFoodRoute = require("../routes/RestaurantFood/getRestaurantFoodRoute");
+const getCategoryWiseFoodRoute = require("../routes/CategoryWiseFood/getCategoryWiseFoodRoute");
+const getAvailableRestaurantsRoute = require("../routes/AvailableRestaurants/getAvailableRestaurantsRoute");
+const getRecipesRoute = require("../routes/Recipes/getRecipesRoute");
+const getItemPriceCartRoute = require("../routes/ItemPriceCart/getItemPriceCartRoute");
 
 module.exports = routes = [
   getUserRoute,
   insertUserRoute,
   getPaymentOffersRoute,
   getSearchRoute,
+  getRestaurantRoute,
+  insertRestaurantRoute,
+  insertRestaurantOffersRoute,
+  getRestaurantOffersRoute,
+  insertRestaurantFoodRoute,
+  getRestaurantFoodRoute,
+  getCategoryWiseFoodRoute,
+  getAvailableRestaurantsRoute,
+  getRecipesRoute,
+  getItemPriceCartRoute,
 ];

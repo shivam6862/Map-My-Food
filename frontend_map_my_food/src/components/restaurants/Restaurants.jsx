@@ -6,17 +6,26 @@ import Recipes from "./Recipes/Recipes";
 import classes from "./Restaurants.module.css";
 import Unserviceable from "./Unserviceable/Unserviceable";
 import RecipesLoading from "./Recipes/RecipesLoading/RecipesLoading";
+import useAvailableRestaurants from "../hook/useAvailableRestaurants";
+import useRecipes from "../hook/useRecipes";
 
 const Restaurants = () => {
+  const { AvailableRestaurantsData } = useAvailableRestaurants();
+  const { RecipesData } = useRecipes();
   const [isLoading, setIsLoading] = useState(true);
   const [isLoadingFood, setIsLoadingFood] = useState(true);
+  const [dataAvailableRestaurants, setdataAvailableRestaurants] = useState([]);
+  const [dataRecipes, setDataRecipes] = useState([]);
   useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
-    setTimeout(() => {
+    const availableRestaurants = async () => {
+      const responseAvailableRestaurantsData = await AvailableRestaurantsData();
+      const responseRecipesData = await RecipesData();
+      setdataAvailableRestaurants(responseAvailableRestaurantsData);
+      setDataRecipes(responseRecipesData);
       setIsLoadingFood(false);
-    }, 3500);
+      setIsLoading(false);
+    };
+    availableRestaurants();
   }, []);
   const now = new Date();
   const options = { timeZone: "Asia/Kolkata", hour12: false };
@@ -28,8 +37,10 @@ const Restaurants = () => {
       {unserveiceable && !isLoading && <Unserviceable />}
       {isLoadingFood && <AnimationBox />}
       {isLoadingFood && <RecipesLoading />}
-      {!isLoadingFood && <AvailableRestaurants />}
-      {!isLoadingFood && <Recipes />}
+      {!isLoadingFood && (
+        <AvailableRestaurants data={dataAvailableRestaurants} />
+      )}
+      {!isLoadingFood && <Recipes datas={dataRecipes} />}
     </div>
   );
 };
