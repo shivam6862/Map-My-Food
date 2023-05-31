@@ -47,7 +47,12 @@ const SearchAfterClickItem = ({ searchItemAfterClickData }) => {
                     <div className={classes.item_part3}>
                       <div className={classes.item_part3_left}>
                         <div className={classes.item_part3_name}>
-                          <img src="/swiggey/Search/logo/veg.png" alt="" />
+                          {each_item.veg == "true" && (
+                            <img src="/swiggey/Search/logo/veg.png" alt="" />
+                          )}
+                          {each_item.veg == "false" && (
+                            <img src="/swiggey/Search/logo/nonveg.jpg" alt="" />
+                          )}
                           {each_item.name}
                         </div>
                         <div className={classes.item_part3_price}>
@@ -58,7 +63,16 @@ const SearchAfterClickItem = ({ searchItemAfterClickData }) => {
                         </div>
                       </div>
                       <div className={classes.item_part3_right}>
-                        <img src={each_item.image} alt="" />
+                        <img
+                          src={`${import.meta.env.VITE_REACT_BACKEND_URL}${
+                            each_item.image
+                          }`}
+                          alt=""
+                          onError={(event) => {
+                            event.target.onerror = null;
+                            event.target.src = each_item.image;
+                          }}
+                        />
                         {cartContextCtx.addItems.length !== 0 &&
                         cartContextCtx.addItems.some(
                           (item) => item.itemId === each_item.itemId

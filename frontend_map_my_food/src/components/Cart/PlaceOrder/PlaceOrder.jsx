@@ -37,7 +37,16 @@ const PlaceOrder = () => {
             {cartItems.map((item, index) => (
               <div className={classes.item} key={item.itemId}>
                 <div className={classes.item_logo}>
-                  <img src={item.items.image} alt="" />
+                  <img
+                    src={`${import.meta.env.VITE_REACT_BACKEND_URL}${
+                      item.items.image
+                    }`}
+                    alt=""
+                    onError={(event) => {
+                      event.target.onerror = null;
+                      event.target.src = item.items.image;
+                    }}
+                  />
                 </div>
                 <div className={classes.item_name}>
                   <div className={classes.left_image_arrow}></div>

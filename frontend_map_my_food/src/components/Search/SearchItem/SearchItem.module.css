@@ -53,7 +53,7 @@
 }
 .item_data img {
   height: 80px;
-  weight: 80px;
+  width: 80px;
   border-radius: 5px;
 }
 .name {

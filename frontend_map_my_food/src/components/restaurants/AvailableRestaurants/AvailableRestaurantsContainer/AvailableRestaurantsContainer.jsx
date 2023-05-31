@@ -12,7 +12,14 @@ const AvailableRestaurantsContainer = ({ datas }) => {
             ) : (
               <></>
             )}
-            <img src={data.image} alt="" />
+            <img
+              src={`${import.meta.env.VITE_REACT_BACKEND_URL}${data.image}`}
+              alt=""
+              onError={(event) => {
+                event.target.onerror = null;
+                event.target.src = data.image;
+              }}
+            />
           </div>
           <div className={classes.bottom_box_about}>
             <div className={classes.bottom_box_about_heading}>

@@ -15,8 +15,9 @@ module.exports = getRecipes = async () => {
         "OPENS NEXT AT " + Restaurant.opening_hours + " TODAY";
       const newObj = {};
       newObj[opening_hours] = {};
+      const number = Math.floor(Math.random() * 4 + 1);
       await restaurant.food.map((item, indexj) => {
-        if (indexj >= 3) return;
+        if (indexj >= number) return;
         newObj[opening_hours][`data_${indexj}`] = {
           image: item.image,
           restaurant: Restaurant.Restaurant,

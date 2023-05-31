@@ -17,7 +17,16 @@ const Recipes = ({ datas }) => {
                       return (
                         <div key={subKey} className={classes.each_item}>
                           <div className={classes.image}>
-                            <img src={dataItem.image} alt="Item" />
+                            <img
+                              src={`${import.meta.env.VITE_REACT_BACKEND_URL}${
+                                dataItem.image
+                              }`}
+                              alt=""
+                              onError={(event) => {
+                                event.target.onerror = null;
+                                event.target.src = dataItem.image;
+                              }}
+                            />
                           </div>
                           <div className={classes.note}>
                             <h3>{dataItem.restaurant.substring(0, 12)}...</h3>

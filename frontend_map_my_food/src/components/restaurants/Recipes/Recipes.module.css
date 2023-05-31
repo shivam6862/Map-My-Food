@@ -50,6 +50,7 @@
 }
 .image img {
   width: 75px;
+  height: 75px;
 }
 .note {
   display: flex;

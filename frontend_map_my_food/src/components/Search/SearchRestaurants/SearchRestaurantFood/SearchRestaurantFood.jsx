@@ -45,7 +45,16 @@ const SearchRestaurantFood = ({ items, veg, data }) => {
                 </div>
               </div>
               <div className={classes.item_part3_right}>
-                <img src={each_item.image} alt="" />
+                <img
+                  src={`${import.meta.env.VITE_REACT_BACKEND_URL}${
+                    each_item.image
+                  }`}
+                  alt=""
+                  onError={(event) => {
+                    event.target.onerror = null;
+                    event.target.src = each_item.image;
+                  }}
+                />
                 {cartContextCtx.addItems.length !== 0 &&
                 cartContextCtx.addItems.some(
                   (item) => item.itemId === each_item.itemId

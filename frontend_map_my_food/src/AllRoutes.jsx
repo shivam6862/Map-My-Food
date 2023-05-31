@@ -21,7 +21,6 @@ const routes = [
   { path: "/checkout", Component: Cart },
   { path: "/search", Component: Search },
   { path: "/search/:RestaurantId", Component: SearchRestaurants },
-  { path: "/restaurants/ifc", Component: SearchRestaurants },
 ];
 
 export const AllRoutes = () => (
