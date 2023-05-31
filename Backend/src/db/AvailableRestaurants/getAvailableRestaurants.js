@@ -1,7 +1,7 @@
 const getDb = require("../db").getDb;
 const getRestaurant = require("../Restaurant/getRestaurant");
 
-module.exports = getAvailableRestaurants = async () => {
+module.exports = getAvailableRestaurants = async (pincode) => {
   const connection = await getDb();
   const response = await connection
     .collection("restaurantFood")
@@ -11,22 +11,24 @@ module.exports = getAvailableRestaurants = async () => {
   await Promise.all(
     response.map(async (restaurant, index) => {
       const Restaurant = await getRestaurant(restaurant.RestaurantId);
-      await restaurant.food.map((item, indexj) => {
-        var temp = {
-          itemId: "",
-          image: "",
-          about: { heading: "", name: "" },
-          last: { star: "", time: "", cost: "" },
-        };
-        temp.about.heading = Restaurant.Restaurant;
-        temp.itemId = item.itemId;
-        temp.image = item.image;
-        temp.about.name = item.name;
-        temp.last.star = item.star;
-        temp.last.time = item.timeRequired;
-        temp.last.cost = item.price;
-        AvailableRestaurants.push(temp);
-      });
+      if (Restaurant.pincode == pincode) {
+        await restaurant.food.map((item, indexj) => {
+          var temp = {
+            itemId: "",
+            image: "",
+            about: { heading: "", name: "" },
+            last: { star: "", time: "", cost: "" },
+          };
+          temp.about.heading = Restaurant.Restaurant;
+          temp.itemId = item.itemId;
+          temp.image = item.image;
+          temp.about.name = item.name;
+          temp.last.star = item.star;
+          temp.last.time = item.timeRequired;
+          temp.last.cost = item.price;
+          AvailableRestaurants.push(temp);
+        });
+      }
     })
   );
   return AvailableRestaurants;

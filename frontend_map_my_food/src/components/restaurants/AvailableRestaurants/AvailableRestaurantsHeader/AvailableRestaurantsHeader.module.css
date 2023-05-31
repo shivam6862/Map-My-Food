@@ -26,6 +26,13 @@
   white-space: nowrap;
   cursor: pointer;
 }
+.header_right_text_active {
+  font-size: 1rem;
+  color: #fc8019;
+  white-space: nowrap;
+  cursor: pointer;
+  border-bottom: 1px solid #fc8019;
+}
 @media screen and (max-width: 1000px) {
   .header_right {
     gap: 1rem;
@@ -47,7 +54,7 @@
     align-items: flex-start;
   }
 }
-.header_right :hover {
+.header_right_text:hover {
   color: #fc8019;
   border-bottom: 1px solid #fc8019;
 }

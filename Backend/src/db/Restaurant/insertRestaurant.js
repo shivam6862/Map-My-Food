@@ -13,7 +13,8 @@ module.exports = insertRestaurant = async (
   time,
   phone_number,
   opening_hours,
-  price
+  price,
+  pincode
 ) => {
   const connection = await getDb();
   const { insertedId } = await connection.collection("restaurant").insertOne({
@@ -30,6 +31,7 @@ module.exports = insertRestaurant = async (
     phone_number,
     opening_hours,
     price,
+    pincode,
   });
   return RestaurantId;
 };

@@ -11,6 +11,7 @@ const getCategoryWiseFoodRoute = require("../routes/CategoryWiseFood/getCategory
 const getAvailableRestaurantsRoute = require("../routes/AvailableRestaurants/getAvailableRestaurantsRoute");
 const getRecipesRoute = require("../routes/Recipes/getRecipesRoute");
 const getItemPriceCartRoute = require("../routes/ItemPriceCart/getItemPriceCartRoute");
+const getAvailableRestaurantsSortingRoute = require("../routes/AvailableRestaurantsSorting/getAvailableRestaurantsSortingRoute");
 
 module.exports = routes = [
   getUserRoute,
@@ -26,4 +27,5 @@ module.exports = routes = [
   getAvailableRestaurantsRoute,
   getRecipesRoute,
   getItemPriceCartRoute,
+  getAvailableRestaurantsSortingRoute,
 ];

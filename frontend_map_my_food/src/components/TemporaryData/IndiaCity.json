@@ -3,6121 +3,7345 @@
     "id": "0",
     "thanks": "https://github.com/nshntarora/Indian-Cities-JSON/blob/master/cities.json",
     "name": "Shivam",
-    "state": "Kumar"
+    "state": "Kumar",
+    "pincode": "247667"
   },
   {
     "id": "1",
     "name": "Mumbai",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "2",
     "name": "Delhi",
-    "state": "Delhi"
+    "state": "Delhi",
+    "pincode": "247667"
   },
   {
     "id": "3",
     "name": "Bengaluru",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "4",
     "name": "Ahmedabad",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "5",
     "name": "Hyderabad",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "6",
     "name": "Chennai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "7",
     "name": "Kolkata",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "8",
     "name": "Pune",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "9",
     "name": "Jaipur",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "10",
     "name": "Surat",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "11",
     "name": "Lucknow",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "12",
     "name": "Kanpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "13",
     "name": "Nagpur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "14",
     "name": "Patna",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "15",
     "name": "Indore",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "16",
     "name": "Thane",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "17",
     "name": "Bhopal",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "18",
     "name": "Visakhapatnam",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "19",
     "name": "Vadodara",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "20",
     "name": "Firozabad",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "21",
     "name": "Ludhiana",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "22",
     "name": "Rajkot",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "23",
     "name": "Agra",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "24",
     "name": "Siliguri",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "25",
     "name": "Nashik",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "26",
     "name": "Faridabad",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "27",
     "name": "Patiala",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "28",
     "name": "Meerut",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "29",
     "name": "Kalyangombivali",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "30",
     "name": "Vasaivirar",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "31",
     "name": "Varanasi",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "32",
     "name": "Srinagar",
-    "state": "Jammu and Kashmir"
+    "state": "Jammu and Kashmir",
+    "pincode": "247667"
   },
   {
     "id": "33",
     "name": "Dhanbad",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "34",
     "name": "Jodhpur",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "35",
     "name": "Amritsar",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "36",
     "name": "Raipur",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "37",
     "name": "Allahabad",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "38",
     "name": "Coimbatore",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "39",
     "name": "Jabalpur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "40",
     "name": "Gwalior",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "41",
     "name": "Vijayawada",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "42",
     "name": "Madurai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "43",
     "name": "Guwahati",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "44",
     "name": "Chandigarh",
-    "state": "Chandigarh"
+    "state": "Chandigarh",
+    "pincode": "247667"
   },
   {
     "id": "45",
     "name": "Hublidharwad",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "46",
     "name": "Amroha",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "47",
     "name": "Moradabad",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "48",
     "name": "Gurgaon",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "49",
     "name": "Aligarh",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "50",
     "name": "Solapur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "51",
     "name": "Ranchi",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "52",
     "name": "Jalandhar",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "53",
     "name": "Tiruchirappalli",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "54",
     "name": "Bhubaneswar",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "55",
     "name": "Salem",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "56",
     "name": "Warangal",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "57",
     "name": "Mirabhayandar",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "58",
     "name": "Thiruvananthapuram",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "59",
     "name": "Bhiwandi",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "60",
     "name": "Saharanpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "61",
     "name": "Guntur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "62",
     "name": "Amravati",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "63",
     "name": "Bikaner",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "64",
     "name": "Noida",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "65",
     "name": "Jamshedpur",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "66",
     "name": "Bhilainagar",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "67",
     "name": "Cuttack",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "68",
     "name": "Kochi",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "69",
     "name": "Udaipur",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "70",
     "name": "Bhavnagar",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "71",
     "name": "Dehradun",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "72",
     "name": "Asansol",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "73",
     "name": "Nandedwaghala",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "74",
     "name": "Ajmer",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "75",
     "name": "Jamnagar",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "76",
     "name": "Ujjain",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "77",
     "name": "Sangli",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "78",
     "name": "Loni",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "79",
     "name": "Jhansi",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "80",
     "name": "Pondicherry",
-    "state": "Puducherry"
+    "state": "Puducherry",
+    "pincode": "247667"
   },
   {
     "id": "81",
     "name": "Nellore",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "82",
     "name": "Jammu",
-    "state": "Jammu and Kashmir"
+    "state": "Jammu and Kashmir",
+    "pincode": "247667"
   },
   {
     "id": "83",
     "name": "Belagavi",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "84",
     "name": "Raurkela",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "85",
     "name": "Mangaluru",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "86",
     "name": "Tirunelveli",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "87",
     "name": "Malegaon",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "88",
     "name": "Gaya",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "89",
     "name": "Tiruppur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "90",
     "name": "Davanagere",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "91",
     "name": "Kozhikode",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "92",
     "name": "Akola",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "93",
     "name": "Kurnool",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "94",
     "name": "Bokaro Steel City",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "95",
     "name": "Rajahmundry",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "96",
     "name": "Ballari",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "97",
     "name": "Agartala",
-    "state": "Tripura"
+    "state": "Tripura",
+    "pincode": "247667"
   },
   {
     "id": "98",
     "name": "Bhagalpur",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "99",
     "name": "Latur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "100",
     "name": "Dhule",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "101",
     "name": "Korba",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "102",
     "name": "Bhilwara",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "103",
     "name": "Brahmapur",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "104",
     "name": "Mysore",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "105",
     "name": "Muzaffarpur",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "106",
     "name": "Ahmednagar",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "107",
     "name": "Kollam",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "108",
     "name": "Raghunathganj",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "109",
     "name": "Bilaspur",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "110",
     "name": "Shahjahanpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "111",
     "name": "Thrissur",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "112",
     "name": "Alwar",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "113",
     "name": "Kakinada",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "114",
     "name": "Nizamabad",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "115",
     "name": "Sagar",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "116",
     "name": "Tumkur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "117",
     "name": "Hisar",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "118",
     "name": "Rohtak",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "119",
     "name": "Panipat",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "120",
     "name": "Darbhanga",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "121",
     "name": "Kharagpur",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "122",
     "name": "Aizawl",
-    "state": "Mizoram"
+    "state": "Mizoram",
+    "pincode": "247667"
   },
   {
     "id": "123",
     "name": "Ichalkaranji",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "124",
     "name": "Tirupati",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "125",
     "name": "Karnal",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "126",
     "name": "Bathinda",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "127",
     "name": "Rampur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "128",
     "name": "Shivamogga",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "129",
     "name": "Ratlam",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "130",
     "name": "Modinagar",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "131",
     "name": "Durg",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "132",
     "name": "Shillong",
-    "state": "Meghalaya"
+    "state": "Meghalaya",
+    "pincode": "247667"
   },
   {
     "id": "133",
     "name": "Imphal",
-    "state": "Manipur"
+    "state": "Manipur",
+    "pincode": "247667"
   },
   {
     "id": "134",
     "name": "Hapur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "135",
     "name": "Ranipet",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "136",
     "name": "Anantapur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "137",
     "name": "Arrah",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "138",
     "name": "Karimnagar",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "139",
     "name": "Parbhani",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "140",
     "name": "Etawah",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "141",
     "name": "Bharatpur",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "142",
     "name": "Begusarai",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "143",
     "name": "New Delhi",
-    "state": "Delhi"
+    "state": "Delhi",
+    "pincode": "247667"
   },
   {
     "id": "144",
     "name": "Chhapra",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "145",
     "name": "Kadapa",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "146",
     "name": "Ramagundam",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "147",
     "name": "Pali",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "148",
     "name": "Satna",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "149",
     "name": "Vizianagaram",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "150",
     "name": "Katihar",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "151",
     "name": "Hardwar",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "152",
     "name": "Sonipat",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "153",
     "name": "Nagercoil",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "154",
     "name": "Thanjavur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "155",
     "name": "Murwara (Katni)",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "156",
     "name": "Naihati",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "157",
     "name": "Sambhal",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "158",
     "name": "Nadiad",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "159",
     "name": "Yamunanagar",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "160",
     "name": "English Bazar",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "161",
     "name": "Eluru",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "162",
     "name": "Munger",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "163",
     "name": "Panchkula",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "164",
     "name": "Raayachuru",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "165",
     "name": "Panvel",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "166",
     "name": "Deoghar",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "167",
     "name": "Ongole",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "168",
     "name": "Nandyal",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "169",
     "name": "Morena",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "170",
     "name": "Bhiwani",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "171",
     "name": "Porbandar",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "172",
     "name": "Palakkad",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "173",
     "name": "Anand",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "174",
     "name": "Purnia",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "175",
     "name": "Baharampur",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "176",
     "name": "Barmer",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "177",
     "name": "Morvi",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "178",
     "name": "Orai",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "179",
     "name": "Bahraich",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "180",
     "name": "Sikar",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "181",
     "name": "Vellore",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "182",
     "name": "Singrauli",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "183",
     "name": "Khammam",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "184",
     "name": "Mahesana",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "185",
     "name": "Silchar",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "186",
     "name": "Sambalpur",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "187",
     "name": "Rewa",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "188",
     "name": "Unnao",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "189",
     "name": "Huglichinsurah",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "190",
     "name": "Raiganj",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "191",
     "name": "Phusro",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "192",
     "name": "Adityapur",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "193",
     "name": "Alappuzha",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "194",
     "name": "Bahadurgarh",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "195",
     "name": "Machilipatnam",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "196",
     "name": "Rae Bareli",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "197",
     "name": "Jalpaiguri",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "198",
     "name": "Bharuch",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "199",
     "name": "Pathankot",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "200",
     "name": "Hoshiarpur",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "201",
     "name": "Baramula",
-    "state": "Jammu and Kashmir"
+    "state": "Jammu and Kashmir",
+    "pincode": "247667"
   },
   {
     "id": "202",
     "name": "Adoni",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "203",
     "name": "Jind",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "204",
     "name": "Tonk",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "205",
     "name": "Tenali",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "206",
     "name": "Kancheepuram",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "207",
     "name": "Vapi",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "208",
     "name": "Sirsa",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "209",
     "name": "Navsari",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "210",
     "name": "Mahbubnagar",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "211",
     "name": "Puri",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "212",
     "name": "Robertsonpet",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "213",
     "name": "Erode",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "214",
     "name": "Batala",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "215",
     "name": "Haldwanicumkathgodam",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "216",
     "name": "Vidisha",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "217",
     "name": "Saharsa",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "218",
     "name": "Thanesar",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "219",
     "name": "Chittoor",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "220",
     "name": "Veraval",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "221",
     "name": "Lakhimpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "222",
     "name": "Sitapur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "223",
     "name": "Hindupur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "224",
     "name": "Santipur",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "225",
     "name": "Balurghat",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "226",
     "name": "Ganjbasoda",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "227",
     "name": "Moga",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "228",
     "name": "Proddatur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "229",
     "name": "Srinagar",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "230",
     "name": "Medinipur",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "231",
     "name": "Habra",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "232",
     "name": "Sasaram",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "233",
     "name": "Hajipur",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "234",
     "name": "Bhuj",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "235",
     "name": "Shivpuri",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "236",
     "name": "Ranaghat",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "237",
     "name": "Shimla",
-    "state": "Himachal Pradesh"
+    "state": "Himachal Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "238",
     "name": "Tiruvannamalai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "239",
     "name": "Kaithal",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "240",
     "name": "Rajnandgaon",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "241",
     "name": "Godhra",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "242",
     "name": "Hazaribag",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "243",
     "name": "Bhimavaram",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "244",
     "name": "Mandsaur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "245",
     "name": "Dibrugarh",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "246",
     "name": "Kolar",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "247",
     "name": "Bankura",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "248",
     "name": "Mandya",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "249",
     "name": "Dehrionsone",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "250",
     "name": "Madanapalle",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "251",
     "name": "Malerkotla",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "252",
     "name": "Lalitpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "253",
     "name": "Bettiah",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "254",
     "name": "Pollachi",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "255",
     "name": "Khanna",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "256",
     "name": "Neemuch",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "257",
     "name": "Palwal",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "258",
     "name": "Palanpur",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "259",
     "name": "Guntakal",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "260",
     "name": "Nabadwip",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "261",
     "name": "Udupi",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "262",
     "name": "Jagdalpur",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "263",
     "name": "Motihari",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "264",
     "name": "Pilibhit",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "265",
     "name": "Dimapur",
-    "state": "Nagaland"
+    "state": "Nagaland",
+    "pincode": "247667"
   },
   {
     "id": "266",
     "name": "Mohali",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "267",
     "name": "Sadulpur",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "268",
     "name": "Rajapalayam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "269",
     "name": "Dharmavaram",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "270",
     "name": "Kashipur",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "271",
     "name": "Sivakasi",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "272",
     "name": "Darjiling",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "273",
     "name": "Chikkamagaluru",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "274",
     "name": "Gudivada",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "275",
     "name": "Baleshwar Town",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "276",
     "name": "Mancherial",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "277",
     "name": "Srikakulam",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "278",
     "name": "Adilabad",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "279",
     "name": "Yavatmal",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "280",
     "name": "Barnala",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "281",
     "name": "Nagaon",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "282",
     "name": "Narasaraopet",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "283",
     "name": "Raigarh",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "284",
     "name": "Roorkee",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "285",
     "name": "Valsad",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "286",
     "name": "Ambikapur",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "287",
     "name": "Giridih",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "288",
     "name": "Chandausi",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "289",
     "name": "Purulia",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "290",
     "name": "Patan",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "291",
     "name": "Bagaha",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "292",
     "name": "Hardoi ",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "293",
     "name": "Achalpur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "294",
     "name": "Osmanabad",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "295",
     "name": "Deesa",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "296",
     "name": "Nandurbar",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "297",
     "name": "Azamgarh",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "298",
     "name": "Ramgarh",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "299",
     "name": "Firozpur",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "300",
     "name": "Baripadatown",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "301",
     "name": "Karwar",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "302",
     "name": "Siwan",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "303",
     "name": "Rajampet",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "304",
     "name": "Pudukkottai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "305",
     "name": "Anantnag",
-    "state": "Jammu and Kashmir"
+    "state": "Jammu and Kashmir",
+    "pincode": "247667"
   },
   {
     "id": "306",
     "name": "Tadpatri",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "307",
     "name": "Satara",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "308",
     "name": "Bhadrak",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "309",
     "name": "Kishanganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "310",
     "name": "Suryapet",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "311",
     "name": "Wardha",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "312",
     "name": "Ranebennuru",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "313",
     "name": "Amreli",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "314",
     "name": "Neyveli",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "315",
     "name": "Jamalpur",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "316",
     "name": "Marmagao",
-    "state": "Goa"
+    "state": "Goa",
+    "pincode": "247667"
   },
   {
     "id": "317",
     "name": "Udgir",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "318",
     "name": "Tadepalligudem",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "319",
     "name": "Nagapattinam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "320",
     "name": "Buxar",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "321",
     "name": "Aurangabad",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "322",
     "name": "Jehanabad",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "323",
     "name": "Phagwara",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "324",
     "name": "Khair",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "325",
     "name": "Sawaimadhopur",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "326",
     "name": "Kapurthala",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "327",
     "name": "Chilakaluripet",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "328",
     "name": "Aurangabad",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "329",
     "name": "Malappuram",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "330",
     "name": "Rewari",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "331",
     "name": "Nagaur",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "332",
     "name": "Sultanpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "333",
     "name": "Nagda",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "334",
     "name": "Port Blair",
-    "state": "Andaman and Nicobar Islands"
+    "state": "Andaman and Nicobar Islands",
+    "pincode": "247667"
   },
   {
     "id": "335",
     "name": "Lakhisarai",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "336",
     "name": "Panaji",
-    "state": "Goa"
+    "state": "Goa",
+    "pincode": "247667"
   },
   {
     "id": "337",
     "name": "Tinsukia",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "338",
     "name": "Itarsi",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "339",
     "name": "Kohima",
-    "state": "Nagaland"
+    "state": "Nagaland",
+    "pincode": "247667"
   },
   {
     "id": "340",
     "name": "Balangir",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "341",
     "name": "Nawada",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "342",
     "name": "Jharsuguda",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "343",
     "name": "Jagtial",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "344",
     "name": "Viluppuram",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "345",
     "name": "Amalner",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "346",
     "name": "Zirakpur",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "347",
     "name": "Tanda",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "348",
     "name": "Tiruchengode",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "349",
     "name": "Nagina",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "350",
     "name": "Yemmiganur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "351",
     "name": "Vaniyambadi",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "352",
     "name": "Sarni",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "353",
     "name": "Theniallinagaram",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "354",
     "name": "Margao",
-    "state": "Goa"
+    "state": "Goa",
+    "pincode": "247667"
   },
   {
     "id": "355",
     "name": "Akot",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "356",
     "name": "Sehore",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "357",
     "name": "Mhowcantonment",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "358",
     "name": "Kotkapura",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "359",
     "name": "Makrana",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "360",
     "name": "Pandharpur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "361",
     "name": "Miryalaguda",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "362",
     "name": "Shamli",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "363",
     "name": "Seoni",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "364",
     "name": "Ranibennur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "365",
     "name": "Kadiri",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "366",
     "name": "Shrirampur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "367",
     "name": "Rudrapur",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "368",
     "name": "Parli",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "369",
     "name": "Najibabad",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "370",
     "name": "Nirmal",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "371",
     "name": "Udhagamandalam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "372",
     "name": "Shikohabad",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "373",
     "name": "Jhumritilaiya",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "374",
     "name": "Aruppukkottai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "375",
     "name": "Ponnani",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "376",
     "name": "Jamui",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "377",
     "name": "Sitamarhi",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "378",
     "name": "Chirala",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "379",
     "name": "Anjar",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "380",
     "name": "Karaikal",
-    "state": "Puducherry"
+    "state": "Puducherry",
+    "pincode": "247667"
   },
   {
     "id": "381",
     "name": "Hansi",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "382",
     "name": "Anakapalle",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "383",
     "name": "Mahasamund",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "384",
     "name": "Faridkot",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "385",
     "name": "Saunda",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "386",
     "name": "Dhoraji",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "387",
     "name": "Paramakudi",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "388",
     "name": "Balaghat",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "389",
     "name": "Sujangarh",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "390",
     "name": "Khambhat",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "391",
     "name": "Muktsar",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "392",
     "name": "Rajpura",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "393",
     "name": "Kavali",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "394",
     "name": "Dhamtari",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "395",
     "name": "Ashok Nagar",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "396",
     "name": "Sardarshahar",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "397",
     "name": "Mahuva",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "398",
     "name": "Bargarh",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "399",
     "name": "Kamareddy",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "400",
     "name": "Sahibganj",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "401",
     "name": "Kothagudem",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "402",
     "name": "Ramanagaram",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "403",
     "name": "Gokak",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "404",
     "name": "Tikamgarh",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "405",
     "name": "Araria",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "406",
     "name": "Rishikesh",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "407",
     "name": "Shahdol",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "408",
     "name": "Medininagar",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "409",
     "name": "Arakkonam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "410",
     "name": "Washim",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "411",
     "name": "Sangrur",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "412",
     "name": "Bodhan",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "413",
     "name": "Fazilka",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "414",
     "name": "Palacole",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "415",
     "name": "Keshod",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "416",
     "name": "Sullurpeta",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "417",
     "name": "Wadhwan",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "418",
     "name": "Gurdaspur",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "419",
     "name": "Vatakara",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "420",
     "name": "Tura",
-    "state": "Meghalaya"
+    "state": "Meghalaya",
+    "pincode": "247667"
   },
   {
     "id": "421",
     "name": "Narnaul",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "422",
     "name": "Kharar",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "423",
     "name": "Yadgir",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "424",
     "name": "Ambejogai",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "425",
     "name": "Ankleshwar",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "426",
     "name": "Savarkundla",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "427",
     "name": "Paradip",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "428",
     "name": "Virudhachalam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "429",
     "name": "Kanhangad",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "430",
     "name": "Kadi",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "431",
     "name": "Srivilliputhur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "432",
     "name": "Gobindgarh",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "433",
     "name": "Tindivanam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "434",
     "name": "Mansa",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "435",
     "name": "Taliparamba",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "436",
     "name": "Manmad",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "437",
     "name": "Tanuku",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "438",
     "name": "Rayachoti",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "439",
     "name": "Virudhunagar",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "440",
     "name": "Koyilandy",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "441",
     "name": "Jorhat",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "442",
     "name": "Karur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "443",
     "name": "Valparai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "444",
     "name": "Srikalahasti",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "445",
     "name": "Neyyattinkara",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "446",
     "name": "Bapatla",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "447",
     "name": "Fatehabad",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "448",
     "name": "Malout",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "449",
     "name": "Sankarankovil",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "450",
     "name": "Tenkasi",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "451",
     "name": "Ratnagiri",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "452",
     "name": "Rabkavibanhatti",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "453",
     "name": "Sikandrabad",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "454",
     "name": "Chaibasa",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "455",
     "name": "Chirmiri",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "456",
     "name": "Palwancha",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "457",
     "name": "Bhawanipatna",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "458",
     "name": "Kayamkulam",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "459",
     "name": "Pithampur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "460",
     "name": "Nabha",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "461",
     "name": "Shahabad",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "462",
     "name": "Dhenkanal",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "463",
     "name": "Uranislampur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "464",
     "name": "Gopalganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "465",
     "name": "Bongaigaon",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "466",
     "name": "Palani",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "467",
     "name": "Pusad",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "468",
     "name": "Sopore",
-    "state": "Jammu and Kashmir"
+    "state": "Jammu and Kashmir",
+    "pincode": "247667"
   },
   {
     "id": "469",
     "name": "Pilkhuwa",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "470",
     "name": "Tarn Taran",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "471",
     "name": "Renukoot",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "472",
     "name": "Mandamarri",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "473",
     "name": "Shahabad",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "474",
     "name": "Barbil",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "475",
     "name": "Koratla",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "476",
     "name": "Madhubani",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "477",
     "name": "Arambagh",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "478",
     "name": "Gohana",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "479",
     "name": "Ladnu",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "480",
     "name": "Pattukkottai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "481",
     "name": "Sirsi",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "482",
     "name": "Sircilla",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "483",
     "name": "Tamluk",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "484",
     "name": "Jagraon",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "485",
     "name": "AlipurdUrbanagglomerationr",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "486",
     "name": "Alirajpur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "487",
     "name": "Tandur",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "488",
     "name": "Naidupet",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "489",
     "name": "Tirupathur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "490",
     "name": "Tohana",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "491",
     "name": "Ratangarh",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "492",
     "name": "Dhubri",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "493",
     "name": "Masaurhi",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "494",
     "name": "Visnagar",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "495",
     "name": "Vrindavan",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "496",
     "name": "Nokha",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "497",
     "name": "Nagari",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "498",
     "name": "Narwana",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "499",
     "name": "Ramanathapuram",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "500",
     "name": "Ujhani",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "501",
     "name": "Samastipur",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "502",
     "name": "Laharpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "503",
     "name": "Sangamner",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "504",
     "name": "Nimbahera",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "505",
     "name": "Siddipet",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "506",
     "name": "Suri",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "507",
     "name": "Diphu",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "508",
     "name": "Jhargram",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "509",
     "name": "Shirpurwarwade",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "510",
     "name": "Tilhar",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "511",
     "name": "Sindhnur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "512",
     "name": "Udumalaipettai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "513",
     "name": "Malkapur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "514",
     "name": "Wanaparthy",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "515",
     "name": "Gudur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "516",
     "name": "Kendujhar",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "517",
     "name": "Mandla",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "518",
     "name": "Mandi",
-    "state": "Himachal Pradesh"
+    "state": "Himachal Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "519",
     "name": "Nedumangad",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "520",
     "name": "North Lakhimpur",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "521",
     "name": "Vinukonda",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "522",
     "name": "Tiptur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "523",
     "name": "Gobichettipalayam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "524",
     "name": "Sunabeda",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "525",
     "name": "Wani",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "526",
     "name": "Upleta",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "527",
     "name": "Narasapuram",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "528",
     "name": "Nuzvid",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "529",
     "name": "Tezpur",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "530",
     "name": "Una",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "531",
     "name": "Markapur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "532",
     "name": "Sheopur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "533",
     "name": "Thiruvarur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "534",
     "name": "Sidhpur",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "535",
     "name": "Sahaswan",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "536",
     "name": "Suratgarh",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "537",
     "name": "Shajapur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "538",
     "name": "Rayagada",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "539",
     "name": "Lonavla",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "540",
     "name": "Ponnur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "541",
     "name": "Kagaznagar",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "542",
     "name": "Gadwal",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "543",
     "name": "Bhatapara",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "544",
     "name": "Kandukur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "545",
     "name": "Sangareddy",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "546",
     "name": "Unjha",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "547",
     "name": "Lunglei",
-    "state": "Mizoram"
+    "state": "Mizoram",
+    "pincode": "247667"
   },
   {
     "id": "548",
     "name": "Karimganj",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "549",
     "name": "Kannur",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "550",
     "name": "Bobbili",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "551",
     "name": "Mokameh",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "552",
     "name": "Talegaondabhade",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "553",
     "name": "Anjangaon",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "554",
     "name": "Mangrol",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "555",
     "name": "Sunam",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "556",
     "name": "Gangarampur",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "557",
     "name": "Thiruvallur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "558",
     "name": "Tirur",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "559",
     "name": "Rath",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "560",
     "name": "Jatani",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "561",
     "name": "Viramgam",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "562",
     "name": "Rajsamand",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "563",
     "name": "Yanam",
-    "state": "Puducherry"
+    "state": "Puducherry",
+    "pincode": "247667"
   },
   {
     "id": "564",
     "name": "Kottayam",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "565",
     "name": "Panruti",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "566",
     "name": "Dhuri",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "567",
     "name": "Namakkal",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "568",
     "name": "Kasaragod",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "569",
     "name": "Modasa",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "570",
     "name": "Rayadurg",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "571",
     "name": "Supaul",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "572",
     "name": "Kunnamkulam",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "573",
     "name": "Umred",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "574",
     "name": "Bellampalle",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "575",
     "name": "Sibsagar",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "576",
     "name": "Mandidabwali",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "577",
     "name": "Ottappalam",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "578",
     "name": "Dumraon",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "579",
     "name": "Samalkot",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "580",
     "name": "Jaggaiahpet",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "581",
     "name": "Goalpara",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "582",
     "name": "Tuni",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "583",
     "name": "Lachhmangarh",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "584",
     "name": "Bhongir",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "585",
     "name": "Amalapuram",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "586",
     "name": "Firozpurcantt.",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "587",
     "name": "Vikarabad",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "588",
     "name": "Thiruvalla",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "589",
     "name": "Sherkot",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "590",
     "name": "Palghar",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "591",
     "name": "Shegaon",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "592",
     "name": "Jangaon",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "593",
     "name": "Bheemunipatnam",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "594",
     "name": "Panna",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "595",
     "name": "Thodupuzha",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "596",
     "name": "KathUrbanagglomeration",
-    "state": "Jammu and Kashmir"
+    "state": "Jammu and Kashmir",
+    "pincode": "247667"
   },
   {
     "id": "597",
     "name": "Palitana",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "598",
     "name": "Arwal",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "599",
     "name": "Venkatagiri",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "600",
     "name": "Kalpi",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "601",
     "name": "Rajgarh",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "602",
     "name": "Sattenapalle",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "603",
     "name": "Arsikere",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "604",
     "name": "Ozar",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "605",
     "name": "Thirumangalam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "606",
     "name": "Petlad",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "607",
     "name": "Nasirabad",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "608",
     "name": "Phaltan",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "609",
     "name": "Rampurhat",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "610",
     "name": "Nanjangud",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "611",
     "name": "Forbesganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "612",
     "name": "Tundla",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "613",
     "name": "BhabUrbanagglomeration",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "614",
     "name": "Sagara",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "615",
     "name": "Pithapuram",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "616",
     "name": "Sira",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "617",
     "name": "Bhadrachalam",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "618",
     "name": "Charkhi Dadri",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "619",
     "name": "Chatra",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "620",
     "name": "Palasakasibugga",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "621",
     "name": "Nohar",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "622",
     "name": "Yevla",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "623",
     "name": "Sirhindfatehgarhsahib",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "624",
     "name": "Bhainsa",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "625",
     "name": "Parvathipuram",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "626",
     "name": "Shahade",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "627",
     "name": "Chalakudy",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "628",
     "name": "Narkatiaganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "629",
     "name": "Kapadvanj",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "630",
     "name": "Macherla",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "631",
     "name": "Raghogarhvijaypur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "632",
     "name": "Rupnagar",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "633",
     "name": "Naugachhia",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "634",
     "name": "Sendhwa",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "635",
     "name": "Byasanagar",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "636",
     "name": "Sandila",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "637",
     "name": "Gooty",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "638",
     "name": "Salur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "639",
     "name": "Nanpara",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "640",
     "name": "Sardhana",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "641",
     "name": "Vita",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "642",
     "name": "Gumia",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "643",
     "name": "Puttur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "644",
     "name": "Jalandharcantt.",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "645",
     "name": "Nehtaur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "646",
     "name": "Changanassery",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "647",
     "name": "Mandapeta",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "648",
     "name": "Dumka",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "814101"
   },
   {
     "id": "649",
     "name": "Seohara",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "650",
     "name": "Umarkhed",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "651",
     "name": "Madhupur",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "652",
     "name": "Vikramasingapuram",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "653",
     "name": "Punalur",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "654",
     "name": "Kendrapara",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "655",
     "name": "Sihor",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "656",
     "name": "Nellikuppam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "657",
     "name": "Samana",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "658",
     "name": "Warora",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "659",
     "name": "Nilambur",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "660",
     "name": "Rasipuram",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "661",
     "name": "Ramnagar",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "662",
     "name": "Jammalamadugu",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "663",
     "name": "Nawanshahr",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "664",
     "name": "Thoubal",
-    "state": "Manipur"
+    "state": "Manipur",
+    "pincode": "247667"
   },
   {
     "id": "665",
     "name": "Athni",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "666",
     "name": "Cherthala",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "667",
     "name": "Sidhi",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "668",
     "name": "Farooqnagar",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "669",
     "name": "Peddapuram",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "670",
     "name": "Chirkunda",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "671",
     "name": "Pachora",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "672",
     "name": "Madhepura",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "673",
     "name": "Pithoragarh",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "674",
     "name": "Tumsar",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "675",
     "name": "Phalodi",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "676",
     "name": "Tiruttani",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "677",
     "name": "Rampura Phul",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "678",
     "name": "Perinthalmanna",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "679",
     "name": "Padrauna",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "680",
     "name": "Pipariya",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "681",
     "name": "Dallirajhara",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "682",
     "name": "Punganur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "683",
     "name": "Mattannur",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "684",
     "name": "Mathura",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "685",
     "name": "Thakurdwara",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "686",
     "name": "Nandivaramguduvancheri",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "687",
     "name": "Mulbagal",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "688",
     "name": "Manjlegaon",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "689",
     "name": "Wankaner",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "690",
     "name": "Sillod",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "691",
     "name": "Nidadavole",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "692",
     "name": "Surapura",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "693",
     "name": "Rajagangapur",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "694",
     "name": "Sheikhpura",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "695",
     "name": "Parlakhemundi",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "696",
     "name": "Kalimpong",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "697",
     "name": "Siruguppa",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "698",
     "name": "Arvi",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "699",
     "name": "Limbdi",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "700",
     "name": "Barpeta",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "701",
     "name": "Manglaur",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "702",
     "name": "Repalle",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "703",
     "name": "Mudhol",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "704",
     "name": "Shujalpur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "705",
     "name": "Mandvi",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "706",
     "name": "Thangadh",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "707",
     "name": "Sironj",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "708",
     "name": "Nandura",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "709",
     "name": "Shoranur",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "710",
     "name": "Nathdwara",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "711",
     "name": "Periyakulam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "712",
     "name": "Sultanganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "713",
     "name": "Medak",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "714",
     "name": "Narayanpet",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "715",
     "name": "Raxaul Bazar",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "716",
     "name": "Rajauri",
-    "state": "Jammu and Kashmir"
+    "state": "Jammu and Kashmir",
+    "pincode": "247667"
   },
   {
     "id": "717",
     "name": "Pernampattu",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "718",
     "name": "Nainital",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "719",
     "name": "Ramachandrapuram",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "720",
     "name": "Vaijapur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "721",
     "name": "Nangal",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "722",
     "name": "Sidlaghatta",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "723",
     "name": "Punch",
-    "state": "Jammu and Kashmir"
+    "state": "Jammu and Kashmir",
+    "pincode": "247667"
   },
   {
     "id": "724",
     "name": "Pandhurna",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "725",
     "name": "Wadgaonroad",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "726",
     "name": "Talcher",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "727",
     "name": "Varkala",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "728",
     "name": "Pilani",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "729",
     "name": "Nowgong",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "730",
     "name": "Naila Janjgir",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "731",
     "name": "Mapusa",
-    "state": "Goa"
+    "state": "Goa",
+    "pincode": "247667"
   },
   {
     "id": "732",
     "name": "Vellakoil",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "733",
     "name": "Merta City",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "734",
     "name": "Sivaganga",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "735",
     "name": "Mandideep",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "736",
     "name": "Sailu",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "737",
     "name": "Vyara",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "738",
     "name": "Kovvur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "739",
     "name": "Vadalur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "740",
     "name": "Nawabganj",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "741",
     "name": "Padra",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "742",
     "name": "Sainthia",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "743",
     "name": "Siana",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "744",
     "name": "Shahpur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "745",
     "name": "Sojat",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "746",
     "name": "Noorpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "747",
     "name": "Paravoor",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "748",
     "name": "Murtijapur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "749",
     "name": "Ramnagar",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "750",
     "name": "Sundargarh",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "751",
     "name": "Taki",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "752",
     "name": "Saundattiyellamma",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "753",
     "name": "Pathanamthitta",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "754",
     "name": "Wadi",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "755",
     "name": "Rameshwaram",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "756",
     "name": "Tasgaon",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "757",
     "name": "Sikandra Rao",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "758",
     "name": "Sihora",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "759",
     "name": "Tiruvethipuram",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "760",
     "name": "Tiruvuru",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "761",
     "name": "Mehkar",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "762",
     "name": "Peringathur",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "763",
     "name": "Perambalur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "764",
     "name": "Manvi",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "765",
     "name": "Zunheboto",
-    "state": "Nagaland"
+    "state": "Nagaland",
+    "pincode": "247667"
   },
   {
     "id": "766",
     "name": "Mahnarbazar",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "767",
     "name": "Attingal",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "768",
     "name": "Shahbad",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "769",
     "name": "Puranpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "770",
     "name": "Nelamangala",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "771",
     "name": "Nakodar",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "772",
     "name": "Lunawada",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "773",
     "name": "Murshidabad",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "774",
     "name": "Mahe",
-    "state": "Puducherry"
+    "state": "Puducherry",
+    "pincode": "247667"
   },
   {
     "id": "775",
     "name": "Lanka",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "776",
     "name": "Rudauli",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "777",
     "name": "Tuensang",
-    "state": "Nagaland"
+    "state": "Nagaland",
+    "pincode": "247667"
   },
   {
     "id": "778",
     "name": "Lakshmeshwar",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "779",
     "name": "Zira",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "780",
     "name": "Yawal",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "781",
     "name": "Thanabhawan",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "782",
     "name": "Ramdurg",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "783",
     "name": "Pulgaon",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "784",
     "name": "Sadasivpet",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "785",
     "name": "Nargund",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "786",
     "name": "Neemkathana",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "787",
     "name": "Memari",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "788",
     "name": "Nilanga",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "789",
     "name": "Naharlagun",
-    "state": "Arunachal Pradesh"
+    "state": "Arunachal Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "790",
     "name": "Pakaur",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "791",
     "name": "Wai",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "792",
     "name": "Tarikere",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "793",
     "name": "Malavalli",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "794",
     "name": "Raisen",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "795",
     "name": "Lahar",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "796",
     "name": "Uravakonda",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "797",
     "name": "Savanur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "798",
     "name": "Sirohi",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "799",
     "name": "Udhampur",
-    "state": "Jammu and Kashmir"
+    "state": "Jammu and Kashmir",
+    "pincode": "247667"
   },
   {
     "id": "800",
     "name": "Umarga",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "801",
     "name": "Pratapgarh",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "802",
     "name": "Lingsugur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "803",
     "name": "Usilampatti",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "804",
     "name": "Paliakalan",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "805",
     "name": "Wokha",
-    "state": "Nagaland"
+    "state": "Nagaland",
+    "pincode": "247667"
   },
   {
     "id": "806",
     "name": "Rajpipla",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "807",
     "name": "Vijayapura",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "808",
     "name": "Rawatbhata",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "809",
     "name": "Sangaria",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "810",
     "name": "Paithan",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "811",
     "name": "Rahuri",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "812",
     "name": "Patti",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "813",
     "name": "Zaidpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "814",
     "name": "Lalsot",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "815",
     "name": "Maihar",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "816",
     "name": "Vedaranyam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "817",
     "name": "Nawapur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "818",
     "name": "Solan",
-    "state": "Himachal Pradesh"
+    "state": "Himachal Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "819",
     "name": "Vapi",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "820",
     "name": "Sanawad",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "821",
     "name": "Warisaliganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "822",
     "name": "Revelganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "823",
     "name": "Sabalgarh",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "824",
     "name": "Tuljapur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "825",
     "name": "Simdega",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "826",
     "name": "Musabani",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "827",
     "name": "Kodungallur",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "828",
     "name": "Phulabani",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "829",
     "name": "Umreth",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "830",
     "name": "Narsipatnam",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "831",
     "name": "Nautanwa",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "832",
     "name": "Rajgir",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "833",
     "name": "Yellandu",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "834",
     "name": "Sathyamangalam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "835",
     "name": "Pilibanga",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "836",
     "name": "Morshi",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "837",
     "name": "Pehowa",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "838",
     "name": "Sonepur",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "839",
     "name": "Pappinisseri",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "840",
     "name": "Zamania",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "841",
     "name": "Mihijam",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "842",
     "name": "Purna",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "843",
     "name": "Puliyankudi",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "844",
     "name": "Shikarpur, Bulandshahr",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "845",
     "name": "Umaria",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "846",
     "name": "Porsa",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "847",
     "name": "Naugawan Sadat",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "848",
     "name": "Fatehpur Sikri",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "849",
     "name": "Manuguru",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "850",
     "name": "Udaipur",
-    "state": "Tripura"
+    "state": "Tripura",
+    "pincode": "247667"
   },
   {
     "id": "851",
     "name": "Pipar City",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "852",
     "name": "Pattamundai",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "853",
     "name": "Nanjikottai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "854",
     "name": "Taranagar",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "855",
     "name": "Yerraguntla",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "856",
     "name": "Satana",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "857",
     "name": "Sherghati",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "858",
     "name": "Sankeshwara",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "859",
     "name": "Madikeri",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "860",
     "name": "Thuraiyur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "861",
     "name": "Sanand",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "862",
     "name": "Rajula",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "863",
     "name": "Kyathampalle",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "864",
     "name": "Shahabad",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "865",
     "name": "Tildanewra",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "866",
     "name": "Narsinghgarh",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "867",
     "name": "Chitturthathamangalam",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "868",
     "name": "Malaj Khand",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "869",
     "name": "Sarangpur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "870",
     "name": "Robertsganj",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "871",
     "name": "Sirkali",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "872",
     "name": "Radhanpur",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "873",
     "name": "Tiruchendur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "874",
     "name": "Utraula",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "875",
     "name": "Patratu",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "876",
     "name": "Vijainagar, Ajmer",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "877",
     "name": "Periyasemur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "878",
     "name": "Pathri",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "879",
     "name": "Sadabad",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "880",
     "name": "Talikota",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "881",
     "name": "Sinnar",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "882",
     "name": "Mungeli",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "883",
     "name": "Sedam",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "884",
     "name": "Shikaripur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "885",
     "name": "Sumerpur",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "886",
     "name": "Sattur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "887",
     "name": "Sugauli",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "888",
     "name": "Lumding",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "889",
     "name": "Vandavasi",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "890",
     "name": "Titlagarh",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "891",
     "name": "Uchgaon",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "892",
     "name": "Mokokchung",
-    "state": "Nagaland"
+    "state": "Nagaland",
+    "pincode": "247667"
   },
   {
     "id": "893",
     "name": "Paschim Punropara",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "894",
     "name": "Sagwara",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "895",
     "name": "Ramganj Mandi",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "896",
     "name": "Tarakeswar",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "897",
     "name": "Mahalingapura",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "898",
     "name": "Dharmanagar",
-    "state": "Tripura"
+    "state": "Tripura",
+    "pincode": "247667"
   },
   {
     "id": "899",
     "name": "Mahemdabad",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "900",
     "name": "Manendragarh",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "901",
     "name": "Uran",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "902",
     "name": "Tharamangalam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "903",
     "name": "Tirukkoyilur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "904",
     "name": "Pen",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "905",
     "name": "Makhdumpur",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "906",
     "name": "Maner",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "907",
     "name": "Oddanchatram",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "908",
     "name": "Palladam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "909",
     "name": "Mundi",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "910",
     "name": "Nabarangapur",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "911",
     "name": "Mudalagi",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "912",
     "name": "Samalkha",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "913",
     "name": "Nepanagar",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "914",
     "name": "Karjat",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "915",
     "name": "Ranavav",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "916",
     "name": "Pedana",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "917",
     "name": "Pinjore",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "918",
     "name": "Lakheri",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "919",
     "name": "Pasan",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "920",
     "name": "Puttur",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "921",
     "name": "Vadakkuvalliyur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "922",
     "name": "Tirukalukundram",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "923",
     "name": "Mahidpur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "924",
     "name": "Mussoorie",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "925",
     "name": "Muvattupuzha",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "926",
     "name": "Rasra",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "927",
     "name": "Udaipurwati",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "928",
     "name": "Manwath",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "929",
     "name": "Adoor",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "930",
     "name": "Uthamapalayam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "931",
     "name": "Partur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "932",
     "name": "Nahan",
-    "state": "Himachal Pradesh"
+    "state": "Himachal Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "933",
     "name": "Ladwa",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "934",
     "name": "Mankachar",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "935",
     "name": "Nongstoin",
-    "state": "Meghalaya"
+    "state": "Meghalaya",
+    "pincode": "247667"
   },
   {
     "id": "936",
     "name": "Losal",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "937",
     "name": "Sri Madhopur",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "938",
     "name": "Ramngarh",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "939",
     "name": "Mavelikkara",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "940",
     "name": "Rawatsar",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "941",
     "name": "Rajakhera",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "942",
     "name": "Lar",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "943",
     "name": "Lal Gopalganj Nindaura",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "944",
     "name": "Muddebihal",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "945",
     "name": "Sirsaganj",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "946",
     "name": "Shahpura",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "947",
     "name": "Surandai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "948",
     "name": "Sangole",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "949",
     "name": "Pavagada",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "950",
     "name": "Tharad",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "951",
     "name": "Mansa",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "952",
     "name": "Umbergaon",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "953",
     "name": "Mavoor",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "954",
     "name": "Nalbari",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "955",
     "name": "Talaja",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "956",
     "name": "Malur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "957",
     "name": "Mangrulpir",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "958",
     "name": "Soro",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "959",
     "name": "Shahpura",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "960",
     "name": "Vadnagar",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "961",
     "name": "Raisinghnagar",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "962",
     "name": "Sindhagi",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "963",
     "name": "Sanduru",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "964",
     "name": "Sohna",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "965",
     "name": "Manavadar",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "966",
     "name": "Pihani",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "967",
     "name": "Safidon",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "968",
     "name": "Risod",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "969",
     "name": "Rosera",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "970",
     "name": "Sankari",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "971",
     "name": "Malpura",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "972",
     "name": "Sonamukhi",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "973",
     "name": "Shamsabad",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "974",
     "name": "Nokha",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "975",
     "name": "PandUrbanagglomeration",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "976",
     "name": "Mainaguri",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "977",
     "name": "Afzalpur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "978",
     "name": "Shirur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "979",
     "name": "Salaya",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "980",
     "name": "Shenkottai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "981",
     "name": "Pratapgarh",
-    "state": "Tripura"
+    "state": "Tripura",
+    "pincode": "247667"
   },
   {
     "id": "982",
     "name": "Vadipatti",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "983",
     "name": "Nagarkurnool",
-    "state": "Telangana"
+    "state": "Telangana",
+    "pincode": "247667"
   },
   {
     "id": "984",
     "name": "Savner",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "985",
     "name": "Sasvad",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "986",
     "name": "Rudrapur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "987",
     "name": "Soron",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "988",
     "name": "Sholingur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "989",
     "name": "Pandharkaoda",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "990",
     "name": "Perumbavoor",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "991",
     "name": "Maddur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "992",
     "name": "Nadbai",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "993",
     "name": "Talode",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "994",
     "name": "Shrigonda",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "995",
     "name": "Madhugiri",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "996",
     "name": "Tekkalakote",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "997",
     "name": "Seonimalwa",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "998",
     "name": "Shirdi",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "999",
     "name": "SUrbanagglomerationr",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1000",
     "name": "Terdal",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1001",
     "name": "Raver",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1002",
     "name": "Tirupathur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1003",
     "name": "Taraori",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "1004",
     "name": "Mukhed",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1005",
     "name": "Manachanallur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1006",
     "name": "Rehli",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1007",
     "name": "Sanchore",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1008",
     "name": "Rajura",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1009",
     "name": "Piro",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1010",
     "name": "Mudabidri",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1011",
     "name": "Vadgaonkasba",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1012",
     "name": "Nagar",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1013",
     "name": "Vijapur",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "1014",
     "name": "Viswanatham",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1015",
     "name": "Polur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1016",
     "name": "Panagudi",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1017",
     "name": "Manawar",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1018",
     "name": "Tehri",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "1019",
     "name": "Samdhan",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1020",
     "name": "Pardi",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "1021",
     "name": "Rahatgarh",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1022",
     "name": "Panagar",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1023",
     "name": "Uthiramerur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1024",
     "name": "Tirora",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1025",
     "name": "Rangia",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "1026",
     "name": "Sahjanwa",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1027",
     "name": "Wara Seoni",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1028",
     "name": "Magadi",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1029",
     "name": "Rajgarh",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1030",
     "name": "Rafiganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1031",
     "name": "Tarana",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1032",
     "name": "Rampur Maniharan",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1033",
     "name": "Sheoganj",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1034",
     "name": "Raikot",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "1035",
     "name": "Pauri",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "1036",
     "name": "Sumerpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1037",
     "name": "Navalgund",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1038",
     "name": "Shahganj",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1039",
     "name": "Marhaura",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1040",
     "name": "Tulsipur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1041",
     "name": "Sadri",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1042",
     "name": "Thiruthuraipoondi",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1043",
     "name": "Shiggaon",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1044",
     "name": "Pallapatti",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1045",
     "name": "Mahendragarh",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "1046",
     "name": "Sausar",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1047",
     "name": "Ponneri",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1048",
     "name": "Mahad",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1049",
     "name": "Lohardaga",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "1050",
     "name": "Tirwaganj",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1051",
     "name": "Margherita",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "1052",
     "name": "Sundarnagar",
-    "state": "Himachal Pradesh"
+    "state": "Himachal Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1053",
     "name": "Rajgarh",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1054",
     "name": "Mangaldoi",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "1055",
     "name": "Renigunta",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1056",
     "name": "Longowal",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "1057",
     "name": "Ratia",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "1058",
     "name": "Lalgudi",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1059",
     "name": "Shrirangapattana",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1060",
     "name": "Niwari",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1061",
     "name": "Natham",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1062",
     "name": "Unnamalaikadai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1063",
     "name": "PurqUrbanagglomerationzi",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1064",
     "name": "Shamsabad",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1065",
     "name": "Mirganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1066",
     "name": "Todaraisingh",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1067",
     "name": "Warhapur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1068",
     "name": "Rajam",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1069",
     "name": "Urmar Tanda",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "1070",
     "name": "Lonar",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1071",
     "name": "Powayan",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1072",
     "name": "Patti",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1073",
     "name": "Palampur",
-    "state": "Himachal Pradesh"
+    "state": "Himachal Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1074",
     "name": "Srisailam",
-    "state": "Andhra Pradesh"
+    "state": "Andhra Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1075",
     "name": "Sindagi",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1076",
     "name": "Sandi",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1077",
     "name": "Vaikom",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "1078",
     "name": "Malda",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "1079",
     "name": "Tharangambadi",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1080",
     "name": "Sakaleshapura",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1081",
     "name": "Lalganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1082",
     "name": "Malkangiri",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "1083",
     "name": "Rapar",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "1084",
     "name": "Mauganj",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1085",
     "name": "Todabhim",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1086",
     "name": "Srinivaspur",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1087",
     "name": "Murliganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1088",
     "name": "Reengus",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1089",
     "name": "Sawantwadi",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1090",
     "name": "Tittakudi",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1091",
     "name": "Lilong",
-    "state": "Manipur"
+    "state": "Manipur",
+    "pincode": "247667"
   },
   {
     "id": "1092",
     "name": "Rajaldesar",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1093",
     "name": "Pathardi",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1094",
     "name": "Achhnera",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1095",
     "name": "Pacode",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1096",
     "name": "Naraura",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1097",
     "name": "Nakur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1098",
     "name": "Palai",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "1099",
     "name": "Morinda, India",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "1100",
     "name": "Manasa",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1101",
     "name": "Nainpur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1102",
     "name": "Sahaspur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1103",
     "name": "Pauni",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1104",
     "name": "Prithvipur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1105",
     "name": "Ramtek",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1106",
     "name": "Silapathar",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "1107",
     "name": "Songadh",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "1108",
     "name": "Safipur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1109",
     "name": "Sohagpur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1110",
     "name": "Mul",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1111",
     "name": "Sadulshahar",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1112",
     "name": "Phillaur",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "1113",
     "name": "Sambhar",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1114",
     "name": "Prantij",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1115",
     "name": "Nagla",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "1116",
     "name": "Pattran",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "1117",
     "name": "Mount Abu",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1118",
     "name": "Reoti",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1119",
     "name": "Tenudamcumkathhara",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "1120",
     "name": "Panchla",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "1121",
     "name": "Sitarganj",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "1122",
     "name": "Pasighat",
-    "state": "Arunachal Pradesh"
+    "state": "Arunachal Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1123",
     "name": "Motipur",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1124",
     "name": "O' Valley",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1125",
     "name": "Raghunathpur",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "1126",
     "name": "Suriyampalayam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1127",
     "name": "Qadian",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "1128",
     "name": "Rairangpur",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "1129",
     "name": "Silvassa",
-    "state": "Dadraandnagarhaveli"
+    "state": "Dadraandnagarhaveli",
+    "pincode": "247667"
   },
   {
     "id": "1130",
     "name": "Nowrozabad",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1131",
     "name": "Mangrol",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1132",
     "name": "Soyagaon",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1133",
     "name": "Sujanpur",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "1134",
     "name": "Manihari",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1135",
     "name": "Sikanderpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1136",
     "name": "Mangalvedhe",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1137",
     "name": "Phulera",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1138",
     "name": "Ron",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1139",
     "name": "Sholavandan",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1140",
     "name": "Saidpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1141",
     "name": "Shamgarh",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1142",
     "name": "Thammampatti",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1143",
     "name": "Maharajpur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1144",
     "name": "Multai",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1145",
     "name": "Mukerian",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "1146",
     "name": "Sirsi",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1147",
     "name": "Purwa",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1148",
     "name": "Sheohar",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1149",
     "name": "Namagiripettai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1150",
     "name": "Parasi",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1151",
     "name": "Lathi",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "1152",
     "name": "Lalganj",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1153",
     "name": "Narkhed",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1154",
     "name": "Mathabhanga",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "1155",
     "name": "Shendurjana",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1156",
     "name": "Peravurani",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1157",
     "name": "Mariani",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "1158",
     "name": "Phulpur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1159",
     "name": "Rania",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "1160",
     "name": "Pali",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1161",
     "name": "Pachore",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1162",
     "name": "Parangipettai",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1163",
     "name": "Pudupattinam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1164",
     "name": "Panniyannur",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "1165",
     "name": "Maharajganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1166",
     "name": "Rau",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1167",
     "name": "Monoharpur",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "1168",
     "name": "Mandawa",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1169",
     "name": "Marigaon",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "1170",
     "name": "Pallikonda",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1171",
     "name": "Pindwara",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1172",
     "name": "Shishgarh",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1173",
     "name": "Patur",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1174",
     "name": "Mayang Imphal",
-    "state": "Manipur"
+    "state": "Manipur",
+    "pincode": "247667"
   },
   {
     "id": "1175",
     "name": "Mhowgaon",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1176",
     "name": "Guruvayoor",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "1177",
     "name": "Mhaswad",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1178",
     "name": "Sahawar",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1179",
     "name": "Sivagiri",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1180",
     "name": "Mundargi",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1181",
     "name": "Punjaipugalur",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1182",
     "name": "Kailasahar",
-    "state": "Tripura"
+    "state": "Tripura",
+    "pincode": "247667"
   },
   {
     "id": "1183",
     "name": "Samthar",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1184",
     "name": "Sakti",
-    "state": "Chhattisgarh"
+    "state": "Chhattisgarh",
+    "pincode": "247667"
   },
   {
     "id": "1185",
     "name": "Sadalagi",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1186",
     "name": "Silao",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1187",
     "name": "Mandalgarh",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1188",
     "name": "Loha",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1189",
     "name": "Pukhrayan",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1190",
     "name": "Padmanabhapuram",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1191",
     "name": "Belonia",
-    "state": "Tripura"
+    "state": "Tripura",
+    "pincode": "247667"
   },
   {
     "id": "1192",
     "name": "Saiha",
-    "state": "Mizoram"
+    "state": "Mizoram",
+    "pincode": "247667"
   },
   {
     "id": "1193",
     "name": "Srirampore",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "1194",
     "name": "Talwara",
-    "state": "Punjab"
+    "state": "Punjab",
+    "pincode": "247667"
   },
   {
     "id": "1195",
     "name": "Puthuppally",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "1196",
     "name": "Khowai",
-    "state": "Tripura"
+    "state": "Tripura",
+    "pincode": "247667"
   },
   {
     "id": "1197",
     "name": "Vijaypur",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1198",
     "name": "Takhatgarh",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1199",
     "name": "Thirupuvanam",
-    "state": "Tamil Nadu"
+    "state": "Tamil Nadu",
+    "pincode": "247667"
   },
   {
     "id": "1200",
     "name": "Adra",
-    "state": "West Bengal"
+    "state": "West Bengal",
+    "pincode": "247667"
   },
   {
     "id": "1201",
     "name": "Piriyapatna",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1202",
     "name": "Obra",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1203",
     "name": "Adalaj",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "1204",
     "name": "Nandgaon",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1205",
     "name": "Barh",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1206",
     "name": "Chhapra",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "1207",
     "name": "Panamattom",
-    "state": "Kerala"
+    "state": "Kerala",
+    "pincode": "247667"
   },
   {
     "id": "1208",
     "name": "Niwai",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1209",
     "name": "Bageshwar",
-    "state": "Uttarakhand"
+    "state": "Uttarakhand",
+    "pincode": "247667"
   },
   {
     "id": "1210",
     "name": "Tarbha",
-    "state": "Odisha"
+    "state": "Odisha",
+    "pincode": "247667"
   },
   {
     "id": "1211",
     "name": "Adyar",
-    "state": "Karnataka"
+    "state": "Karnataka",
+    "pincode": "247667"
   },
   {
     "id": "1212",
     "name": "Narsinghgarh",
-    "state": "Madhya Pradesh"
+    "state": "Madhya Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1213",
     "name": "Warud",
-    "state": "Maharashtra"
+    "state": "Maharashtra",
+    "pincode": "247667"
   },
   {
     "id": "1214",
     "name": "Asarganj",
-    "state": "Bihar"
+    "state": "Bihar",
+    "pincode": "247667"
   },
   {
     "id": "1215",
     "name": "Sarsod",
-    "state": "Haryana"
+    "state": "Haryana",
+    "pincode": "247667"
   },
   {
     "id": "1216",
     "name": "Gandhinagar",
-    "state": "Gujarat"
+    "state": "Gujarat",
+    "pincode": "247667"
   },
   {
     "id": "1217",
     "name": "Kullu",
-    "state": "Himachal Pradesh"
+    "state": "Himachal Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1218",
     "name": "Manali",
-    "state": "Himachal Praddesh"
+    "state": "Himachal Praddesh",
+    "pincode": "247667"
   },
   {
     "id": "1219",
     "name": "Mirzapur",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   },
   {
     "id": "1220",
     "name": "Kota",
-    "state": "Rajasthan"
+    "state": "Rajasthan",
+    "pincode": "247667"
   },
   {
     "id": "1221",
     "name": "Dispur",
-    "state": "Assam"
+    "state": "Assam",
+    "pincode": "247667"
   },
   {
     "id": "1222",
     "name": "Daltonganj",
-    "state": "Jharkhand"
+    "state": "Jharkhand",
+    "pincode": "247667"
   },
   {
     "id": "1223",
     "name": "Farrukhabad",
-    "state": "Uttar Pradesh"
+    "state": "Uttar Pradesh",
+    "pincode": "247667"
   }
 ]

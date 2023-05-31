@@ -1,7 +1,7 @@
 const getDb = require("../db").getDb;
 const getRestaurant = require("../Restaurant/getRestaurant");
 
-module.exports = getRecipes = async () => {
+module.exports = getRecipes = async (pincode) => {
   const connection = await getDb();
   const response = await connection
     .collection("restaurantFood")
@@ -11,20 +11,22 @@ module.exports = getRecipes = async () => {
   await Promise.all(
     response.map(async (restaurant, index) => {
       const Restaurant = await getRestaurant(restaurant.RestaurantId);
-      const opening_hours =
-        "OPENS NEXT AT " + Restaurant.opening_hours + " TODAY";
-      const newObj = {};
-      newObj[opening_hours] = {};
-      const number = Math.floor(Math.random() * 4 + 1);
-      await restaurant.food.map((item, indexj) => {
-        if (indexj >= number) return;
-        newObj[opening_hours][`data_${indexj}`] = {
-          image: item.image,
-          restaurant: Restaurant.Restaurant,
-          name: item.name,
-        };
-      });
-      RecipiesData.push(newObj);
+      if (Restaurant.pincode == pincode) {
+        const opening_hours =
+          "OPENS NEXT AT " + Restaurant.opening_hours + " TODAY";
+        const newObj = {};
+        newObj[opening_hours] = {};
+        const number = Math.floor(Math.random() * 4 + 1);
+        await restaurant.food.map((item, indexj) => {
+          if (indexj >= number) return;
+          newObj[opening_hours][`data_${indexj}`] = {
+            image: item.image,
+            restaurant: Restaurant.Restaurant,
+            name: item.name,
+          };
+        });
+        RecipiesData.push(newObj);
+      }
     })
   );
   RecipiesData.sort((a, b) => {

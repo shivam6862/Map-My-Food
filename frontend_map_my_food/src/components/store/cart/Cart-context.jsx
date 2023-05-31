@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import useItemPriceCart from "../../hook/useItemPriceCart";
+import { useNotification } from "../../hook/useNotification";
 
 const CartContext = React.createContext({
   addItems: [],
@@ -24,7 +25,8 @@ export const CartContextProvider = (props) => {
   const [hotal, setHotal] = useState("");
   const [place, setPlace] = useState("Dumka");
   const [image, setImage] = useState("/swiggey/AvailableRestaurants/5.webp");
-  const [restaurantId, setRestaurantId] = useState("");
+  const [restaurantId, setRestaurantId] = useState(null);
+  const { NotificationHandler } = useNotification();
 
   const AddItemsHandler = async (RestaurantId, itemId) => {
     const dataItemPriceCart = await ItemPriceCartData(RestaurantId, itemId);
@@ -51,6 +53,17 @@ export const CartContextProvider = (props) => {
         items: dataItemPriceCart[itemId],
         amount: newItemPrice,
       };
+    }
+    if (restaurantId != null && RestaurantId != restaurantId) {
+      setAddItems([updatedItems]);
+      setTotalAmount(newItemPrice);
+      setDeliveryCost(48 - newItemPrice * 0.01);
+      setGST(newItemPrice * 0.02);
+      NotificationHandler(
+        "Your cart contains items from other restaurant.Your cart had reset for adding items from this restaurant?",
+        "Info"
+      );
+      return;
     }
     var updatedItemsAll = [...addItems];
     if (existingCartItem)

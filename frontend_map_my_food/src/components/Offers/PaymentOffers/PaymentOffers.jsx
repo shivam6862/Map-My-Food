@@ -4,8 +4,10 @@ import OfferHeader from "../OfferHeader/OfferHeader";
 import PaymentOffersMore from "./PaymentOffersMore/PaymentOffersMore";
 import usePaymentOffers from "../../hook/usePaymentOffers";
 import LoadingSpinner from "../../ui/LoadingSpinner";
+import { useLocationLocalStorage } from "../../hook/LocationLocalStorage";
 
 const PaymentOffers = () => {
+  const { fetchPincode } = useLocationLocalStorage();
   const { data } = usePaymentOffers();
   const [datas, setDatas] = useState([]);
   const [isMore, setIsMore] = useState(false);
@@ -13,7 +15,7 @@ const PaymentOffers = () => {
   const [isCopy, setIsCopy] = useState(-1);
   const [dataIndex, setDataIndex] = useState();
   const [isLoading, setisLoading] = useState(true);
-  const locationPincode = "247667";
+  const locationPincode = fetchPincode();
   useEffect(() => {
     const fetchData = async () => {
       const result = await data(locationPincode);
@@ -21,7 +23,7 @@ const PaymentOffers = () => {
       setisLoading(false);
     };
     fetchData();
-  }, []);
+  }, [locationPincode]);
   return (
     <div className={classes.container}>
       <OfferHeader />

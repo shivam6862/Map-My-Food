@@ -38,7 +38,10 @@ const Restaurants = () => {
       {isLoadingFood && <AnimationBox />}
       {isLoadingFood && <RecipesLoading />}
       {!isLoadingFood && (
-        <AvailableRestaurants data={dataAvailableRestaurants} />
+        <AvailableRestaurants
+          data={dataAvailableRestaurants}
+          setData={setdataAvailableRestaurants}
+        />
       )}
       {!isLoadingFood && <Recipes datas={dataRecipes} />}
     </div>

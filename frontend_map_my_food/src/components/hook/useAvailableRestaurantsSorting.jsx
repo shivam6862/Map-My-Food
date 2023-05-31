@@ -1,14 +1,14 @@
 import AvailablerestaurantsData from "../TemporaryData/AvailableRestaurantsData.json";
 import { useLocationLocalStorage } from "./LocationLocalStorage";
 
-const useAvailableRestaurants = () => {
+const useAvailableRestaurantsSorting = () => {
   const { fetchPincode } = useLocationLocalStorage();
   const pincode = fetchPincode();
-  const AvailableRestaurantsData = async () => {
+  const AvailableRestaurantsSortingData = async (sorting) => {
     const data = await fetch(
       `${
         import.meta.env.VITE_REACT_BACKEND_URL
-      }/availablerestaurants/${pincode}`
+      }/availablerestaurants/${pincode}/${sorting}`
     )
       .then((response) => {
         return response.json();
@@ -18,7 +18,7 @@ const useAvailableRestaurants = () => {
       });
     return data;
   };
-  return { AvailableRestaurantsData };
+  return { AvailableRestaurantsSortingData };
 };
 
-export default useAvailableRestaurants;
+export default useAvailableRestaurantsSorting;
