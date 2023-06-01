@@ -3,7 +3,7 @@
 <h2 align="center">Map my food</h2>
 
   <p align="center">
-   Map My Food is a comprehensive food order application built using React. With its responsive design and global state management, it offers a seamless and user-friendly experience for customers to explore and order food from various restaurants.
+   Map My Food is a full-stack food order application built using React for the frontend, Node.js for the backend, and MongoDB for the database. With its responsive design and global state management, it offers a seamless and user-friendly experience for customers to explore and order food from various restaurants.
     <br />
     <br />
     <a href="https://github.com/shivam6862/Map-My-Food/issues">Report Bug</a>
@@ -30,7 +30,7 @@
 
 ## About The Project
 
-Map My Food is a food order app built using React, featuring a responsive design and global state management. This innovative application aims to simplify the process of discovering and ordering food from various restaurants. With its user-friendly interface and intuitive features, Map My Food revolutionizes the way users interact with food delivery services. From exploring nearby restaurants to customizing orders and secure payments, this app provides a seamless and convenient experience for users to satisfy their cravings and enjoy delicious meals.
+Map My Food is an innovative food order app built on React, with a backend developed using Node.js and a MongoDB database. The app allows users to explore restaurants, browse menus, and place orders for delivery or pickup. With a map-based interface, responsive design, and global state management, Map My Food provides a seamless experience for users to discover and order delicious food. It incorporates intuitive search and filtering options and customizations for dietary preferences. Map My Food revolutionizes the way people interact with food delivery services, making it convenient and efficient for users to satisfy their cravings.
 
 Team - `shivam6862`
 
@@ -59,11 +59,37 @@ So as to run our project locally, you need to follow the steps below.
    ```sh
    npm install
    ```
-3. Run the project in frontend_map_my_food using
+3. Enter your BACKEND URL in `.env` of frontend_map_my_food directory
+   ```sh
+   VITE_REACT_BACKEND_URL=http://localhost:8080
+   ```
+4. Run the project in frontend_map_my_food using
    ```sh
    npm run dev
    ```
-4. You can now view the project at `http://127.0.0.1:5173/`
+5. You can now view the project at `http://127.0.0.1:5173/`
+
+6. Install NPM packages on Backend folders
+   ```sh
+   npm install
+   ```
+7. Enter your MONGODB DATABASE URL and put it in `.env` file in backend directory
+   ```sh
+   MONGODB_URL= "your mongodb url"
+   ```
+8. Make the database in your mongodb server named as `Map-My-Food` and make the following collection
+   ```sh
+   PaymentOffers
+   restaurant
+   restaurantFood
+   restaurantOffers
+   smallSearch
+   users
+   ```
+9. Run the project in backend using
+   ```sh
+   npm start
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,18 +97,17 @@ So as to run our project locally, you need to follow the steps below.
 
 ## Description
 
-Map My Food is an innovative food order app that aims to simplify the process of discovering and ordering food. The app is built on React, a popular JavaScript library for building user interfaces, ensuring a smooth and interactive experience for users across different devices.
-<br/>
+Map My Food is a cutting-edge food order app designed to simplify the process of discovering and ordering food. Leveraging the power of React for the frontend, a Node.js backend, and MongoDB for the database, this application offers a seamless and user-friendly experience for food enthusiasts.<br/>
 
-With Map My Food, users can explore a wide range of restaurants and cuisines in their area. The app utilizes a map-based interface, allowing users to visually locate nearby restaurants and browse their menus. The responsive design ensures that the app adapts effortlessly to different screen sizes, making it convenient to use on mobile phones, tablets, and desktops.<br/>
+With its map-based interface, Map My Food allows users to explore a wide range of nearby restaurants and browse through their menus. The responsive design ensures a smooth and consistent experience across various devices, including mobile phones, tablets, and desktops. Whether users are on the go or at home, they can easily access the app and discover local culinary delights.<br/>
 
-One of the standout features of Map My Food is its global state management, which enables efficient data handling and synchronization across different components. This ensures that users can seamlessly navigate through the app, add items to their cart, and place orders without any interruptions.<br/>
+To enhance user convenience, Map My Food incorporates intuitive search and filtering options. Users can easily find their preferred cuisine or restaurant, saving time and effort. Additionally, the app allows users to customize their orders by specifying dietary preferences, special instructions, or any other preferences they may have. This level of personalization ensures that users can enjoy their meals exactly the way they desire.<br/>
 
-The app incorporates intuitive search and filtering options, allowing users to easily find their preferred cuisine or restaurant. Users can customize their orders by specifying any special instructions or dietary preferences. Additionally, Map My Food supports payment options, ensuring a safe and hassle-free checkout process.<br/>
+One of the standout features of Map My Food is its global state management, which enables efficient data handling and synchronization across different components. This ensures a seamless navigation experience, allowing users to effortlessly add items to their cart and place orders without any interruptions. The app's intelligent backend, built on Node.js, facilitates smooth communication between the frontend and the database, ensuring a swift and reliable experience.<br/>
 
-Whether users are craving a quick bite or planning a special meal, Map My Food provides a convenient and efficient platform for exploring and ordering delicious food. With its user-friendly interface, responsive design, and global state management, this app revolutionizes the way people interact with food delivery services.<br/>
+Map My Food revolutionizes the way people interact with food delivery services. By providing a user-friendly interface, a responsive design, and a comprehensive set of features, the app simplifies the entire process of discovering, exploring, and ordering food. Whether users are craving a quick bite or planning a special meal, Map My Food serves as a convenient and efficient platform for exploring and satisfying their culinary desires.<br/>
 
-<a href="https://github.com/shivam6862/Map-My-Food"><img src="https://github.com/shivam6862/Map-My-Food/blob/master/frontend_map_my_food/public/image.png" style="border-radius:12px"></a>
+<a href="https://github.com/shivam6862/Map-My-Food"><img src="./frontend_map_my_food/public/image.png" style="border-radius:12px"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,22 +156,3 @@ Use this space to list resources you find helpful and would like to give credit 
 [nodejs-url]: https://nodejs.org/en
 [mongodb-url]: https://www.mongodb.com/
 [visualstudiocode-url]: https://code.visualstudio.com/
-
-<!--
-3. Enter your API in `.env` of frontend directory
-   ```sh
-   VITE_REACT_BACKEND_URL=http://localhost:8080
-   VITE_REACT_SOCKET_URL=http://127.0.0.1:8080
-   ```
-4. Enter your MONGODB DATABASE URL and put it in `.env` file in backend directory
-   ```sh
-   MONGODB_URL= "your mongodb url"
-   ```
-5. Make the database in your mongodb server named as `test-app` and make the following collection
-   ```sh
-   users
-   ```
-7. Run the project in backend using
-   ```sh
-   npm start
-   ``` -->
