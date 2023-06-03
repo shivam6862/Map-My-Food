@@ -39,5 +39,20 @@ export const useLocationLocalStorage = () => {
     localStorage.setItem("pincode", JSON.stringify(pincode));
   };
 
-  return { fetchLocation, updateLocation, fetchPincode };
+  const updatePersonalDetails = (data) => {
+    localStorage.setItem("PersonalDetails", JSON.stringify(data));
+  };
+  const fetchPersonalDetails = () => {
+    const Data = localStorage.getItem("PersonalDetails");
+    const response = JSON.parse(Data);
+    return response;
+  };
+
+  return {
+    fetchLocation,
+    updateLocation,
+    fetchPincode,
+    updatePersonalDetails,
+    fetchPersonalDetails,
+  };
 };

@@ -79,7 +79,14 @@ const Location = () => {
             {pastSearchLocation.map((location, index) => (
               <div key={index} className={classes.searchLocationBox}>
                 <img src="/swiggey/location.png" alt="" />
-                <div className={classes.searchLocation}>{location}</div>
+                <div
+                  className={classes.searchLocation}
+                  onClick={() => {
+                    setCustomerLocation(location);
+                  }}
+                >
+                  {location}
+                </div>
               </div>
             ))}
           </div>

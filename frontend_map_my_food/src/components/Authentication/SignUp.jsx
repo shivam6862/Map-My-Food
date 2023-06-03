@@ -2,8 +2,10 @@ import React, { useState, useContext } from "react";
 import classes from "./Auth.module.css";
 import Svgcross from "../ui/Svg/Svgcross";
 import AuthenticationContext from "../store/authentication/Authentication-context";
+import useAuth from "../hook/useAuth";
 
 const SignUP = () => {
+  const { Auth } = useAuth();
   const AuthenticationCtx = useContext(AuthenticationContext);
   const open = AuthenticationCtx.open;
   const [values, setValues] = useState({
@@ -20,7 +22,7 @@ const SignUP = () => {
     setValues({ ...values, [name]: event.target.value });
   };
 
-  const CONTINUE_submit = (e) => {
+  const CONTINUE_submit = async (e) => {
     e.preventDefault();
     AuthenticationCtx.setDetails(
       values.phone,
@@ -28,8 +30,14 @@ const SignUP = () => {
       values.email,
       values.referralCode
     );
-    setValues({ phone: "", name: "", email: "", error: "", open: true });
-    AuthenticationCtx.onShow("VerifyOpen");
+    const response = await Auth(
+      { number: values.phone, name: values.name, email: values.email },
+      "signup"
+    );
+    if (response == "true") {
+      setValues({ phone: "", name: "", email: "", error: "", open: true });
+      AuthenticationCtx.onShow("LogInOpen");
+    }
   };
 
   const hideHandler = () => {

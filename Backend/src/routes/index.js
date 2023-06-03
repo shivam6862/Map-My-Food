@@ -12,6 +12,9 @@ const getAvailableRestaurantsRoute = require("../routes/AvailableRestaurants/get
 const getRecipesRoute = require("../routes/Recipes/getRecipesRoute");
 const getItemPriceCartRoute = require("../routes/ItemPriceCart/getItemPriceCartRoute");
 const getAvailableRestaurantsSortingRoute = require("../routes/AvailableRestaurantsSorting/getAvailableRestaurantsSortingRoute");
+const insertSignInRoute = require("../routes/Authentication/insertSignInRoute");
+const insertVerifyRoute = require("../routes/Authentication/insertVerifyRoute");
+const insertSignUpRoute = require("../routes/Authentication/insertSignUpRoute");
 
 module.exports = routes = [
   getUserRoute,
@@ -28,4 +31,7 @@ module.exports = routes = [
   getRecipesRoute,
   getItemPriceCartRoute,
   getAvailableRestaurantsSortingRoute,
+  insertSignInRoute,
+  insertVerifyRoute,
+  insertSignUpRoute,
 ];

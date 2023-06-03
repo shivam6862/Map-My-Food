@@ -2,8 +2,10 @@ import React, { useState, useContext } from "react";
 import classes from "./Auth.module.css";
 import Svgcross from "../ui/Svg/Svgcross";
 import AuthenticationContext from "../store/authentication/Authentication-context";
+import useAuth from "../hook/useAuth";
 
 const Verify = () => {
+  const { Auth } = useAuth();
   const AuthenticationCtx = useContext(AuthenticationContext);
   var phone = AuthenticationCtx.details.phone;
   if (phone == "") phone = "Phone number";
@@ -17,12 +19,13 @@ const Verify = () => {
     setValues({ ...values, [name]: event.target.value });
   };
 
-  const submit = (e) => {
+  const submit = async (e) => {
     e.preventDefault();
-    console.log("Submitted");
-    const code = values.code;
-    console.log(code);
-    setValues({ code: "", open: true });
+    const response = await Auth({ otp: values.code, number: phone }, "verify");
+    if (response == "true") {
+      setValues({ code: "", open: true });
+      AuthenticationCtx.onHide("VerifyOpen");
+    }
   };
 
   const hideHandler = () => {

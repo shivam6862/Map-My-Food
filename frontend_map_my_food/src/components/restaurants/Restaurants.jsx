@@ -8,15 +8,20 @@ import Unserviceable from "./Unserviceable/Unserviceable";
 import RecipesLoading from "./Recipes/RecipesLoading/RecipesLoading";
 import useAvailableRestaurants from "../hook/useAvailableRestaurants";
 import useRecipes from "../hook/useRecipes";
+import { useLocationLocalStorage } from "../hook/LocationLocalStorage";
 
 const Restaurants = () => {
   const { AvailableRestaurantsData } = useAvailableRestaurants();
   const { RecipesData } = useRecipes();
+  const { fetchPincode } = useLocationLocalStorage();
+  const pincode = fetchPincode();
   const [isLoading, setIsLoading] = useState(true);
   const [isLoadingFood, setIsLoadingFood] = useState(true);
   const [dataAvailableRestaurants, setdataAvailableRestaurants] = useState([]);
   const [dataRecipes, setDataRecipes] = useState([]);
   useEffect(() => {
+    setIsLoading(true);
+    setIsLoadingFood(true);
     const availableRestaurants = async () => {
       const responseAvailableRestaurantsData = await AvailableRestaurantsData();
       const responseRecipesData = await RecipesData();
@@ -26,7 +31,7 @@ const Restaurants = () => {
       setIsLoading(false);
     };
     availableRestaurants();
-  }, []);
+  }, [pincode]);
   const now = new Date();
   const options = { timeZone: "Asia/Kolkata", hour12: false };
   const hour = parseInt(now.toLocaleTimeString("en-US", options).slice(0, 2));

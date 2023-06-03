@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import React, { useEffect, useState, useRef } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 import classes from "./SearchRestaurants.module.css";
 import SearchRestaurantHeading from "./SearchRestaurantHeading/SearchRestaurantHeading";
 import SearchRestaurantFood from "./SearchRestaurantFood/SearchRestaurantFood";
@@ -7,10 +7,14 @@ import CheckBox from "../../ui/CheckBox";
 import CartNotification from "../../CartNotification/CartNotification";
 import useRestaurantFood from "../../hook/useRestaurantFood";
 import LoadingSpinner from "../../ui/LoadingSpinner";
+import { useLocationLocalStorage } from "../../hook/LocationLocalStorage";
 
 const SearchRestaurants = () => {
   const { RestaurantId } = useParams();
   const { RestaurantFoodData } = useRestaurantFood();
+  const { fetchPincode } = useLocationLocalStorage();
+  const pincode = fetchPincode();
+  const navigate = useNavigate();
   const [data, setData] = useState([]);
   const [isChecked, setisChecked] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -22,6 +26,14 @@ const SearchRestaurants = () => {
     };
     RestaurantFoodDataFunction();
   }, []);
+  const isFirstRender = useRef(true);
+  useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    navigate("/");
+  }, [pincode]);
   return (
     <div className={classes.container}>
       {isLoading && (

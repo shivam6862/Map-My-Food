@@ -2,8 +2,10 @@ import React, { useState, useContext } from "react";
 import classes from "./Auth.module.css";
 import Svgcross from "../ui/Svg/Svgcross";
 import AuthenticationContext from "../store/authentication/Authentication-context";
+import useAuth from "../hook/useAuth";
 
 const LogIn = () => {
+  const { Auth } = useAuth();
   const AuthenticationCtx = useContext(AuthenticationContext);
   const [values, setValues] = useState({
     number: "",
@@ -15,12 +17,14 @@ const LogIn = () => {
     setValues({ ...values, [name]: event.target.value });
   };
 
-  const submit = (e) => {
+  const submit = async (e) => {
     e.preventDefault();
-    console.log("Submitted");
-    const number = values.number;
-    console.log(number);
-    setValues({ number: "", open: true });
+    const response = await Auth({ number: values.number }, "signin");
+    if (response == "true") {
+      AuthenticationCtx.setDetails(values.number, "", "", "");
+      setValues({ number: "", open: true });
+      AuthenticationCtx.onShow("VerifyOpen");
+    }
   };
   const hideHandler = () => {
     AuthenticationCtx.onHide("LogInOpen");
