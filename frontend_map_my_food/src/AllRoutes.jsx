@@ -9,6 +9,7 @@ import Partner from "./components/Support/Partner/Partner";
 import Cart from "./components/Cart/Cart";
 import Search from "./components/Search/Search";
 import SearchRestaurants from "./components/Search/SearchRestaurants/SearchRestaurants";
+import User from "./components/User/User";
 
 const routes = [
   { path: "/", Component: HomePage },
@@ -21,6 +22,7 @@ const routes = [
   { path: "/checkout", Component: Cart },
   { path: "/search", Component: Search },
   { path: "/search/:RestaurantId", Component: SearchRestaurants },
+  { path: "/my-account/:page", Component: User },
 ];
 
 export const AllRoutes = () => (

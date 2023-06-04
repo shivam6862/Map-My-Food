@@ -47,6 +47,9 @@ export const useLocationLocalStorage = () => {
     const response = JSON.parse(Data);
     return response;
   };
+  const removePersonalDetails = () => {
+    localStorage.removeItem("PersonalDetails");
+  };
 
   return {
     fetchLocation,
@@ -54,5 +57,6 @@ export const useLocationLocalStorage = () => {
     fetchPincode,
     updatePersonalDetails,
     fetchPersonalDetails,
+    removePersonalDetails,
   };
 };

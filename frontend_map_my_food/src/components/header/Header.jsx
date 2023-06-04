@@ -14,8 +14,10 @@ const Header = () => {
   const cartContextCtx = useContext(CartContext);
   const locationCtx = useContext(LocationContext);
   const authenticationContextCtx = useContext(AuthenticationContext);
-  const { fetchLocation } = useLocationLocalStorage();
+  const { fetchLocation, fetchPersonalDetails } = useLocationLocalStorage();
   const place = fetchLocation();
+  const personalDetails = fetchPersonalDetails();
+  console.log(personalDetails);
   const [number, setNumber] = useState(cartContextCtx.addItems.length);
   useEffect(() => {
     setNumber(cartContextCtx.addItems.length);
@@ -94,23 +96,41 @@ const Header = () => {
             Help
           </div>
         </Link>
-        <div
-          className={classes.right_part}
-          onClick={() => {
-            authenticationContextCtx.onShow("LogInOpen");
-          }}
-        >
-          <div className={classes.right_image}>
-            <Svgsign />
-          </div>
+        {personalDetails ? (
+          <Link to={"/my-account/orders"} className={classes.right_part}>
+            <div className={classes.right_image}>
+              <Svgsign />
+            </div>
+            <div
+              className={`${
+                isActive("/my-account/orders")
+                  ? classes.active
+                  : classes.right_text
+              }`}
+            >
+              {personalDetails.data.name.substr(0, 8)}
+              {"..."}
+            </div>
+          </Link>
+        ) : (
           <div
-            className={`${
-              isActive("/sign") ? classes.active : classes.right_text
-            }`}
+            className={classes.right_part}
+            onClick={() => {
+              authenticationContextCtx.onShow("LogInOpen");
+            }}
           >
-            Sign In
+            <div className={classes.right_image}>
+              <Svgsign />
+            </div>
+            <div
+              className={`${
+                isActive("/sign") ? classes.active : classes.right_text
+              }`}
+            >
+              Sign In
+            </div>
           </div>
-        </div>
+        )}
         <Link to={"/checkout"} className={classes.right_part}>
           <div
             className={`${

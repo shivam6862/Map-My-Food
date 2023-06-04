@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.container img {
+  width: 400px;
+}
+.container h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #535665;
+  margin-top: 2rem;
+}
+.container p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #7e808c;
+  margin-top: 8px;
+}
+@media screen and (max-width: 450px) {
+  .container img {
+    width: 95%;
+  }
+}

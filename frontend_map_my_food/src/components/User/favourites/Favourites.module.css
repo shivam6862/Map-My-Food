@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fill-available;
+}
+.container img {
+  height: 290px;
+}
+.container h1 {
+  color: #282c3f;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0 0;
+}
+.container p {
+  color: #93959f;
+  font-size: 1rem;
+  margin: 0rem;
+}
+.container button {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  color: #fc8019;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: #fc8019;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  height: 40px;
+  line-height: 40px;
+  padding: 0 1.3rem;
+  width: auto;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+}
