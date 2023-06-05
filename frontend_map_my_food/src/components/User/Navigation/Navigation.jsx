@@ -9,6 +9,7 @@ import SvgAddressess from "../../ui/User/SvgAddressess";
 import SvgSetting from "../../ui/User/SvgSetting";
 import SvgLogOut from "../../ui/User/SvgLogOut";
 import { useLocationLocalStorage } from "../../hook/LocationLocalStorage";
+import SvgRestaurant from "../../ui/User/SvgRestaurant";
 
 const Navigation = () => {
   const location = useLocation();
@@ -74,6 +75,17 @@ const Navigation = () => {
         >
           <SvgSetting />
           Settings
+        </Link>
+        <Link
+          to={"/my-account/new-restaurant"}
+          className={`${
+            isActive("/my-account/new-restaurant")
+              ? classes.active
+              : classes.item
+          }`}
+        >
+          <SvgRestaurant />
+          New Restaurant
         </Link>
         <div
           className={`${

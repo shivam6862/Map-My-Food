@@ -3,6 +3,7 @@ import classes from "./Process.module.css";
 import Svgsign from "../../ui/Svg/Svgsign";
 import AuthenticationContext from "../../store/authentication/Authentication-context";
 import { useLocationLocalStorage } from "../../hook/LocationLocalStorage";
+import AddressesCart from "../AddressesCart/AddressesCart";
 
 const Process = () => {
   const authenticationContextCtx = useContext(AuthenticationContext);
@@ -54,7 +55,7 @@ const Process = () => {
           </div>
         )}
         <div className={classes.box}>
-          <h1>Delivery address</h1>
+          {personalDetails ? <AddressesCart /> : <h1>Delivery address</h1>}
           <div className={classes.location}>
             <img src="/swiggey/Logo/logo_2022.png" alt="" />
           </div>

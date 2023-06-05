@@ -61,3 +61,23 @@
     padding: 0.5rem;
   }
 }
+
+.profile {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  min-height: 100vh;
+  z-index: 80;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 1);
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-height: 100vh;
+  z-index: 60;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}

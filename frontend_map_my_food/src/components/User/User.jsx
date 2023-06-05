@@ -10,13 +10,29 @@ import Favourites from "./favourites/Favourites";
 import Payments from "./payments/Payments";
 import Settings from "./settings/Settings";
 import Super from "./super/Super";
+import UpdateProfile from "./updateProfile/updateProfile";
+import NewRestaurant from "../NewRestaurant/NewRestaurant";
 
 const User = () => {
   const { page } = useParams();
   const [isLoading, setIsLoading] = useState(false);
+  const [isShowEdit, setIsShowEdit] = useState(false);
   return (
     <div className={classes.container}>
-      <Header />
+      {isShowEdit && (
+        <>
+          <div
+            className={classes.backdrop}
+            onClick={() => {
+              setIsShowEdit(false);
+            }}
+          ></div>
+          <div className={classes.profile}>
+            <UpdateProfile setIsShowEdit={setIsShowEdit} />
+          </div>
+        </>
+      )}
+      <Header setIsShowEdit={setIsShowEdit} />
       <div className={classes.boxes}>
         <div className={classes.inner_box}>
           <Navigation />
@@ -28,6 +44,7 @@ const User = () => {
             {!isLoading && page == "payments" && <Payments />}
             {!isLoading && page == "manage_addresses" && <Addresses />}
             {!isLoading && page == "settings" && <Settings />}
+            {!isLoading && page == "new-restaurant" && <NewRestaurant />}
           </div>
         </div>
       </div>

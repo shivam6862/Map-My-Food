@@ -17,7 +17,6 @@ const Header = () => {
   const { fetchLocation, fetchPersonalDetails } = useLocationLocalStorage();
   const place = fetchLocation();
   const personalDetails = fetchPersonalDetails();
-  console.log(personalDetails);
   const [number, setNumber] = useState(cartContextCtx.addItems.length);
   useEffect(() => {
     setNumber(cartContextCtx.addItems.length);
