@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  gap: 0.8rem;
+  width: 100px;
+  cursor: pointer;
+}
+.a {
+  width: 24px;
+  height: 24px;
+}
+.a:hover {
+  transform: scale(1.1);
+}
+.b {
+  width: 23px;
+  height: 23px;
+}
+.b:hover {
+  transform: scale(1.1);
+}
+.c {
+  width: 23px;
+  height: 23px;
+}
+.c:hover {
+  transform: scale(1.1);
+}

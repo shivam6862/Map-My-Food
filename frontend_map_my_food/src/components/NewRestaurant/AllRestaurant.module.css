@@ -1,0 +1,28 @@
+.container {
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.heading {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.buttons {
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: flex-end;
+}
+.button {
+  color: #000000;
+  background: #ffa777;
+  border: 1px solid white;
+  padding: 0.5rem 1.6rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  align-items: right;
+}

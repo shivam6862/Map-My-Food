@@ -1,16 +1,21 @@
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: -webkit-fill-available;
+  height: 100%;
+  box-shadow: 2px 2px 4px black;
+  padding: 1.5rem;
+  border-radius: 8px;
+  padding-top: 3rem;
 }
 .boxes {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 5rem;
   width: 100%;
   position: relative;
 }
@@ -32,6 +37,8 @@
   justify-content: space-between;
   align-items: center;
   color: #000000;
+  cursor: pointer;
+  white-space: nowrap;
 }
 .location {
   position: absolute;
@@ -57,5 +64,13 @@
 @media screen and (max-width: 320px) {
   .box {
     padding: 1rem;
+  }
+}
+@media screen and (max-width: 990px) {
+  .boxes {
+    gap: 1rem;
+  }
+  .box {
+    padding: 1.5rem;
   }
 }

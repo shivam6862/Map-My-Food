@@ -77,11 +77,9 @@ const Navigation = () => {
           Settings
         </Link>
         <Link
-          to={"/my-account/new-restaurant"}
+          to={"/new-restaurant"}
           className={`${
-            isActive("/my-account/new-restaurant")
-              ? classes.active
-              : classes.item
+            isActive("/new-restaurant") ? classes.active : classes.item
           }`}
         >
           <SvgRestaurant />

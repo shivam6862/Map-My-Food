@@ -1,0 +1,32 @@
+.file_input_wrapper {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.file_input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.part1_b_a {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.part1_b_a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.file_input_label {
+  display: inline-block;
+  color: #fb813e;
+  border-radius: 5px;
+  cursor: pointer;
+}

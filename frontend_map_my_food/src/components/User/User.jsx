@@ -11,7 +11,6 @@ import Payments from "./payments/Payments";
 import Settings from "./settings/Settings";
 import Super from "./super/Super";
 import UpdateProfile from "./updateProfile/updateProfile";
-import NewRestaurant from "../NewRestaurant/NewRestaurant";
 
 const User = () => {
   const { page } = useParams();
@@ -44,7 +43,6 @@ const User = () => {
             {!isLoading && page == "payments" && <Payments />}
             {!isLoading && page == "manage_addresses" && <Addresses />}
             {!isLoading && page == "settings" && <Settings />}
-            {!isLoading && page == "new-restaurant" && <NewRestaurant />}
           </div>
         </div>
       </div>
