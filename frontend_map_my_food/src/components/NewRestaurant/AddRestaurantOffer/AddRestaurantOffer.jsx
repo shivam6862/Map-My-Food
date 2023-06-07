@@ -1,24 +1,47 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import classes from "../Restarurant.module.css";
 import Question from "../Question/Question";
 import UploadImage from "../UploadImage/UploadImage";
 import Curd from "../Crud/Crud";
 
-const AddRestaurantOffer = () => {
-  const offers = ["percentage", "above"];
+const AddRestaurantOffer = ({ offer }) => {
+  const [values, setValues] = useState({
+    percentage: "",
+    above: "",
+  });
+  useEffect(() => {
+    if (offer != undefined) {
+      setValues({
+        percentage: offer.percentage || "",
+        above: offer.above || "",
+      });
+    }
+  }, []);
+  const handleChange = (name) => (event) => {
+    setValues({ ...values, [name]: event.target.value });
+  };
   return (
     <div className={classes.container}>
       <div className={classes.heading}> Add Restaurant Offer</div>
       <div className={classes.part1_a}>Offer picture</div>
       <div className={classes.part1}>
-        <UploadImage ids={"AddRestaurantOffer"} />
+        {offer && <UploadImage ids={offer.offerId} srcLink={offer.image} />}
+        {!offer && <UploadImage ids={"AddRestaurantOffer"} srcLink={null} />}
         <div className={classes.curd}>
-          <Curd />
+          {offer && (
+            <Curd page={"restaurantoffer"} data={values} id={offer.offerId} />
+          )}
+          {!offer && <Curd page={"restaurantoffer"} data={values} />}
         </div>
       </div>
       <div className={classes.allquestion}>
-        {offers.map((offer, index) => (
-          <Question question={offer} key={index} />
+        {Object.entries(values).map(([question, value]) => (
+          <Question
+            key={question}
+            value={value}
+            question={question}
+            handleChange={handleChange(question)}
+          />
         ))}
       </div>
     </div>

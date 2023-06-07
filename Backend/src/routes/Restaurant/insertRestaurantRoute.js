@@ -19,7 +19,7 @@ module.exports = insertRestaurantRoute = {
       opening_hours,
       price,
       pincode,
-    } = req.body;
+    } = req.body.Restaurant;
     const RestaurantId = v4();
     const response = await insertRestaurant(
       address,
@@ -37,6 +37,8 @@ module.exports = insertRestaurantRoute = {
       price,
       pincode
     );
-    res.status(200).json(response);
+    res
+      .status(200)
+      .json({ response: response, message: "Restaurant is created!" });
   },
 };

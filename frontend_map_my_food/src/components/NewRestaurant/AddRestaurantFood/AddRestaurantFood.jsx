@@ -1,32 +1,64 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import classes from "../Restarurant.module.css";
 import Question from "../Question/Question";
 import UploadImage from "../UploadImage/UploadImage";
 import Curd from "../Crud/Crud";
 
-const AddRestaurantFood = () => {
-  const Food = [
-    "name",
-    "price",
-    "description",
-    "Dtime",
-    "veg",
-    "star",
-    "time Required",
-  ];
+const AddRestaurantFood = ({ food }) => {
+  const [values, setValues] = useState({
+    name: "",
+    price: "",
+    description: "",
+    Dtime: "",
+    category: "",
+    veg: "",
+    star: "",
+    timeRequired: "",
+  });
+  useEffect(() => {
+    if (food != undefined) {
+      setValues({
+        name: food.name || "",
+        price: food.price || "",
+        description: food.description || "",
+        Dtime: food.Dtime || "",
+        category: food.category || "",
+        veg: food.veg || "",
+        star: food.star || "",
+        timeRequired: food.timeRequired || "",
+      });
+    }
+  }, []);
+  const handleChange = (name) => (event) => {
+    setValues({ ...values, [name]: event.target.value });
+  };
   return (
     <div className={classes.container}>
       <div className={classes.heading}> Add Restaurant Food</div>
       <div className={classes.part1_a}>Food picture</div>
       <div className={classes.part1}>
-        <UploadImage ids={"AddRestaurantFood"} />
+        {food && (
+          <UploadImage
+            ids={food.itemId}
+            srcLink={`${import.meta.env.VITE_REACT_BACKEND_URL}${food.image}`}
+          />
+        )}
+        {!food && <UploadImage ids={"AddRestaurantFood"} srcLink={null} />}
         <div className={classes.curd}>
-          <Curd />
+          {food && (
+            <Curd page={"restaurantfood"} data={values} id={food.itemId} />
+          )}
+          {!food && <Curd page={"restaurantfood"} data={values} />}
         </div>
       </div>
       <div className={classes.allquestion}>
-        {Food.map((item, index) => (
-          <Question question={item} key={index} />
+        {Object.entries(values).map(([question, value]) => (
+          <Question
+            key={question}
+            value={value}
+            question={question}
+            handleChange={handleChange(question)}
+          />
         ))}
       </div>
     </div>

@@ -11,6 +11,8 @@ module.exports = insertRestaurantFoodRoute = {
       ...food,
     }));
     const response = await insertRestaurantFood(RestaurantId, foodWithId);
-    res.status(200).json(response);
+    res
+      .status(200)
+      .json({ response: response, message: "Food item Saved Successfully!" });
   },
 };

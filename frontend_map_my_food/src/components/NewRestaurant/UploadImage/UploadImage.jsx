@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import classes from "./UploadImage.module.css";
 import SvgUpload from "../../ui/User/SvgUpload";
 
-const UploadImage = ({ ids }) => {
+const UploadImage = ({ ids, srcLink }) => {
   const [selectedImage, setSelectedImage] = useState(null);
+  useEffect(() => {
+    setSelectedImage(srcLink);
+  }, []);
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
     const reader = new FileReader();

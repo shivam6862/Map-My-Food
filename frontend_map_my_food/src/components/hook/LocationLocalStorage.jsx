@@ -51,6 +51,15 @@ export const useLocationLocalStorage = () => {
     localStorage.removeItem("PersonalDetails");
   };
 
+  const updateRestaurantId = (data) => {
+    localStorage.setItem("restaurantId", JSON.stringify(data));
+  };
+  const fetchRestaurantId = () => {
+    const Data = localStorage.getItem("restaurantId");
+    const response = JSON.parse(Data);
+    return response;
+  };
+
   return {
     fetchLocation,
     updateLocation,
@@ -58,5 +67,7 @@ export const useLocationLocalStorage = () => {
     updatePersonalDetails,
     fetchPersonalDetails,
     removePersonalDetails,
+    updateRestaurantId,
+    fetchRestaurantId,
   };
 };

@@ -15,6 +15,13 @@ const getAvailableRestaurantsSortingRoute = require("../routes/AvailableRestaura
 const insertSignInRoute = require("../routes/Authentication/insertSignInRoute");
 const insertVerifyRoute = require("../routes/Authentication/insertVerifyRoute");
 const insertSignUpRoute = require("../routes/Authentication/insertSignUpRoute");
+const updateRestaurantOffersRoute = require("../routes/RestaurantOffers/updateRestaurantOffersRoute");
+const deleteRestaurantOffersRoute = require("../routes/RestaurantOffers/deleteRestaurantOffersRoute");
+const updateRestaurantFoodRoute = require("../routes/RestaurantFood/updateRestaurantFoodRoute");
+const deleteRestaurantFoodRoute = require("../routes/RestaurantFood/deleteRestaurantFoodRoute");
+const updateRestaurantRoute = require("../routes/Restaurant/updateRestaurantRoute");
+const getRestaurantAllOffersRoute = require("../routes/RestaurantOffers/getRestaurantAllOffersRoute");
+const getRestaurantAllFoodRoute = require("../routes/RestaurantFood/getRestaurantAllFoodRoute");
 
 module.exports = routes = [
   getUserRoute,
@@ -34,4 +41,11 @@ module.exports = routes = [
   insertSignInRoute,
   insertVerifyRoute,
   insertSignUpRoute,
+  updateRestaurantOffersRoute,
+  deleteRestaurantOffersRoute,
+  updateRestaurantFoodRoute,
+  deleteRestaurantFoodRoute,
+  updateRestaurantRoute,
+  getRestaurantAllOffersRoute,
+  getRestaurantAllFoodRoute,
 ];
