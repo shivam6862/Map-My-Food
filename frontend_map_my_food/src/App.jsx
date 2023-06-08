@@ -11,8 +11,9 @@ import { useLocationLocalStorage } from "./components/hook/LocationLocalStorage"
 
 function App() {
   const locationContextCtx = useContext(LocationContext);
-  const { fetchLocation } = useLocationLocalStorage();
+  const { fetchLocation, fetchPersonalDetails } = useLocationLocalStorage();
   const [isLocation, setIsLocation] = useState(fetchLocation());
+  const islogIn = fetchPersonalDetails();
   useEffect(() => {
     setIsLocation(fetchLocation());
   }, [locationContextCtx.localStorageLocation]);
@@ -27,7 +28,7 @@ function App() {
         </div>
       )}
       <div className={`${isLocation ? classes.AllRoutes : classes.allRoute}`}>
-        <AllRoutes />
+        <AllRoutes islogIn={islogIn} />
       </div>
       <Auth />
       <Footer />
