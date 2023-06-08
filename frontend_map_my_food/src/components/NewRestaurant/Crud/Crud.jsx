@@ -8,7 +8,8 @@ import { useLocationLocalStorage } from "../../hook/LocationLocalStorage";
 
 const Curd = ({ page, data, id, imageToBackend }) => {
   const { CreateNewRestaurantData } = useCreateNewRestaurantData();
-  const { updateRestaurantId } = useLocationLocalStorage();
+  const { updateRestaurantId, updatePersonalDetails } =
+    useLocationLocalStorage();
   const edited = async () => {
     const response = await CreateNewRestaurantData(
       data,
@@ -26,7 +27,8 @@ const Curd = ({ page, data, id, imageToBackend }) => {
       "",
       imageToBackend
     );
-    updateRestaurantId(response.ResturentId);
+    updateRestaurantId(response.data.ResturentId);
+    updatePersonalDetails(response);
   };
   const deleted = async () => {
     const response = await CreateNewRestaurantData(

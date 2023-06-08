@@ -6,5 +6,10 @@ module.exports = insertRestaurant = async (userId, Restaurant) => {
     ...Restaurant,
   });
   const response = await updateUserResturentId(userId, Restaurant.RestaurantId);
-  return response;
+  return {
+    data: response,
+    message: "User Data Updated Sucessfully!",
+    navigate: "true",
+    token: response.token,
+  };
 };

@@ -6,6 +6,14 @@ module.exports = insertsignup = async (number, name, email) => {
   const id = v4();
   const { insertedId } = await connection
     .collection("users")
-    .insertOne({ number, name, email, id, token: "" });
+    .insertOne({
+      number,
+      name,
+      email,
+      id,
+      token: "",
+      SmsPreferences: "true",
+      addresses: [],
+    });
   return id;
 };

@@ -26,6 +26,15 @@
   width: 290px;
   border: 1px solid #d4d5d9;
   min-height: 220px;
+  max-width: 500px;
+}
+.boxTextarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid #d4d5d9;
+  min-height: 220px;
 }
 .box_left {
   padding: 1rem 0rem 0rem 0.5rem;
@@ -45,6 +54,16 @@
   color: #000000;
 }
 .box_right p {
+  font-size: 0.8rem;
+  color: #535665;
+  line-height: 16px;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.box_right textarea {
+  padding: 0.5rem 1rem;
+  outline: none;
+  max-width: 400px;
   font-size: 0.8rem;
   color: #535665;
   line-height: 16px;

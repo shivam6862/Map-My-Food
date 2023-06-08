@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import classes from "./Settings.module.css";
+import useToggleSmsPreferences from "../../hook/useToggleSmsPreferences";
 
 const Settings = () => {
   const [isChecked, setIsChecked] = useState(true);
-  const handleCheckboxChange = () => {
-    if (isChecked) setIsChecked(false);
-    else setIsChecked(true);
+  const { ToggleSmsPreferencesData } = useToggleSmsPreferences();
+  const handleCheckboxChange = async () => {
+    const response = await ToggleSmsPreferencesData();
+    if (response == "true") setIsChecked(true);
+    else setIsChecked(false);
   };
   return (
     <div className={classes.container}>

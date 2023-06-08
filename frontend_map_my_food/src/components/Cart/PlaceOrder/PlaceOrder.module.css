@@ -101,8 +101,7 @@
 .left_image_arrow {
   position: absolute;
   bottom: 0;
-  right: 0;
-  transform: transalate(-50%, -50%);
+  right: -5px;
   border: solid #fc8019;
   border-width: 0 2px 2px 0;
   display: inline-block;

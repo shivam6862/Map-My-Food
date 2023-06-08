@@ -4,6 +4,7 @@ import Svgsign from "../../ui/Svg/Svgsign";
 import AuthenticationContext from "../../store/authentication/Authentication-context";
 import { useLocationLocalStorage } from "../../hook/LocationLocalStorage";
 import AddressesCart from "../AddressesCart/AddressesCart";
+import PaymentProcess from "../PaymentProcess/PaymentProcess";
 
 const Process = () => {
   const authenticationContextCtx = useContext(AuthenticationContext);
@@ -60,12 +61,7 @@ const Process = () => {
             <img src="/swiggey/Logo/logo_2022.png" alt="" />
           </div>
         </div>
-        <div className={classes.box}>
-          <h1>Payment</h1>
-          <div className={classes.location}>
-            <img src="/logo.jpg" alt="" />
-          </div>
-        </div>
+        <PaymentProcess />
       </div>
     </div>
   );

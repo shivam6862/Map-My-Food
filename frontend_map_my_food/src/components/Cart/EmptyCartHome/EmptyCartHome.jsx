@@ -15,7 +15,7 @@ const EmptyCartHome = () => {
         <div className={classes.paragraph}>
           <p>You can go to home page to view more restaurants</p>
         </div>
-        <Link to={"/Restaurants"} className={classes.button}>
+        <Link to={"/"} className={classes.button}>
           <button>SEE RESTAURANTS NEAR YOU</button>
         </Link>
       </div>

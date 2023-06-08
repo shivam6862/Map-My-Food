@@ -14,6 +14,8 @@ const CartContext = React.createContext({
   place: "",
   image: "",
   RestaurantId: "",
+  deliverHere: null,
+  onDeliverHere: (address) => {},
 });
 
 export const CartContextProvider = (props) => {
@@ -26,6 +28,7 @@ export const CartContextProvider = (props) => {
   const [place, setPlace] = useState("Dumka");
   const [image, setImage] = useState("/swiggey/AvailableRestaurants/5.webp");
   const [restaurantId, setRestaurantId] = useState(null);
+  const [deliverHere, setDeliverHere] = useState(null);
   const { NotificationHandler } = useNotification();
 
   const AddItemsHandler = async (RestaurantId, itemId) => {
@@ -101,6 +104,10 @@ export const CartContextProvider = (props) => {
     setGST(updatedTotalAmount * 0.02);
   };
 
+  const onDeliverHereHandler = (address) => {
+    setDeliverHere(address);
+  };
+
   return (
     <CartContext.Provider
       value={{
@@ -114,6 +121,8 @@ export const CartContextProvider = (props) => {
         place: place,
         image: image,
         RestaurantId: restaurantId,
+        deliverHere: deliverHere,
+        onDeliverHere: onDeliverHereHandler,
       }}
     >
       {props.children}

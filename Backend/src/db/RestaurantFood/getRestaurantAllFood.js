@@ -6,5 +6,6 @@ module.exports = getRestaurantAllFood = async (id) => {
     .collection("restaurantFood")
     .find({ RestaurantId: id })
     .toArray();
+  if (response.length == 0) return response;
   return response[0].food;
 };

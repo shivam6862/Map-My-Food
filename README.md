@@ -3,7 +3,7 @@
 <h2 align="center">Map my food</h2>
 
   <p align="center">
-   Map My Food is a full-stack food order application built using React for the frontend, Node.js for the backend, and MongoDB for the database. With its responsive design and global state management, it offers a seamless and user-friendly experience for customers to explore and order food from various restaurants.
+   Map My Food is a full-stack food order application built using React for the frontend, Node.js for the backend, and MongoDB for the database. With its responsive design and global state management, it offers a seamless and user-friendly experience for customers to explore and order food from various restaurants.It also offers a unique feature that allows new users to create their own restaurants within the app.
     <br />
     <br />
     <a href="https://github.com/shivam6862/Map-My-Food/issues">Report Bug</a>
@@ -30,7 +30,7 @@
 
 ## About The Project
 
-Map My Food is an innovative food order app built on React, with a backend developed using Node.js and a MongoDB database. The app allows users to explore restaurants, browse menus, and place orders for delivery or pickup. With a map-based interface, responsive design, and global state management, Map My Food provides a seamless experience for users to discover and order delicious food. It incorporates intuitive search and filtering options and customizations for dietary preferences. Map My Food revolutionizes the way people interact with food delivery services, making it convenient and efficient for users to satisfy their cravings.
+Map My Food is an innovative food order app built on React, with a backend developed using Node.js and a MongoDB database. The app allows users to explore restaurants, browse menus, and place orders for delivery or pickup. With a map-based interface, responsive design, and global state management, Map My Food provides a seamless experience for users to discover and order delicious food. It incorporates intuitive search and filtering options and customizations for dietary preferences. Map My Food revolutionizes the way people interact with food delivery services, making it convenient and efficient for users to satisfy their cravings.It also offers a unique feature that allows new users to create their own restaurants within the app.Map My Food revolutionizes food delivery, providing convenience and efficiency for users to satisfy their cravings in a personalized way.
 
 Team - `shivam6862`
 
@@ -80,6 +80,8 @@ So as to run our project locally, you need to follow the steps below.
 8. Make the database in your mongodb server named as `Map-My-Food` and make the following collection
    ```sh
    PaymentOffers
+   orders
+   otps
    restaurant
    restaurantFood
    restaurantOffers
@@ -105,7 +107,7 @@ To enhance user convenience, Map My Food incorporates intuitive search and filte
 
 One of the standout features of Map My Food is its global state management, which enables efficient data handling and synchronization across different components. This ensures a seamless navigation experience, allowing users to effortlessly add items to their cart and place orders without any interruptions. The app's intelligent backend, built on Node.js, facilitates smooth communication between the frontend and the database, ensuring a swift and reliable experience.<br/>
 
-Map My Food revolutionizes the way people interact with food delivery services. By providing a user-friendly interface, a responsive design, and a comprehensive set of features, the app simplifies the entire process of discovering, exploring, and ordering food. Whether users are craving a quick bite or planning a special meal, Map My Food serves as a convenient and efficient platform for exploring and satisfying their culinary desires.<br/>
+Map My Food revolutionizes the way people interact with food delivery services. By providing a user-friendly interface, a responsive design, and a comprehensive set of features, the app simplifies the entire process of discovering, exploring, and ordering food.Map My Food revolutionizes food delivery by empowering new restaurant owners to create their own establishments within the app. Users can explore a variety of restaurants, browse menus, and place orders for delivery or pickup. Whether users are craving a quick bite or planning a special meal, Map My Food serves as a convenient and efficient platform for exploring and satisfying their culinary desires.<br/>
 
 <a href="https://github.com/shivam6862/Map-My-Food"><img src="./frontend_map_my_food/public/image.png" style="border-radius:12px"></a>
 

@@ -1,5 +1,3 @@
-const getUserRoute = require("../routes/user/getUserRoute");
-const insertUserRoute = require("../routes/user/insertUserRoute");
 const getPaymentOffersRoute = require("../routes/PaymentOffers/getPaymentOffersRoute");
 const getSearchRoute = require("../routes/search/getSearchRoute");
 const getRestaurantRoute = require("../routes/Restaurant/getRestaurantRoute");
@@ -22,10 +20,14 @@ const deleteRestaurantFoodRoute = require("../routes/RestaurantFood/deleteRestau
 const updateRestaurantRoute = require("../routes/Restaurant/updateRestaurantRoute");
 const getRestaurantAllOffersRoute = require("../routes/RestaurantOffers/getRestaurantAllOffersRoute");
 const getRestaurantAllFoodRoute = require("../routes/RestaurantFood/getRestaurantAllFoodRoute");
+const toggleSmsPreferencesRoute = require("../routes/user/toggleSmsPreferencesRoute");
+const insertUserAddressesRoute = require("../routes/user/insertUserAddressesRoute");
+const getUserAddressesRoute = require("../routes/user/getUserAddressesRoute");
+const deleteUserAddressesRoute = require("../routes/user/deleteUserAddressesRoute");
+const insertUserOrderRoute = require("../routes/UserOrder/insertUserOrderRoute");
+const getUserOrderRoute = require("../routes/UserOrder/getUserOrderRoute");
 
 module.exports = routes = [
-  getUserRoute,
-  insertUserRoute,
   getPaymentOffersRoute,
   getSearchRoute,
   getRestaurantRoute,
@@ -48,4 +50,10 @@ module.exports = routes = [
   updateRestaurantRoute,
   getRestaurantAllOffersRoute,
   getRestaurantAllFoodRoute,
+  toggleSmsPreferencesRoute,
+  insertUserAddressesRoute,
+  getUserAddressesRoute,
+  deleteUserAddressesRoute,
+  insertUserOrderRoute,
+  getUserOrderRoute,
 ];
