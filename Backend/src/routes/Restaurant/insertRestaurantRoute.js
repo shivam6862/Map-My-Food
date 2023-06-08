@@ -1,42 +1,21 @@
 const insertRestaurant = require("../../db/Restaurant/insertRestaurant");
 const v4 = require("uuid").v4;
+const Uploads = require("../Uploads/Uploads");
 
 module.exports = insertRestaurantRoute = {
   path: "/restaurant",
   method: "post",
   handler: async (req, res) => {
-    const {
-      address,
-      Restaurant,
-      Restaurant_dish,
-      location,
-      FreeDeliveryonOrderDistance,
-      FreeDeliveryonOrderAbove,
-      rating,
-      ratingCount,
-      time,
-      phone_number,
-      opening_hours,
-      price,
-      pincode,
-    } = req.body.Restaurant;
+    const { userId, data } = req.body;
+    const Restaurant = JSON.parse(data);
     const RestaurantId = v4();
-    const response = await insertRestaurant(
-      address,
-      Restaurant,
-      RestaurantId,
-      Restaurant_dish,
-      location,
-      FreeDeliveryonOrderDistance,
-      FreeDeliveryonOrderAbove,
-      rating,
-      ratingCount,
-      time,
-      phone_number,
-      opening_hours,
-      price,
-      pincode
-    );
+    Restaurant.RestaurantId = RestaurantId;
+    if (req.files != null) {
+      const { file } = req.files;
+      const image = await Uploads(file);
+      Restaurant.image = image;
+    }
+    const response = await insertRestaurant(userId, Restaurant);
     res
       .status(200)
       .json({ response: response, message: "Restaurant is created!" });

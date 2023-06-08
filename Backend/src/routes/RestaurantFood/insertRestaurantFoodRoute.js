@@ -1,13 +1,21 @@
 const insertRestaurantFood = require("../../db/RestaurantFood/insertRestaurantFood");
 const v4 = require("uuid").v4;
+const Uploads = require("../Uploads/Uploads");
 
 module.exports = insertRestaurantFoodRoute = {
   path: "/restaurantfood",
   method: "post",
   handler: async (req, res) => {
-    const { RestaurantId, food } = req.body;
+    const { RestaurantId, data } = req.body;
+    const food = JSON.parse(data);
+    var image = "";
+    if (req.files != null) {
+      const { file } = req.files;
+      image = await Uploads(file);
+    }
     const foodWithId = food.map((food, index) => ({
       itemId: v4(),
+      image: image,
       ...food,
     }));
     const response = await insertRestaurantFood(RestaurantId, foodWithId);

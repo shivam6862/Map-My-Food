@@ -1,13 +1,21 @@
 const insertRestaurantOffers = require("../../db/RestaurantOffers/insertRestaurantOffers");
 const v4 = require("uuid").v4;
+const Uploads = require("../Uploads/Uploads");
 
 module.exports = insertRestaurantOffersRoute = {
   path: "/restaurantoffer",
   method: "post",
   handler: async (req, res) => {
-    const { RestaurantId, offers } = req.body;
+    const { RestaurantId, data } = req.body;
+    const offers = JSON.parse(data);
+    const image = "";
+    if (req.files != null) {
+      const { file } = req.files;
+      image = await Uploads(file);
+    }
     const offersWithId = offers.map((offer, index) => ({
       offerId: v4(),
+      image: image,
       ...offer,
     }));
     const response = await insertRestaurantOffers(RestaurantId, offersWithId);

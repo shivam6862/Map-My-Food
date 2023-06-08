@@ -12,6 +12,7 @@ module.exports = updateRestaurantOffers = async (offerId, offer) => {
         $set: {
           "offers.$.percentage": offer.percentage,
           "offers.$.above": offer.above,
+          "offers.$.image": offer.image,
         },
       },
       (err, result) => {

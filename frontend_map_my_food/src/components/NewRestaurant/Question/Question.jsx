@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Question.module.css";
 
 const Question = ({ question, value, handleChange }) => {
+  if (question == "image") return;
   return (
     <div className={classes.container_question}>
       <div className={classes.question_heading}>

@@ -3,39 +3,44 @@ import { useLocationLocalStorage } from "./LocationLocalStorage";
 
 const useCreateNewRestaurantData = () => {
   const { NotificationHandler } = useNotification();
-  const { fetchRestaurantId } = useLocationLocalStorage();
-  const CreateNewRestaurantData = async (data, page, type, id) => {
+  const { fetchRestaurantId, fetchPersonalDetails } = useLocationLocalStorage();
+  const CreateNewRestaurantData = async (
+    data,
+    page,
+    type,
+    id,
+    imageToBackend
+  ) => {
     const RestaurantId = fetchRestaurantId();
+    const formData = new FormData();
     if (page == "restaurantfood") {
-      data = {
-        RestaurantId: RestaurantId,
-        itemId: id,
-        food: [data],
-      };
+      formData.append("file", imageToBackend);
+      formData.append("RestaurantId", RestaurantId);
+      formData.append("itemId", id);
+      formData.append("data", JSON.stringify([data]));
     }
     if (page == "restaurantoffer") {
-      data = {
-        RestaurantId: RestaurantId,
-        offerId: id,
-        offers: [data],
-      };
+      formData.append("file", imageToBackend);
+      formData.append("RestaurantId", RestaurantId);
+      formData.append("offerId", id);
+      formData.append("data", JSON.stringify([data]));
     }
     if (page == "restaurant") {
-      data = {
-        RestaurantId: RestaurantId,
-        Restaurant: data,
-      };
+      const PersonalDetails = await fetchPersonalDetails();
+      var userId = "";
+      if (PersonalDetails != undefined) userId = PersonalDetails.data.id;
+      formData.append("file", imageToBackend);
+      formData.append("userId", userId);
+      formData.append("RestaurantId", RestaurantId);
+      formData.append("data", JSON.stringify(data));
     }
     try {
       const response = await fetch(
         `${import.meta.env.VITE_REACT_BACKEND_URL}/${page}`,
         {
           method: type,
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
+          headers: {},
+          body: formData,
         }
       );
       const responsedata = await response.json();

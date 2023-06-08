@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import classes from "./UploadImage.module.css";
 import SvgUpload from "../../ui/User/SvgUpload";
 
-const UploadImage = ({ ids, srcLink }) => {
+const UploadImage = ({ ids, srcLink, setImageToBackend }) => {
   const [selectedImage, setSelectedImage] = useState(null);
   useEffect(() => {
     setSelectedImage(srcLink);
@@ -10,6 +10,7 @@ const UploadImage = ({ ids, srcLink }) => {
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
     const reader = new FileReader();
+    setImageToBackend(file);
     reader.onload = (e) => {
       setSelectedImage(e.target.result);
     };

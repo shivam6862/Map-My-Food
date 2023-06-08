@@ -14,7 +14,9 @@ const AddRestaurantFood = ({ food }) => {
     veg: "",
     star: "",
     timeRequired: "",
+    image: "",
   });
+  const [imageToBackend, setImageToBackend] = useState(null);
   useEffect(() => {
     if (food != undefined) {
       setValues({
@@ -26,6 +28,7 @@ const AddRestaurantFood = ({ food }) => {
         veg: food.veg || "",
         star: food.star || "",
         timeRequired: food.timeRequired || "",
+        image: food.image || "",
       });
     }
   }, []);
@@ -41,14 +44,32 @@ const AddRestaurantFood = ({ food }) => {
           <UploadImage
             ids={food.itemId}
             srcLink={`${import.meta.env.VITE_REACT_BACKEND_URL}${food.image}`}
+            setImageToBackend={setImageToBackend}
           />
         )}
-        {!food && <UploadImage ids={"AddRestaurantFood"} srcLink={null} />}
+        {!food && (
+          <UploadImage
+            ids={"AddRestaurantFood"}
+            srcLink={null}
+            setImageToBackend={setImageToBackend}
+          />
+        )}
         <div className={classes.curd}>
           {food && (
-            <Curd page={"restaurantfood"} data={values} id={food.itemId} />
+            <Curd
+              page={"restaurantfood"}
+              data={values}
+              id={food.itemId}
+              imageToBackend={imageToBackend}
+            />
           )}
-          {!food && <Curd page={"restaurantfood"} data={values} />}
+          {!food && (
+            <Curd
+              page={"restaurantfood"}
+              data={values}
+              imageToBackend={imageToBackend}
+            />
+          )}
         </div>
       </div>
       <div className={classes.allquestion}>

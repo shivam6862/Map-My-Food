@@ -21,6 +21,7 @@ module.exports = updateRestaurant = async (RestaurantId, Restaurant) => {
         opening_hours: Restaurant.opening_hours,
         price: Restaurant.price,
         pincode: Restaurant.pincode,
+        image: Restaurant.image,
       },
     },
     (err, result) => {

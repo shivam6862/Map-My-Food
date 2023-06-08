@@ -10,6 +10,7 @@ const CreateNewRestaurant = () => {
   const { GetFoodsAndOffersData } = useGetFoodsAndOffers();
   const { fetchRestaurantId } = useLocationLocalStorage();
   const [image, setImage] = useState(null);
+  const [imageToBackend, setImageToBackend] = useState(null);
   const [values, setValues] = useState({
     address: "",
     Restaurant: "",
@@ -24,13 +25,14 @@ const CreateNewRestaurant = () => {
     opening_hours: "",
     price: "",
     pincode: "",
+    image: "",
   });
   useEffect(() => {
     const fetchdata = async () => {
       const response = await GetFoodsAndOffersData("restaurant");
-      const { _id, RestaurantId, image, ...rest } = response;
+      const { _id, RestaurantId, ...rest } = response;
       setValues(rest);
-      setImage(image);
+      setImage(response.image);
     };
     if (fetchRestaurantId() != undefined) fetchdata();
   }, []);
@@ -46,11 +48,23 @@ const CreateNewRestaurant = () => {
           <UploadImage
             ids={"CreateNewRestaurant"}
             srcLink={`${import.meta.env.VITE_REACT_BACKEND_URL}${image}`}
+            setImageToBackend={setImageToBackend}
           />
         )}
-        {!image && <UploadImage ids={"CreateNewRestaurant"} srcLink={null} />}
+        {!image && (
+          <UploadImage
+            ids={"CreateNewRestaurant"}
+            srcLink={null}
+            setImageToBackend={setImageToBackend}
+          />
+        )}
         <div className={classes.curd}>
-          <Curd page={"restaurant"} data={values} />
+          <Curd
+            page={"restaurant"}
+            data={values}
+            id={fetchRestaurantId()}
+            imageToBackend={imageToBackend}
+          />
         </div>
       </div>
       <div className={classes.allquestion}>
