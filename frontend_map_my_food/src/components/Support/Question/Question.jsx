@@ -7,14 +7,13 @@ const Question = ({ data, index }) => {
     if (arrowIndex == index) setArrowIndex(-1);
     else setArrowIndex(index);
   };
+  const sendMail = (subject) => {
+    const email = "example@gmail.com";
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+    window.location.href = mailtoLink;
+  };
   return (
-    <div
-      className={classes.each_quextion}
-      key={index}
-      onClick={() => {
-        setIndexWithArrow(index);
-      }}
-    >
+    <div className={classes.each_quextion} key={index}>
       <div className={classes.downarrow}>
         <i
           className={`${
@@ -22,7 +21,12 @@ const Question = ({ data, index }) => {
           }`}
         ></i>
       </div>
-      <div className={classes.heading}>
+      <div
+        className={classes.heading}
+        onClick={() => {
+          setIndexWithArrow(index);
+        }}
+      >
         <h1>
           {data.Question}
           <span>Shivam kumar 21117119 Mechanical Engineering</span>
@@ -40,7 +44,13 @@ const Question = ({ data, index }) => {
           <div className={classes.email_exisit}>
             {data.email ? (
               <div className={classes.bottom}>
-                <button>SEND AN EMAIL</button>
+                <button
+                  onClick={() => {
+                    sendMail(data.Question);
+                  }}
+                >
+                  SEND AN EMAIL
+                </button>
                 <h3>We will revert within 24-48 hrs</h3>
               </div>
             ) : (
