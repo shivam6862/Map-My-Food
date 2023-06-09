@@ -1,7 +1,9 @@
 import { useLocationLocalStorage } from "./LocationLocalStorage";
+import { useNotification } from "./useNotification";
 
 const useGetUserAddresses = () => {
   const { fetchPersonalDetails } = useLocationLocalStorage();
+  const { NotificationHandler } = useNotification();
   const getUserAddressesData = async () => {
     const id = fetchPersonalDetails().data.id;
     const data = await fetch(
@@ -11,7 +13,10 @@ const useGetUserAddresses = () => {
         return response.json();
       })
       .catch((err) => {
-        return "";
+        console.log(err);
+        const errorData = { response: [] };
+        NotificationHandler("Check your connection!", "Error");
+        return errorData;
       });
     return data.response;
   };

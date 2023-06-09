@@ -2,17 +2,19 @@ import React, { useState } from "react";
 import classes from "./UpdateProfile.module.css";
 import Svgcross from "../../ui/Svg/Svgcross";
 import { useLocationLocalStorage } from "../../hook/LocationLocalStorage";
+import useUpdateUserProfile from "../../hook/useUpdateUserProfile";
 
 const UpdateProfile = ({ setIsShowEdit }) => {
   const { fetchPersonalDetails } = useLocationLocalStorage();
   const data = fetchPersonalDetails();
+  const { UpdateUserProfileData } = useUpdateUserProfile();
   const [number, setNumber] = useState(data.data.number);
   const [email, setEmail] = useState(data.data.email);
   const hideHandler = () => {
     setIsShowEdit(false);
   };
-  const submit = (type) => {
-    console.log(type);
+  const submit = async (place, newdata) => {
+    await UpdateUserProfileData(place, newdata);
   };
   return (
     <div className={classes.container}>
@@ -40,7 +42,7 @@ const UpdateProfile = ({ setIsShowEdit }) => {
             />
             <button
               onClick={() => {
-                submit("number");
+                submit("number", number);
               }}
             >
               CHANGE
@@ -59,7 +61,7 @@ const UpdateProfile = ({ setIsShowEdit }) => {
             />
             <button
               onClick={() => {
-                submit("email");
+                submit("email", email);
               }}
             >
               CHANGE

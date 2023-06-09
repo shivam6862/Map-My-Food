@@ -26,6 +26,7 @@ const getUserAddressesRoute = require("../routes/user/getUserAddressesRoute");
 const deleteUserAddressesRoute = require("../routes/user/deleteUserAddressesRoute");
 const insertUserOrderRoute = require("../routes/UserOrder/insertUserOrderRoute");
 const getUserOrderRoute = require("../routes/UserOrder/getUserOrderRoute");
+const updateProfileRoute = require("../routes/user/updateProfileRoute");
 
 module.exports = routes = [
   getPaymentOffersRoute,
@@ -56,4 +57,5 @@ module.exports = routes = [
   deleteUserAddressesRoute,
   insertUserOrderRoute,
   getUserOrderRoute,
+  updateProfileRoute,
 ];

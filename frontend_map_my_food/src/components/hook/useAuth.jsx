@@ -25,6 +25,8 @@ const useAuth = () => {
       return responsedata.navigate;
     } catch (err) {
       console.log(err);
+      NotificationHandler("Check your connection!", "Error");
+      return "false";
     }
   };
   return { Auth };

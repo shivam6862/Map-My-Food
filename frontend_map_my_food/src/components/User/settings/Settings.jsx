@@ -8,7 +8,7 @@ const Settings = () => {
   const handleCheckboxChange = async () => {
     const response = await ToggleSmsPreferencesData();
     if (response == "true") setIsChecked(true);
-    else setIsChecked(false);
+    else if (response == "false") setIsChecked(false);
   };
   return (
     <div className={classes.container}>

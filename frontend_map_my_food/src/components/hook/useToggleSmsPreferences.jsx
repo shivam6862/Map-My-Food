@@ -23,6 +23,8 @@ const useToggleSmsPreferences = () => {
       return responsedata.response;
     } catch (err) {
       console.log(err);
+      NotificationHandler("Check your connection!", "Error");
+      return "";
     }
   };
   return { ToggleSmsPreferencesData };

@@ -2,11 +2,10 @@ const getDb = require("../db").getDb;
 const v4 = require("uuid").v4;
 
 module.exports = insertsignup = async (number, name, email) => {
-  const connection = await getDb();
-  const id = v4();
-  const { insertedId } = await connection
-    .collection("users")
-    .insertOne({
+  try {
+    const connection = await getDb();
+    const id = v4();
+    const { insertedId } = await connection.collection("users").insertOne({
       number,
       name,
       email,
@@ -15,5 +14,9 @@ module.exports = insertsignup = async (number, name, email) => {
       SmsPreferences: "true",
       addresses: [],
     });
-  return id;
+    return id;
+  } catch (err) {
+    console.log(err.message);
+    throw err;
+  }
 };
