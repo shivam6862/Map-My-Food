@@ -1,0 +1,70 @@
+[
+  {
+    "_id": "6474ed7eb89b4fb2159ca2de",
+    "Apple": [
+      {
+        "image": "/swiggey/Search/Small/1.webp",
+        "name": "Green Apple Mojito",
+        "itemId": "13c80b74-d84c-4110-9c49-64e4b32881f5"
+      },
+      {
+        "image": "/swiggey/Search/Small/2.jpg",
+        "name": "Green Apple",
+        "itemId": "9a3a4659-f816-4e73-ab7a-5d94e70df46f"
+      },
+      {
+        "image": "/swiggey/Search/Small/3.jpg",
+        "name": "Apple Pie",
+        "itemId": "22271385-0ed5-43b6-b284-2031083d5ca3"
+      },
+      {
+        "image": "/swiggey/Search/Small/4.jpg",
+        "name": "Green Apple Shake",
+        "itemId": "4ba9fa6e-df51-492e-8009-b6dfc1827291"
+      },
+      {
+        "image": "/swiggey/Search/Small/5.png",
+        "name": "Green Apple Tangy Waffle"
+      }
+    ]
+  },
+  {
+    "_id": "6474ed7eb89b4fb2159ca2df",
+    "Chicken": [
+      {
+        "image": "/swiggey/Search/Big/1a.jpg",
+        "name": "Chicken Biryani"
+      },
+      {
+        "image": "/swiggey/Search/Big/1b.jpg",
+        "name": "Chicken Chilli"
+      }
+    ]
+  },
+  {
+    "_id": "6474ed7eb89b4fb2159ca2e0",
+    "Paneer": [
+      {
+        "image": "/swiggey/Search/Big/3a.jpg",
+        "name": "Paneer Masala"
+      },
+      {
+        "image": "/swiggey/Search/Big/3b.jpg",
+        "name": "Paneer Kadhai"
+      }
+    ]
+  },
+  {
+    "_id": "6474ed7eb89b4fb2159ca2e1",
+    "Manchurian": [
+      {
+        "image": "/swiggey/Search/Big/2a.webp",
+        "name": "Veg Manchurian"
+      },
+      {
+        "image": "/swiggey/Search/Big/2b.webp",
+        "name": "Paneer Manchurian"
+      }
+    ]
+  }
+]

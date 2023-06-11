@@ -1,0 +1,104 @@
+[
+  {
+    "_id": {
+      "$oid": "64759105129d01407e9879fd"
+    },
+    "RestaurantId": "4b68296e-5146-4efb-8f0f-de9d16bcc12a",
+    "offers": [
+      {
+        "image": "/dcbffda4-7c3b-4a7a-87d9-047adf8672ec.png",
+        "percentage": "65% OFF UPTO ₹80",
+        "above": "USE TRYNEWABOVE ₹179",
+        "offerId": "a81bf1ee-1d49-4301-b3cd-a616507956j6"
+      },
+      {
+        "image": "/swiggeycoupon2.png",
+        "percentage": "20% OFF UPTO ₹150",
+        "above": "USE ICICIAMZABOVE ₹600",
+        "offerId": "a81bf1ee-1d49-4301-b3cd-a617867921a6"
+      },
+      {
+        "image": "/swiggeycoupon3.png",
+        "percentage": "15% OFF UPTO ₹100",
+        "above": "USE SBICFESTABOVE ₹500",
+        "offerId": "a81bf1ee-1r59-4301-b3cd-a616507921a6"
+      },
+      {
+        "image": "/swiggeycoupon1.png",
+        "percentage": "15% OFF UPTO ₹100",
+        "above": "USE SBICFESTABOVE ₹600",
+        "offerId": "a81bf1ee-1d65-4601-b3cd-a616507921a6"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6476bc81130486dc3c4360d3"
+    },
+    "RestaurantId": "e1a4ba75-7bcf-4ae9-aed7-f315e847876e",
+    "offers": [
+      {
+        "image": "/swiggey/coupon/3.png",
+        "percentage": "15% OFF UPTO ₹110",
+        "above": "USE SBICFESTABOVE ₹550",
+        "offerId": "a81bf1ee-1d65-4121-b3cd-a616507921a6"
+      },
+      {
+        "image": "/swiggey/coupon/1.png",
+        "percentage": "15% OFF UPTO ₹120",
+        "above": "USE SBICFESTABOVE ₹600",
+        "offerId": "a81bf1ee-1d65-4341-b3cd-a616507921a6"
+      },
+      {
+        "image": "/swiggey/coupon/1.png",
+        "percentage": "40% OFF UPTO ₹80",
+        "above": "USE TRYNEWABOVE ₹129",
+        "offerId": "a81bf1ee-1d65-4561-b3cd-a616507921a6"
+      },
+      {
+        "image": "/swiggey/coupon/2.png",
+        "percentage": "20% OFF UPTO ₹150",
+        "above": "USE ICICIAMZABOVE ₹640",
+        "offerId": "a81bf1ee-1d65-4781-b3cd-a616507921a6"
+      },
+      {
+        "image": "/swiggey/coupon/1.png",
+        "percentage": "40% OFF UPTO ₹220",
+        "above": "USE TRYNEWABOVE ₹429",
+        "offerId": "a81bf1ee-1d65-4123-b3cd-a616507921a6"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "647704fbc1c3ed41b331fc7d"
+    },
+    "RestaurantId": "f312bcb2-a135-4141-b649-c5a9a29427a7",
+    "offers": [
+      {
+        "image": "/swiggey/coupon/3.png",
+        "percentage": "15% OFF UPTO ₹110",
+        "above": "USE SBICFESTABOVE ₹550",
+        "offerId": "a81bf1ee-1d65-4601-b3cd-a612507921a6"
+      },
+      {
+        "image": "/swiggey/coupon/1.png",
+        "percentage": "15% OFF UPTO ₹120",
+        "above": "USE SBICFESTABOVE ₹600",
+        "offerId": "a81bf1ee-1d65-4601-b3cd-a613407921a6"
+      },
+      {
+        "image": "/swiggey/coupon/1.png",
+        "percentage": "40% OFF UPTO ₹80",
+        "above": "USE TRYNEWABOVE ₹129",
+        "offerId": "a81bf1ee-1d65-4601-b3cd-a616556921a6"
+      },
+      {
+        "image": "/swiggey/coupon/2.png",
+        "percentage": "20% OFF UPTO ₹150",
+        "above": "USE ICICIAMZABOVE ₹640",
+        "offerId": "a81bf1ee-1d65-4601-b3cd-a616507821a6"
+      }
+    ]
+  }
+]

@@ -22,6 +22,7 @@
       </ul>
     </li>
     <li><a href="#usage">Description</a></li>
+    <li><a href="#usage">Snapshot Gallery</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -77,7 +78,7 @@ So as to run our project locally, you need to follow the steps below.
    ```sh
    MONGODB_URL= "your mongodb url"
    ```
-8. Make the database in your mongodb server named as `Map-My-Food` and make the following collection
+8. Make the database in your mongodb server named as `Map-My-Food` and make the following collection and set the data from `./Database/file`
    ```sh
    PaymentOffers
    orders
@@ -109,7 +110,25 @@ One of the standout features of Map My Food is its global state management, whic
 
 Map My Food revolutionizes the way people interact with food delivery services. By providing a user-friendly interface, a responsive design, and a comprehensive set of features, the app simplifies the entire process of discovering, exploring, and ordering food.Map My Food revolutionizes food delivery by empowering new restaurant owners to create their own establishments within the app. Users can explore a variety of restaurants, browse menus, and place orders for delivery or pickup. Whether users are craving a quick bite or planning a special meal, Map My Food serves as a convenient and efficient platform for exploring and satisfying their culinary desires.<br/>
 
+## Snapshot Gallery
+
+<h2>Landing Page</h2>
+<a href="https://github.com/shivam6862/Map-My-Food"><img src="./Database/README/Landing.png" style="border-radius:12px"></a>
+<br/>
+<h2>Home Page</h2>
 <a href="https://github.com/shivam6862/Map-My-Food"><img src="./frontend_map_my_food/public/image.png" style="border-radius:12px"></a>
+<br/>
+<h2>Search Food</h2>
+<a href="https://github.com/shivam6862/Map-My-Food"><img src="./Database/README/Search.png" style="border-radius:12px"></a>
+<br/>
+<h2>Each Restaurant</h2>
+<a href="https://github.com/shivam6862/Map-My-Food"><img src="./Database/README/Restaurant.png" style="border-radius:12px"></a>
+<br/>
+<h2>Create New Restaurant</h2>
+<a href="https://github.com/shivam6862/Map-My-Food"><img src="./Database/README/New-restaurant.png" style="border-radius:12px"></a>
+<br/>
+<h2>Order Food</h2>
+<a href="https://github.com/shivam6862/Map-My-Food"><img src="./Database/README/Cart.png" style="border-radius:12px"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

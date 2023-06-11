@@ -1,0 +1,50 @@
+[
+  {
+    "_id": {
+      "$oid": "648214f30b8df8ef61bb65ee"
+    },
+    "userId": "9b2fb007-67ac-4677-9af6-a4c34d138638",
+    "order": {
+      "order": [
+        {
+          "itemId": "fb10250c-fe3a-46c2-81ba-a274fc528c84",
+          "quantity": 2,
+          "items": {
+            "hotal": "Motel Divine International",
+            "name": "Biryani",
+            "price": "259",
+            "image": "/2.webp"
+          },
+          "amount": 518
+        },
+        {
+          "itemId": "a81bf1ee-1d49-4301-b3cd-a616507921a6",
+          "quantity": 1,
+          "items": {
+            "hotal": "Motel Divine International",
+            "name": "Paneer 360",
+            "price": "180",
+            "image": "/1.webp"
+          },
+          "amount": 180
+        },
+        {
+          "itemId": "236c432c-ab5e-48b5-a46d-95a7bf605582",
+          "quantity": 1,
+          "items": {
+            "hotal": "Motel Divine International",
+            "name": "Biryani, North Indian",
+            "price": 280,
+            "image": "/4.webp"
+          },
+          "amount": 280
+        }
+      ],
+      "totalAmount": "978.00",
+      "deliveryCost": "38.22",
+      "GST": "19.56",
+      "address": "Qt No-3257,street 8,sector 4e,Bokaro, Street Number 7, Sector 4, Bokaro Steel City, Jharkhand 827004, India"
+    },
+    "orderId": "7fb8679f-3ec6-4a55-ab2a-347d605d8d00"
+  }
+]

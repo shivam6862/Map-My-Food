@@ -1,0 +1,278 @@
+[
+  {
+    "_id": {
+      "$oid": "6475be68da22463656596e6a"
+    },
+    "RestaurantId": "4b68296e-5146-4efb-8f0f-de9d16bcc12a",
+    "food": [
+      {
+        "itemId": "d7b3cef8-b917-455e-8164-88fa6d899250",
+        "star": "4.1",
+        "name": "Veg Manchurian",
+        "price": "190",
+        "description": "It is an exotic dish made of mixed vegetable steamed formed into dumplings deep fried and cooked in a tangy sauce",
+        "image": "/1365bfe7-0929-4e3d-8ab5-5acc62ac653b.webp",
+        "Dtime": "24 MINS",
+        "veg": "true",
+        "category": "Yo Manchurian",
+        "timeRequired": "24 MINS"
+      },
+      {
+        "itemId": "79e3127b-8714-484c-bd9c-d61fe348e3a3",
+        "star": "4.1",
+        "name": "Paneer Manchurian",
+        "price": "259",
+        "description": "It is an exotic dish made of mixed vegetable steamed formed into dumplings deep fried and cooked in a tangy sauce",
+        "image": "/2b.webp",
+        "Dtime": "29 MINS",
+        "veg": "true",
+        "category": "Manchurian",
+        "timeRequired": "28 MINS"
+      },
+      {
+        "itemId": "093be05b-84cf-444f-a086-55c07c0e7d24",
+        "star": "3.9",
+        "name": "Paneer 65",
+        "price": "320",
+        "description": "Chunks of paneer marinated in spicy Hyderabadi masala, fried till crispy",
+        "image": "/3a.jpg",
+        "Dtime": "20 MINS",
+        "veg": "true",
+        "category": "Paneer",
+        "timeRequired": "30 MINS"
+      },
+      {
+        "itemId": "0ae83119-c5bd-4e3d-ade0-84a1db127c27",
+        "star": "4",
+        "name": "Paneer Kadhai",
+        "price": "280",
+        "description": "A mild sweet taste creamy curry made with onion, tomatoes, cashews, cream and butter",
+        "image": "/3b.jpg",
+        "Dtime": "27 MINS",
+        "veg": "true",
+        "category": "Paneer",
+        "timeRequired": "22 MINS"
+      },
+      {
+        "itemId": "372d48e2-bc78-4d85-ac61-bf8c3dffbb98",
+        "star": "3.7",
+        "name": "Chicken Biryani",
+        "price": "70",
+        "description": "A classic dish made by layering rice over slow cooked chicken gavy and juicy pieces to keep you satisfied!",
+        "image": "/1a.jpg",
+        "Dtime": "23 MINS",
+        "veg": "false",
+        "category": "Chicken",
+        "timeRequired": "32 MINS"
+      },
+      {
+        "itemId": "b126c734-9d4a-4517-8dd6-c746434b8023",
+        "star": "3.9",
+        "name": "Chicken Chilli",
+        "price": "60",
+        "description": "Enjoy this spicy dish of chicken cooked in soy sauce with capsicum, chilli and pepper is a treat to your tastebuds!",
+        "image": "/1b.jpg",
+        "Dtime": "29 MINS",
+        "veg": "false",
+        "category": "Chicken",
+        "timeRequired": "29 MINS"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6477034317c3f21ba81dcf64"
+    },
+    "RestaurantId": "e1a4ba75-7bcf-4ae9-aed7-f315e847876e",
+    "food": [
+      {
+        "itemId": "a81bf1ee-1d49-4301-b3cd-a616507921a6",
+        "star": "4.1",
+        "name": "Paneer 360",
+        "price": "180",
+        "description": "Chunks of paneer marinated in spicy Hyderabadi masala, fried till crispy",
+        "image": "/1.webp",
+        "Dtime": "30 MINS",
+        "veg": "true",
+        "category": "Paneer",
+        "timeRequired": "25 MINS"
+      },
+      {
+        "itemId": "fb10250c-fe3a-46c2-81ba-a274fc528c84",
+        "star": "4",
+        "name": "Biryani",
+        "price": "259",
+        "description": "It is an exotic dish made of mixed vegetable steamed formed into dumplings deep fried and cooked in a tangy sauce",
+        "image": "/2.webp",
+        "Dtime": "29 MINS",
+        "veg": "false",
+        "category": "Chicken",
+        "timeRequired": "18 MINS"
+      },
+      {
+        "itemId": "75c90998-177a-40a6-abb5-98130bc87430",
+        "star": 3.9,
+        "name": "Ice Cream",
+        "price": "60",
+        "description": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+        "image": "/3.jpg",
+        "Dtime": "10 MINS",
+        "veg": "true",
+        "category": "Desserts",
+        "timeRequired": "10 MINS"
+      },
+      {
+        "itemId": "236c432c-ab5e-48b5-a46d-95a7bf605582",
+        "star": 4,
+        "name": "Biryani, North Indian",
+        "price": 280,
+        "description": "A mild sweet taste creamy curry made with onion, tomatoes, cashews, cream and butter",
+        "image": "/4.webp",
+        "Dtime": "19 MINS",
+        "veg": "true",
+        "category": "Biryani",
+        "timeRequired": "22 MINS"
+      },
+      {
+        "itemId": "e1711302-4a05-4b11-be48-3f9ebc1e37fb",
+        "star": 3.7,
+        "name": "Hyderabad Biryani",
+        "price": "170",
+        "description": "A classic dish made by layering rice over slow cooked chicken gavy and juicy pieces to keep you satisfied!",
+        "image": "/5.webp",
+        "Dtime": "26 MINS",
+        "veg": "false",
+        "category": "Chicken",
+        "timeRequired": "32 MINS"
+      },
+      {
+        "itemId": "6f36d2cc-5dcd-4c1f-a29b-f20a4111c4e8",
+        "star": "3.9",
+        "name": "FOOD BOWL",
+        "price": "90",
+        "description": "Chinese, Fast Food, Italian, North Indian, Street Food",
+        "image": "/6.jpg",
+        "Dtime": "26 MINS",
+        "veg": "true",
+        "category": "Street Food",
+        "timeRequired": "26 MINS"
+      },
+      {
+        "itemId": "80ec3d93-f63b-4474-8a47-8b7eb57c543e",
+        "star": "3.6",
+        "name": "Momomia",
+        "price": "90",
+        "description": "Chinese, Fast Food, Beverages, Pastas",
+        "image": "/7.webp",
+        "Dtime": "19 MINS",
+        "veg": "true",
+        "category": "Street Food",
+        "timeRequired": "19 MINS"
+      },
+      {
+        "itemId": "d5524ff2-38f0-4e7c-8004-3ffc74e17125",
+        "star": "4.6",
+        "name": "ROYAL MAJESTIC",
+        "price": "120",
+        "description": "Chinese, North Indian, Fast Food, Beverages",
+        "image": "/8.webp",
+        "Dtime": "22 MINS",
+        "veg": "true",
+        "category": "Street Food",
+        "timeRequired": "22 MINS"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "647708552c0d5bc1c2e2b9cc"
+    },
+    "RestaurantId": "f312bcb2-a135-4141-b649-c5a9a29427a7",
+    "food": [
+      {
+        "itemId": "b65e41eb-6e22-45f7-a2bd-ccd4328090c9",
+        "star": "4.2",
+        "name": "BIRIYANI 320",
+        "price": "240",
+        "description": "It is an exotic dish made of mixed vegetable steamed formed into dumplings deep fried and cooked in a tangy sauce",
+        "image": "/11.jpg",
+        "Dtime": "25 MINS",
+        "veg": "false",
+        "category": "Chicken",
+        "timeRequired": "25 MINS"
+      },
+      {
+        "itemId": "30f018fd-7d60-4372-9d90-3215f2ab7e6c",
+        "star": "4",
+        "name": "ROYAL MAJESTIC 12",
+        "price": "59",
+        "description": "U R Ground, Chinese, North Indian, Fast Food, Beverages",
+        "image": "/21.jpg",
+        "Dtime": "19 MINS",
+        "veg": "true",
+        "category": "Street Food",
+        "timeRequired": "19 MINS"
+      },
+      {
+        "itemId": "93f84568-b1eb-4e17-9716-c0fdc333b52e",
+        "star": "3.9",
+        "name": "Sweets",
+        "price": "50",
+        "description": "BABU SWEET CORNER Frozen Dessert and Ice Cream Shop",
+        "image": "/31.jpg",
+        "Dtime": "16 MINS",
+        "veg": "true",
+        "category": "Desserts",
+        "timeRequired": "16 MINS"
+      },
+      {
+        "itemId": "b392422c-dd75-47cf-ae27-ddf1c95ecc83",
+        "star": "4",
+        "name": "Paneer, North Indian",
+        "price": "280",
+        "description": "Chunks of paneer marinated in spicy Hyderabadi masala, fried till crispy",
+        "image": "/32.jpg",
+        "Dtime": "24 MINS",
+        "veg": "true",
+        "category": "Paneer",
+        "timeRequired": "24 MINS"
+      },
+      {
+        "itemId": "d0cfa2b1-7138-4748-be84-083004978e74",
+        "star": 3.7,
+        "name": "CREAMY CAKE",
+        "price": "370",
+        "description": "It is a flour confection made from flour, sugar, and other ingredients, and is usually baked",
+        "image": "/33.jpg",
+        "Dtime": "26 MINS",
+        "veg": "true",
+        "category": "Desserts",
+        "timeRequired": "26 MINS"
+      },
+      {
+        "itemId": "e883536c-70c0-4d6f-98bf-b17cd943c5b5",
+        "star": "3.9",
+        "name": "FOOD HUNGERIAN",
+        "price": "180",
+        "description": "HUNGERIAN, Chinese, North Indian",
+        "image": "/41.jpg",
+        "Dtime": "23 MINS",
+        "veg": "true",
+        "category": "Street Food",
+        "timeRequired": "26 MINS"
+      },
+      {
+        "itemId": "54619143-1d91-49c0-8d6a-7a0ab5ba2650",
+        "star": "3.6",
+        "name": "Chicken 169",
+        "price": "90",
+        "description": "Desi Handi Indian, Snacks, North Indian",
+        "image": "/42.jpg",
+        "Dtime": "29 MINS",
+        "veg": "false",
+        "category": "Chicken",
+        "timeRequired": "29 MINS"
+      }
+    ]
+  }
+]

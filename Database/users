@@ -1,0 +1,42 @@
+[
+  {
+    "_id": {
+      "$oid": "647b01603874e98c8da0df9d"
+    },
+    "number": "123456",
+    "name": "Shivam kumar",
+    "email": "shiv@gmail.com",
+    "id": "9b2fb007-67ac-4677-9af6-a4c34d138638",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDdkNTE4MzQ2NDYwOGNhOGYxZjI4ZDMiLCJudW1iZXIiOiI5MDYwNjUiLCJpYXQiOjE2ODU5MzQ0ODEsImV4cCI6MTY4NzIzMDQ4MX0.paMqkE9uZXLxxMgr_Nnj4falPLVq9U3A-2incJ5veLA",
+    "ResturentId:": "4b68296e-5146-4efb-8f0f-de9d16bcc12a",
+    "SmsPreferences": "false",
+    "addresses": [
+      "Qt No-3257,street 8,sector 4e,Bokaro, Street Number 7, Sector 4, Bokaro Steel City, Jharkhand 827004, India",
+      "West Vinod Nagar, New Delhi, East, Delhi, 110092, INDIA"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "647b058615bb708a8d694af1"
+    },
+    "number": "12345678",
+    "name": "Shivam kumar",
+    "email": "shiva@gmail.com",
+    "id": "e902abf8-f2df-48a6-8bd9-41fdc4b769fd",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDgxYTllZmU4NzYyYzUyMzc2YThmODkiLCJudW1iZXIiOiI5MDYwNjUxIiwiaWF0IjoxNjg2MjE5MjU2LCJleHAiOjE2ODc1MTUyNTZ9.sd6DaeY5yxP5di1euL8S3xCSd6Jp43SRB4aJA-UcL-Y",
+    "SmsPreferences": "true",
+    "addresses": []
+  },
+  {
+    "_id": {
+      "$oid": "647b5e0728d6a454e0a08ad8"
+    },
+    "number": "123456789",
+    "name": "shivam",
+    "email": "shivam@gmail.com",
+    "id": "d6f0221f-ec3c-49a7-83a1-fbe0a915243c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDdiNmJmYmE2NWM1MDYxMGYyODMxMjMiLCJudW1iZXIiOiI5MDYwNjU0NiIsImlhdCI6MTY4NTgxMDE5NywiZXhwIjoxNjg3MTA2MTk3fQ.sDrbEKy-Z-BarzMQyYmvp8D5wepeYjL9BdO_XuS3Lcs",
+    "SmsPreferences": "true",
+    "addresses": []
+  }
+]

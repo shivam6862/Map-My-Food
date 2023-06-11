@@ -1,0 +1,61 @@
+[
+  {
+    "_id": {
+      "$oid": "64758dab4a17daab591b4a2b"
+    },
+    "address": "Home / Dumka / Dumka Locality / IFC RESTAURANT",
+    "Restaurant": "IFC RESTAURANT",
+    "RestaurantId": "4b68296e-5146-4efb-8f0f-de9d16bcc12a",
+    "Restaurant_dish": "Pizzas",
+    "location": "Dumka Locality",
+    "FreeDeliveryonOrderDistance": "0-13 kms",
+    "FreeDeliveryonOrderAbove": "Free Delivery on order above Rs 199",
+    "rating": "4.1",
+    "ratingCount": "100",
+    "time": "30 MINS",
+    "phone_number": "9034567812",
+    "opening_hours": "10:30 AM",
+    "price": "200 for two",
+    "pincode": "814101",
+    "image": "/09b2f8ad-f220-42a5-9e87-f6b663fc3005.webp"
+  },
+  {
+    "_id": {
+      "$oid": "6476bb68949b988877a5912f"
+    },
+    "address": "Home / Roorkee / Haridwar Highway / Motel Divine International",
+    "Restaurant": "Motel Divine International",
+    "RestaurantId": "e1a4ba75-7bcf-4ae9-aed7-f315e847876e",
+    "Restaurant_dish": "Paneer",
+    "location": "Haridwar Highway",
+    "FreeDeliveryonOrderDistance": "0-12 kms",
+    "FreeDeliveryonOrderAbove": "Free Delivery on order above Rs 209",
+    "rating": "4.2",
+    "ratingCount": "90",
+    "time": "28 MINS",
+    "phone_number": "9073867812",
+    "opening_hours": "11:30 AM",
+    "price": "180 for two",
+    "pincode": "247667",
+    "image": "/09b2f8ad-f220-42a5-9e87-f6b663fc3005.webp"
+  },
+  {
+    "_id": {
+      "$oid": "647704b317c3f21ba81dcf65"
+    },
+    "address": "Home / Roorkee / Haridwar Highway / Hotel Prakash & Restaurant",
+    "Restaurant": "Hotel Prakash & Restaurant",
+    "RestaurantId": "f312bcb2-a135-4141-b649-c5a9a29427a7",
+    "Restaurant_dish": "BIRIYANI",
+    "location": "Haridwar Highway",
+    "FreeDeliveryonOrderDistance": "0-13 kms",
+    "FreeDeliveryonOrderAbove": "Free Delivery on order above Rs 219",
+    "rating": "4.1",
+    "ratingCount": "180",
+    "time": "25 MINS",
+    "phone_number": "9078291812",
+    "opening_hours": "12:30 AM",
+    "price": "220 for two",
+    "pincode": "247667"
+  }
+]
