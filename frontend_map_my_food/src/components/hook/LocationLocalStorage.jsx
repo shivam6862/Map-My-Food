@@ -41,6 +41,7 @@ export const useLocationLocalStorage = () => {
 
   const updatePersonalDetails = (data) => {
     localStorage.setItem("PersonalDetails", JSON.stringify(data));
+    if (data.data.ResturentId) updateRestaurantId(data.data.ResturentId);
   };
   const fetchPersonalDetails = () => {
     const Data = localStorage.getItem("PersonalDetails");

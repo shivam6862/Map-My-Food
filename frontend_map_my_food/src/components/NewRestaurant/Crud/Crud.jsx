@@ -5,12 +5,31 @@ import SvgSave from "../../ui/User/SvgSave";
 import classes from "./Crud.module.css";
 import useCreateNewRestaurantData from "../../hook/useCreateNewRestaurant";
 import { useLocationLocalStorage } from "../../hook/LocationLocalStorage";
+import { useNotification } from "../../hook/useNotification";
 
 const Curd = ({ page, data, id, imageToBackend }) => {
   const { CreateNewRestaurantData } = useCreateNewRestaurantData();
   const { updateRestaurantId, updatePersonalDetails } =
     useLocationLocalStorage();
+  const { NotificationHandler } = useNotification();
+
+  const chechData = async () => {
+    var missingFields = "";
+    for (let field of Object.keys(data)) {
+      if (!data[field]) {
+        missingFields += field.charAt(0).toUpperCase() + field.slice(1) + ", ";
+      }
+    }
+    if (missingFields.length != "") {
+      NotificationHandler(`Fill the field ${missingFields}`, "Info");
+      return false;
+    }
+    return true;
+  };
+
   const edited = async () => {
+    const checking = await chechData();
+    if (checking === false) return;
     const response = await CreateNewRestaurantData(
       data,
       page,
@@ -20,6 +39,8 @@ const Curd = ({ page, data, id, imageToBackend }) => {
     );
   };
   const saved = async () => {
+    const checking = await chechData();
+    if (checking === false) return;
     const response = await CreateNewRestaurantData(
       data,
       page,
@@ -31,6 +52,8 @@ const Curd = ({ page, data, id, imageToBackend }) => {
     updatePersonalDetails(response);
   };
   const deleted = async () => {
+    const checking = await chechData();
+    if (checking === false) return;
     const response = await CreateNewRestaurantData(
       data,
       page,

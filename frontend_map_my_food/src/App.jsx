@@ -13,9 +13,11 @@ function App() {
   const locationContextCtx = useContext(LocationContext);
   const { fetchLocation, fetchPersonalDetails } = useLocationLocalStorage();
   const [isLocation, setIsLocation] = useState(fetchLocation());
-  const islogIn = fetchPersonalDetails();
+  // const islogIn = fetchPersonalDetails();
+  const [islogIn, setIslogIn] = useState(fetchPersonalDetails());
   useEffect(() => {
     setIsLocation(fetchLocation());
+    setIslogIn(true);
   }, [locationContextCtx.localStorageLocation]);
 
   return (

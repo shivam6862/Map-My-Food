@@ -36,8 +36,3 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
-@media screen and (max-width: 800px) {
-  .container_question {
-    width: 90%;
-  }
-}
